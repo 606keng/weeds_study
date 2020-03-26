@@ -12,5 +12,6 @@ class TestCalc:
     def test_div(self,a ,b):
         calc = Calc()
         assert a/b == calc.div(a,b)
+
 if __name__ == '__main__':
     pytest.main("-s")
