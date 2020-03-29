@@ -8,7 +8,7 @@ class BasePage:
     _error_max = 10
     _params = {}
     # driver:WebDriver定义driver的入参类型为WebDriver
-    def __init__(self, driver: WebDriver):
+    def __init__(self, driver: WebDriver=None):
         self._driver = driver
 
     def find(self, by, locator=None):
@@ -43,5 +43,7 @@ class BasePage:
                     if 'send' == step['action']:
                         content : str = step['value']
                         #个人感觉参数应该为self._params.keys()
+                        print(self._params)
                         for param in self._params:
                             content = content.replace("{%s}"%param , self._params[param])
+                        element.send_keys(content)
