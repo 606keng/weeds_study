@@ -4,6 +4,8 @@ from selenium.webdriver.remote.webdriver import WebDriver
 
 class BasePage:
     _base_url = ''
+    #让pycharm知道有一个实例变量：_driver
+    _driver = ''
     print(_base_url)
     def __init__(self, driver:WebDriver = None):
         if driver is None:
