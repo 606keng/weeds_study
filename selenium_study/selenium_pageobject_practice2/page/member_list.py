@@ -20,9 +20,8 @@ class MemberList(Base):
         members : list = self.finds(By.CSS_SELECTOR, "#member_list tr")
         for i in range(1,len(members)+1):
             name = self.find(By.CSS_SELECTOR, "#member_list tr:nth-child(%d) td:nth-child(2)" %i).text
-            print(name)
             if name == "高可乐":
-                self.finf(By.CSS_SELECTOR, "#member_list tr:nth-child(%d) td:nth-child(1)" %i).click()
+                self.find(By.CSS_SELECTOR, "#member_list tr:nth-child(%d) td:nth-child(1)" %i).click()
                 self.find(By.CSS_SELECTOR,".js_operationBar_footer a:nth-child(5)").click()
                 self.find(By.XPATH, '//*[@id="__dialog__MNDialog__"]/div/div[3]/a[1]').click()
                 break

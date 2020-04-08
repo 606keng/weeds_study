@@ -10,8 +10,9 @@ class Index(Base):
         self.find(By.ID,'menu_contacts').click()
         def wait(driver):
             ele_len = len(self.finds(By.ID, 'username'))
+            print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
             if ele_len < 1:
-                self.find(By.CSS_SELECTOR,".js_has_member>div:nth-child(1) .js_add_member")
+                self.find(By.CSS_SELECTOR,".js_has_member>div:nth-child(1) .js_add_member").click()
             return ele_len >= 1
         self.wait_for(wait)
 

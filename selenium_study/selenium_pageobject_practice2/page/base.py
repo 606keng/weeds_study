@@ -16,7 +16,7 @@ class Base:
 
         else:
             self._driver = webdriver.Chrome()
-        if self._url != '':
+        if self.base_url != '':
             self._driver.get(self.base_url)
         self._driver.maximize_window()
         self._driver.implicitly_wait(5)
