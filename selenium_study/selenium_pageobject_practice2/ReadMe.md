@@ -1,0 +1,3 @@
+本目录用于selenium pageobject思想在企业微信进行实践脚本存放，
+主要完成：
+base页面二次封装
