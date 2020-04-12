@@ -54,3 +54,32 @@ class TestDingWei:
         # self.driver.find_element_by_xpath('/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[1]').click()
         #显式等待
         # element = WebDriverWait(driver,10,0.5).until(expected_conditions.visibility_of_element_located((MobileBy.ID,"com.xueqiu.android:id/tv_search")))
+
+    def test_atrr(self):
+        """
+        打开雪球app
+        定位首页搜索框
+        判断搜索框是否可用，并查看搜索框name属性值
+        打印搜索框这个元素的左上角坐标和他的宽高
+        向输入框输入：alibaba
+        判断【阿里巴巴】是否可见
+        如果可见，打印搜索成功，如果不可见打印搜索失败
+        :return:
+        """
+        element = self.driver.find_element_by_id("com.xueqiu.android:id/tv_search")
+        #获取元素是否可用
+        search_enabled = element.is_enabled()
+        #获取元素的文本信息
+        print(element.text)
+        #获取元素的坐标
+        print(element.location)
+        #获取元素的尺寸
+        print(element.size)
+        if search_enabled is True:
+            element.click()
+            self.driver.find_element_by_id("com.xueqiu.android:id/search_input_text").send_keys("alibaba")
+            alibaba_enabled = self.driver.find_element_by_xpath("//*[@resource-id='com.xueqiu.android:id/name' and @text='阿里巴巴']").is_displayed()
+            if alibaba_enabled is True:
+                print("搜索成功")
+            else:
+                print("搜索失败")
