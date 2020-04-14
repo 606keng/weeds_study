@@ -12,7 +12,7 @@ class TestCalc:
         calc = Calc()
         print(data)
         assert a + b == calc.add(a, b)
-    @pytest.mark.parametrize(['a','b'] , [(1,2), (-1,2), (2,-1), (0,1), (1,0)])
+    @pytest.mark.parametrize(['a','b'] , [(1,2), (-1,2), (2,-1), (0,1), (1,1)])
     def test_div(self,a ,b):
         calc = Calc()
         assert a/b == calc.div(a,b)
