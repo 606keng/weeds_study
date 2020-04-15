@@ -33,13 +33,8 @@ class TestToast:
         cps['resetKeyBoard'] = 'true'
         print(cps)
         self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', cps)
-        self.driver.implicitly_wait(15)
+        self.driver.implicitly_wait(5)
 
-        self.driver.find_element_by_xpath("//*[@resource-id='com.tencent.wework:id/dnj' and @text='通讯录']").click()
-        self.driver.find_element_by_id("com.tencent.wework:id/gq_").click()
-        self.driver.find_element_by_id("com.tencent.wework:id/ffq").send_keys("豆")
-        self.driver.find_element_by_id("com.tencent.wework:id/de1").click()
-        self.driver.find_element_by_id("com.tencent.wework:id/aaj").click
     def teardown_class(self):
         self.driver.quit()
     @pytest.mark.parametrize(("send_message"),[("晚上好"),  ("辛苦了"),  ("早点睡")])
@@ -52,9 +47,14 @@ class TestToast:
         点击联系人，进入聊天页面
         输入“测试code”
         点击发送
-        退出应用
+        点击返回
         :return:
         """
-
+        self.driver.find_element_by_xpath("//*[@resource-id='com.tencent.wework:id/dnj' and @text='通讯录']").click()
+        self.driver.find_element_by_id("com.tencent.wework:id/gq_").click()
+        self.driver.find_element_by_id("com.tencent.wework:id/ffq").send_keys("豆")
+        self.driver.find_element_by_id("com.tencent.wework:id/de1").click()
+        self.driver.find_element_by_id("com.tencent.wework:id/aaj").click()
         self.driver.find_element_by_id("com.tencent.wework:id/dtv").send_keys(send_message)
         self.driver.find_element_by_id("com.tencent.wework:id/dtr").click()
+        self.driver.find_element_by_id("com.tencent.wework:id/gpp").click()
