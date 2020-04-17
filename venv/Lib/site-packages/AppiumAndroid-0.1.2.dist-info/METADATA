@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: AppiumAndroid
+Version: 0.1.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: zhenghong
+Author-email: 743872668@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+# Example Package
+
+一、环境配置
+
+    1、Java环境
+    2、adb环境
+    3、appium服务
+    4、Python3.7
+    5、aapt环境配置
+
+    详情教程说明：https://www.yuque.com/docs/share/83d6e0f5-3397-4fdd-9a7f-dc51e3be1116
+
+二、功能实现
+
+    1、启动appium服务
+    2、关闭appium服务
+    3、获取配置信息
+    4、启动app
+
+三、如何使用
+
+    1、配置aapt路径，用于编译APP，获取包名、启动activity
+    2、配置adb路径，用于获取设备udid,设备版本、设备名称
+    3、配置APP路径，用于需要安装的应用
+
+四、实例
+
+    aapt_path = "/Library/android_sdk/build-tools/26.0.2/aapt"
+    adb_path = "/Library/android_sdk/platform-tools/adb"
+    或
+    aapt_path = "aapt"
+    adb_path = "adb"
+
+    app_path = "/Users/liaozhenghong/work/django-study/django-study/opencv/demo.apk"
+    udid = "emulator-5554"
+    appiumServer = appium_server(udid,app_path,adb_path,aapt_path) #启动appium服务
+    caps = appiumServer.driver_caps() #配置driver
+    appiumServer.startDriver(caps)  #启动driver
+    appiumServer.closeAppiumServer() #关闭app服务
+
+
+
+五、更新版本说明
+
+    -----0.0.3 更新README.md说明，其他未优化-------------
+    -----0.0.4 更新README.md说明，修复window上不能执行shell脚本，兼容mac、window-------
+    -----0.0.5 新建read.md说明文件，详解环境配置，其他未优化-------------
+    -----0.0.6 删除read.md说明文件，把详解环境配置添加到python文件中，其他未优化-------------
+    -----0.1.0 优化代码，新增api：点击、输入文本、上下滑动、截图、启动权限-------------
+    -----0.1.1 新增api：没有设备抛出异常、版本低于4抛出异常-------------
+    -----0.1.2 修改方法check_devices，兼容window、Mac-------------
+
+
+
+

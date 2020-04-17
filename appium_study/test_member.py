@@ -46,12 +46,7 @@ class TestMember:
     @pytest.mark.parametrize(("username", "gender","phone_number"),
                              [
                                  ("test001", "男","15600000000"),
-                                 ("test002", "男","15600000001"),
-                                 ("test003", "男", "15600000003"),
-                                 ("test004", "男", "15600000004"),
-                                 ("test005", "男", "15600000005"),
-                                 ("test006", "女", "15600000006"),
-                                 ("test007", "男", "15600000007")
+                                 ("test002", "男","15600000001")
                               ])
     #调用add_member方法
     def test_add_member(self,add_member,username,gender,phone_number):
@@ -98,7 +93,13 @@ class TestMember:
         sucess_msg=self.driver.find_element_by_xpath("//*[@class='android.widget.Toast']").text
         assert sucess_msg == "添加成功"
 
-    def test_delete_member(self):
+
+    @pytest.mark.parametrize(("username"),
+                             [
+                                 ("test001"),
+                                 ("test002")
+                              ])
+    def test_delete_member(self,username):
         """
         点击通讯录
         选择已test开头的用户，并点击
@@ -111,29 +112,23 @@ class TestMember:
         """
         # 点击通讯录
         self.driver.find_element_by_xpath('//*[@text="通讯录"]').click()
-        #获取所有已test开头的用户
-        elements = self.driver.find_elements_by_android_uiautomator('new UiSelector().textStartsWith("test")')
-
-        for i in range(len(elements)):
-            #获取更新后的包含test开头用户的列表
-            new_elements =  self.driver.find_elements_by_android_uiautomator('new UiSelector().textStartsWith("test")')
-            #点击要删除的用户
-            new_elements[0].click()
-            #点击更多
-            self.driver.find_element_by_id("com.tencent.wework:id/gq0").click()
-            #点击编辑成员
-            self.driver.find_element_by_id("com.tencent.wework:id/axr").click()
-            #点击删除成员
-            self.driver.find_element_by_id("com.tencent.wework:id/drk").click()
-            #点击确定
-            self.driver.find_element_by_id("com.tencent.wework:id/b89").click()
-            # 点击消息
-            self.driver.find_element_by_xpath('//*[@text="消息"]').click()
-            # 点击通讯录
-            self.driver.find_element_by_xpath('//*[@text="通讯录"]').click()
+        #点击要删除的用户
+        self.driver.find_element_by_xpath(f'//*[@text="{username}"]').click()
+        #点击更多
+        self.driver.find_element_by_id("com.tencent.wework:id/gq0").click()
+        #点击编辑成员
+        self.driver.find_element_by_id("com.tencent.wework:id/axr").click()
+        #点击删除成员
+        self.driver.find_element_by_id("com.tencent.wework:id/drk").click()
+        #点击确定
+        self.driver.find_element_by_id("com.tencent.wework:id/b89").click()
+        # 点击消息
+        self.driver.find_element_by_xpath('//*[@text="消息"]').click()
+        # 点击通讯录
+        self.driver.find_element_by_xpath('//*[@text="通讯录"]').click()
 
         sleep(2)
-        elements = self.driver.find_elements_by_android_uiautomator('new UiSelector().textStartsWith("test")')
+        elements = self.driver.find_elements_by_android_uiautomator(f'new UiSelector().textStartsWith("{username}")')
         assert len(elements) == 0
 
 
