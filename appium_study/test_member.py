@@ -97,3 +97,43 @@ class TestMember:
         #获取添加成功提示
         sucess_msg=self.driver.find_element_by_xpath("//*[@class='android.widget.Toast']").text
         assert sucess_msg == "添加成功"
+
+    def test_delete_member(self):
+        """
+        点击通讯录
+        选择已test开头的用户，并点击
+        点击更多
+        点击编辑员工
+        点击删除成员
+        获取删除成功toast
+        :param add_member:
+        :return:
+        """
+        # 点击通讯录
+        self.driver.find_element_by_xpath('//*[@text="通讯录"]').click()
+        #获取所有已test开头的用户
+        elements = self.driver.find_elements_by_android_uiautomator('new UiSelector().textStartsWith("test")')
+
+        for i in range(len(elements)):
+            #获取更新后的包含test开头用户的列表
+            new_elements =  self.driver.find_elements_by_android_uiautomator('new UiSelector().textStartsWith("test")')
+            #点击要删除的用户
+            new_elements[0].click()
+            #点击更多
+            self.driver.find_element_by_id("com.tencent.wework:id/gq0").click()
+            #点击编辑成员
+            self.driver.find_element_by_id("com.tencent.wework:id/axr").click()
+            #点击删除成员
+            self.driver.find_element_by_id("com.tencent.wework:id/drk").click()
+            #点击确定
+            self.driver.find_element_by_id("com.tencent.wework:id/b89").click()
+            # 点击消息
+            self.driver.find_element_by_xpath('//*[@text="消息"]').click()
+            # 点击通讯录
+            self.driver.find_element_by_xpath('//*[@text="通讯录"]').click()
+
+        sleep(2)
+        elements = self.driver.find_elements_by_android_uiautomator('new UiSelector().textStartsWith("test")')
+        assert len(elements) == 0
+
+
