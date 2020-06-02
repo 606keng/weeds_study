@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hierarchy class="hierarchy" height="1280" index="0" rotation="0" width="720">
+  <android.widget.FrameLayout bounds="[0,0][720,1280]" checkable="false"
+    checked="false" class="android.widget.FrameLayout" clickable="false"
+    displayed="true" enabled="true" focusable="false" focused="false"
+    index="0" long-clickable="false" package="com.xueqiu.android"
+    password="false" scrollable="false" selected="false" text="">
+    <android.widget.LinearLayout bounds="[0,0][720,1280]"
+      checkable="false" checked="false"
+      class="android.widget.LinearLayout" clickable="false"
+      displayed="true" enabled="true" focusable="false" focused="false"
+      index="0" long-clickable="false" package="com.xueqiu.android"
+      password="false" scrollable="false" selected="false" text="">
+      <android.widget.FrameLayout bounds="[0,36][720,1280]"
+        checkable="false" checked="false"
+        class="android.widget.FrameLayout" clickable="false"
+        displayed="true" enabled="true" focusable="false"
+        focused="false" index="0" long-clickable="false"
+        package="com.xueqiu.android" password="false"
+        resource-id="android:id/content" scrollable="false"
+        selected="false" text="">
+        <android.widget.RelativeLayout bounds="[0,36][720,1280]"
+          checkable="false" checked="false"
+          class="android.widget.RelativeLayout" clickable="true"
+          displayed="true" enabled="true" focusable="false"
+          focused="false" index="0" long-clickable="false"
+          package="com.xueqiu.android" password="false"
+          resource-id="com.xueqiu.android:id/rl_general_notice"
+          scrollable="false" selected="false" text="">
+          <android.widget.ImageView bounds="[146,373][574,943]"
+            checkable="false" checked="false"
+            class="android.widget.ImageView" clickable="true"
+            displayed="true" enabled="true" focusable="false"
+            focused="false" index="0" long-clickable="false"
+            package="com.xueqiu.android" password="false"
+            resource-id="com.xueqiu.android:id/iv_notice"
+            scrollable="false" selected="false" text=""/>
+          <android.widget.ImageButton bounds="[331,997][388,1054]"
+            checkable="false" checked="false"
+            class="android.widget.ImageButton" clickable="true"
+            displayed="true" enabled="true" focusable="true"
+            focused="false" index="1" long-clickable="false"
+            package="com.xueqiu.android" password="false"
+            resource-id="com.xueqiu.android:id/ib_close"
+            scrollable="false" selected="false" text=""/>
+        </android.widget.RelativeLayout>
+      </android.widget.FrameLayout>
+    </android.widget.LinearLayout>
+  </android.widget.FrameLayout>
+</hierarchy>

@@ -1,0 +1,663 @@
+2020-04-21 20:44:30 INFO [Crawler.130.start] set xpath attribute with List(name, label, value, resource-id, content-desc, instance, text)
+2020-04-21 20:44:30 INFO [Crawler.135.start] set xpath
+2020-04-21 20:44:30 INFO [Crawler.89.$anonfun$loadPlugins$2] com.testerhome.appcrawler.plugin.TagLimitPlugin@1d4137
+2020-04-21 20:44:30 INFO [Crawler.89.$anonfun$loadPlugins$2] com.testerhome.appcrawler.plugin.ReportPlugin@1b75756
+2020-04-21 20:44:30 INFO [Crawler.89.$anonfun$loadPlugins$2] com.testerhome.appcrawler.plugin.FreeMind@79311f
+2020-04-21 20:44:30 INFO [TagLimitPlugin.19.init] com.testerhome.appcrawler.plugin.TagLimitPlugin init
+2020-04-21 20:44:30 INFO [ReportPlugin.19.init] com.testerhome.appcrawler.plugin.ReportPlugin init
+2020-04-21 20:44:30 INFO [FreeMind.19.init] com.testerhome.appcrawler.plugin.FreeMind init
+2020-04-21 20:44:30 INFO [ReportPlugin.21.start] reportPath=D:\work\auto\weeds_study\APPcrawler_study\20200421204426
+2020-04-21 20:44:30 INFO [ReportPlugin.24.start] create D:\work\auto\weeds_study\APPcrawler_study\20200421204426/tmp/ directory
+2020-04-21 20:44:30 INFO [Crawler.138.start] prepare setup Appium
+2020-04-21 20:44:30 INFO [Crawler.250.setupAppium] afterPageMax=2
+2020-04-21 20:44:35 INFO [Crawler.273.setupAppium] use AppiumClient
+2020-04-21 20:44:35 INFO [Crawler.274.setupAppium] Map(appActivity -> .view.WelcomeActivityAlias, appium -> http://127.0.0.1:4723/wd/hub, noReset -> true, appPackage -> com.xueqiu.android, fullReset -> false)
+2020-04-21 20:44:52 INFO [AppiumClient.120.getDeviceInfo] screenWidth=720 screenHeight=1280
+2020-04-21 20:44:52 INFO [AppiumClient.112.appium] capture dir = D:\work\auto\weeds_study\APPcrawler_study\.
+2020-04-21 20:44:52 INFO [Crawler.278.setupAppium] com.testerhome.appcrawler.driver.AppiumClient@139ff41
+2020-04-21 20:44:52 INFO [Crawler.145.start] platformName= driver=com.testerhome.appcrawler.driver.AppiumClient@139ff41
+2020-04-21 20:44:52 INFO [Crawler.146.start] 
+----------------
+AppCrawler 2.4.0 [霍格沃兹测试学院特别纪念版]
+Appium 1.8.1 Java8 tested
+app爬虫, 用于自动遍历测试. 支持Android和iOS, 支持真机和模拟器
+项目地址: https://github.com/seveniruby/AppCrawler
+移动测试技术交流: https://testerhome.com
+联络作者: seveniruby@testerhome.com (思寒)
+致谢: 晓光 泉龙 杨榕 恒温 mikezhou yaming116 沐木
+
+--------------------------------
+
+    
+2020-04-21 20:44:52 INFO [Crawler.147.start] waiting for app load
+2020-04-21 20:44:58 INFO [Crawler.149.start] driver=null
+2020-04-21 20:44:58 INFO [Crawler.150.start] get screen info
+2020-04-21 20:44:58 INFO [AppiumClient.120.getDeviceInfo] screenWidth=720 screenHeight=1280
+2020-04-21 20:44:58 INFO [Crawler.627.refreshPage] refresh page
+2020-04-21 20:44:58 INFO [AppiumClient.102.getPageSourceWithRetry] start to get page source from appium
+2020-04-21 20:44:59 INFO [AppiumClient.117.$anonfun$getPageSourceWithRetry$1] xml format 
+2020-04-21 20:44:59 INFO [Crawler.645.parsePageContext] appName = 
+2020-04-21 20:44:59 INFO [Crawler.649.parsePageContext] url=MainActivity
+2020-04-21 20:45:00 INFO [Crawler.673.parsePageContext] currentContentHash=cf9ff2cb04e900ba58b58fb43edb2d6f lastContentHash=cf9ff2cb04e900ba58b58fb43edb2d6f
+2020-04-21 20:45:00 INFO [Crawler.677.parsePageContext] ui not change
+2020-04-21 20:45:00 INFO [Crawler.230.firstRefresh] first refresh
+2020-04-21 20:45:00 INFO [Crawler.996.doElementAction] current element = MainActivity.tag=start.id=start
+2020-04-21 20:45:00 INFO [Crawler.997.doElementAction] current index = 0
+2020-04-21 20:45:00 INFO [Crawler.998.doElementAction] current action = 
+2020-04-21 20:45:00 INFO [Crawler.999.doElementAction] current xpath = Start-Start-0
+2020-04-21 20:45:00 INFO [Crawler.1000.doElementAction] current url = MainActivity
+2020-04-21 20:45:00 INFO [Crawler.1001.doElementAction] current tag path = 
+2020-04-21 20:45:00 INFO [Crawler.1002.doElementAction] current file name = MainActivity.tag=start.id=start
+2020-04-21 20:45:00 INFO [Crawler.1014.doElementAction] just log
+2020-04-21 20:45:00 INFO [Crawler.1015.doElementAction] {
+  "url" : "MainActivity",
+  "tag" : "start",
+  "id" : "start",
+  "name" : "",
+  "text" : "",
+  "instance" : "",
+  "depth" : "",
+  "valid" : "true",
+  "selected" : "false",
+  "xpath" : "Start-Start-0",
+  "ancestor" : "",
+  "x" : 0,
+  "y" : 0,
+  "width" : 0,
+  "height" : 0
+}
+2020-04-21 20:45:00 INFO [Crawler.1126.doElementAction] mark image exist
+2020-04-21 20:45:00 INFO [Crawler.1130.doElementAction] sleep 500 for loading
+2020-04-21 20:45:00 INFO [Crawler.627.refreshPage] refresh page
+2020-04-21 20:45:00 INFO [AppiumClient.102.getPageSourceWithRetry] start to get page source from appium
+2020-04-21 20:45:01 INFO [AppiumClient.117.$anonfun$getPageSourceWithRetry$1] xml format 
+2020-04-21 20:45:01 INFO [Crawler.645.parsePageContext] appName = 
+2020-04-21 20:45:01 INFO [Crawler.649.parsePageContext] url=MainActivity
+2020-04-21 20:45:01 INFO [Crawler.673.parsePageContext] currentContentHash=cf9ff2cb04e900ba58b58fb43edb2d6f lastContentHash=cf9ff2cb04e900ba58b58fb43edb2d6f
+2020-04-21 20:45:01 INFO [Crawler.677.parsePageContext] ui not change
+2020-04-21 20:45:01 INFO [Crawler.931.saveDom] save to 20200421204426/0_MainActivity.tag=start.id=start.dom
+2020-04-21 20:45:01 INFO [Crawler.953.saveScreen] start screenshot
+2020-04-21 20:45:01 INFO [Crawler.956.$anonfun$saveScreen$2] ui change screenshot again
+2020-04-21 20:45:03 INFO [Crawler.977.saveScreen] screenshot success
+2020-04-21 20:45:03 INFO [Crawler.159.start] append current app name to appWhiteList
+2020-04-21 20:45:03 INFO [Crawler.163.start] run steps
+2020-04-21 20:45:03 INFO [Crawler.237.runSteps] run testcases
+2020-04-21 20:45:03 INFO [AppiumClient.102.getPageSourceWithRetry] start to get page source from appium
+2020-04-21 20:45:04 INFO [AppiumClient.117.$anonfun$getPageSourceWithRetry$1] xml format 
+2020-04-21 20:45:04 INFO [AppiumClient.102.getPageSourceWithRetry] start to get page source from appium
+2020-04-21 20:45:04 INFO [AppiumClient.117.$anonfun$getPageSourceWithRetry$1] xml format 
+2020-04-21 20:45:04 INFO [AppiumClient.102.getPageSourceWithRetry] start to get page source from appium
+2020-04-21 20:45:05 INFO [AppiumClient.117.$anonfun$getPageSourceWithRetry$1] xml format 
+2020-04-21 20:45:05 INFO [Crawler.996.doElementAction] current element = Steps.tag=.name=NOT_FOUND
+2020-04-21 20:45:05 INFO [Crawler.997.doElementAction] current index = 1
+2020-04-21 20:45:05 INFO [Crawler.998.doElementAction] current action = 
+2020-04-21 20:45:05 INFO [Crawler.999.doElementAction] current xpath = /*
+2020-04-21 20:45:05 INFO [Crawler.1000.doElementAction] current url = Steps
+2020-04-21 20:45:05 INFO [Crawler.1001.doElementAction] current tag path = 
+2020-04-21 20:45:05 INFO [Crawler.1002.doElementAction] current file name = Steps.tag=.name=NOT_FOUND
+2020-04-21 20:45:05 INFO [Crawler.1014.doElementAction] just log
+2020-04-21 20:45:05 INFO [Crawler.1015.doElementAction] {
+  "url" : "Steps",
+  "tag" : "",
+  "id" : "",
+  "name" : "NOT_FOUND",
+  "text" : "",
+  "instance" : "",
+  "depth" : "",
+  "valid" : "true",
+  "selected" : "false",
+  "xpath" : "/*",
+  "ancestor" : "",
+  "x" : 0,
+  "y" : 0,
+  "width" : 0,
+  "height" : 0
+}
+2020-04-21 20:45:05 INFO [Crawler.1123.doElementAction] use last clicked image replace mark
+2020-04-21 20:45:05 INFO [Crawler.1130.doElementAction] sleep 500 for loading
+2020-04-21 20:45:05 INFO [Crawler.627.refreshPage] refresh page
+2020-04-21 20:45:05 INFO [AppiumClient.102.getPageSourceWithRetry] start to get page source from appium
+2020-04-21 20:45:06 INFO [AppiumClient.117.$anonfun$getPageSourceWithRetry$1] xml format 
+2020-04-21 20:45:06 INFO [Crawler.645.parsePageContext] appName = 
+2020-04-21 20:45:06 INFO [Crawler.649.parsePageContext] url=MainActivity
+2020-04-21 20:45:06 INFO [Crawler.673.parsePageContext] currentContentHash=cf9ff2cb04e900ba58b58fb43edb2d6f lastContentHash=cf9ff2cb04e900ba58b58fb43edb2d6f
+2020-04-21 20:45:06 INFO [Crawler.677.parsePageContext] ui not change
+2020-04-21 20:45:06 INFO [Crawler.931.saveDom] save to 20200421204426/1_Steps.tag=.name=NOT_FOUND.dom
+2020-04-21 20:45:07 INFO [Crawler.953.saveScreen] start screenshot
+2020-04-21 20:45:07 INFO [Crawler.956.$anonfun$saveScreen$2] ui change screenshot again
+2020-04-21 20:45:08 INFO [Crawler.977.saveScreen] screenshot success
+2020-04-21 20:45:08 INFO [Crawler.627.refreshPage] refresh page
+2020-04-21 20:45:08 INFO [AppiumClient.102.getPageSourceWithRetry] start to get page source from appium
+2020-04-21 20:45:10 INFO [AppiumClient.117.$anonfun$getPageSourceWithRetry$1] xml format 
+2020-04-21 20:45:10 INFO [Crawler.645.parsePageContext] appName = 
+2020-04-21 20:45:10 INFO [Crawler.649.parsePageContext] url=MainActivity
+2020-04-21 20:45:10 INFO [Crawler.673.parsePageContext] currentContentHash=cf9ff2cb04e900ba58b58fb43edb2d6f lastContentHash=cf9ff2cb04e900ba58b58fb43edb2d6f
+2020-04-21 20:45:10 INFO [Crawler.677.parsePageContext] ui not change
+2020-04-21 20:45:10 INFO [Crawler.1213.handleCtrlC] add shutdown hook
+2020-04-21 20:45:10 INFO [Crawler.772.crawl] 
+
+crawl next
+2020-04-21 20:45:10 INFO [Crawler.425.needReturn] urlStack=Stack(MainActivity) baseUrl=List() maxDepth=10
+2020-04-21 20:45:10 INFO [Crawler.834.crawl] no need to back
+2020-04-21 20:45:10 INFO [Crawler.487.getAvailableElement] selected nodes size = 19
+2020-04-21 20:45:10 INFO [Crawler.499.getAvailableElement] all - black elements size = 15
+2020-04-21 20:45:10 INFO [Crawler.528.getAvailableElement] all - first - last elements size = 9
+2020-04-21 20:45:10 INFO [Crawler.590.getAvailableElement] all - backButton size=15
+2020-04-21 20:45:10 INFO [Crawler.598.getAvailableElement] all - clicked size=15
+2020-04-21 20:45:10 INFO [Crawler.605.getAvailableElement] all - skiped fresh elements size=15
+2020-04-21 20:45:10 INFO [Crawler.843.crawl] found MainActivity.tag=TextView.depth=23.id=userName.text=仙源游侠 by first available element
+2020-04-21 20:45:10 INFO [Crawler.728.setElementAction] set action to click
+2020-04-21 20:45:10 INFO [TagLimitPlugin.29.$anonfun$beforeElementAction$1] tagLimit[MainActivityhierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.TabHost/android.widget.LinearLayout/android.widget.TabWidget/android.widget.RelativeLayout]=20
+2020-04-21 20:45:10 INFO [TagLimitPlugin.29.$anonfun$beforeElementAction$1] tagLimit[MainActivityhierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.TabHost/android.widget.LinearLayout/android.widget.TabWidget/android.widget.RelativeLayout/android.widget.ImageView]=20
+2020-04-21 20:45:10 INFO [TagLimitPlugin.29.$anonfun$beforeElementAction$1] tagLimit[MainActivityhierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.TabHost/android.widget.LinearLayout/android.widget.TabWidget/android.widget.RelativeLayout/android.widget.TextView]=20
+2020-04-21 20:45:11 INFO [Crawler.996.doElementAction] current element = MainActivity.tag=TextView.depth=23.id=userName.text=仙源游侠
+2020-04-21 20:45:11 INFO [Crawler.997.doElementAction] current index = 2
+2020-04-21 20:45:11 INFO [Crawler.998.doElementAction] current action = click
+2020-04-21 20:45:11 INFO [Crawler.999.doElementAction] current xpath = //*[@resource-id="com.xueqiu.android:id/decor_content_parent"]//*[@resource-id="android:id/content"]//*[@resource-id="com.xueqiu.android:id/mainContent"]//*[@resource-id="com.xueqiu.android:id/home_container"]//*[@resource-id="com.xueqiu.android:id/main_content"]//*[@resource-id="com.xueqiu.android:id/view_pager"]//*[@resource-id="com.xueqiu.android:id/recommend_layout_refresh"]//*[@resource-id="com.xueqiu.android:id/recommend_recycler_view"]//*[@resource-id="com.xueqiu.android:id/status_card_header_id"]//*[@resource-id="com.xueqiu.android:id/name_layout"]//*[@text="仙源游侠" and @resource-id="com.xueqiu.android:id/userName"]
+2020-04-21 20:45:11 INFO [Crawler.1000.doElementAction] current url = MainActivity
+2020-04-21 20:45:11 INFO [Crawler.1001.doElementAction] current tag path = hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.RelativeLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView
+2020-04-21 20:45:11 INFO [Crawler.1002.doElementAction] current file name = MainActivity.tag=TextView.depth=23.id=userName.text=仙源游侠
+2020-04-21 20:45:11 INFO [Crawler.1071.doElementAction] need input click
+2020-04-21 20:45:11 INFO [AppiumClient.53.findElementByURI] find by uri element= MainActivity.tag=TextView.depth=23.id=userName.text=仙源游侠
+2020-04-21 20:45:11 INFO [AppiumClient.245.findElementsByURI] findElementByAndroidUIAutomator new UiSelector().className("android.widget.TextView").text("仙源游侠").resourceId("com.xueqiu.android:id/userName")
+2020-04-21 20:45:11 INFO [AppiumClient.60.findElementByURI] find by xpath success
+2020-04-21 20:45:11 INFO [Crawler.1080.doElementAction] mark 20200421204426/1_Steps.tag=.name=NOT_FOUND.clicked.png to 20200421204426/2_MainActivity.tag=TextView.depth=23.id=userName.text=仙源游侠.click.png
+2020-04-21 20:45:11 INFO [AppiumClient.141.mark] read from 20200421204426/1_Steps.tag=.name=NOT_FOUND.clicked.png
+2020-04-21 20:45:11 INFO [AppiumClient.154.mark] write png 20200421204426/1_Steps.tag=.name=NOT_FOUND.clicked.png
+2020-04-21 20:45:11 INFO [AppiumClient.161.mark] ImageIO.write newImageName 20200421204426/2_MainActivity.tag=TextView.depth=23.id=userName.text=仙源游侠.click.png
+2020-04-21 20:45:12 INFO [Crawler.1095.$anonfun$doElementAction$5] click element
+2020-04-21 20:45:12 INFO [AppiumClient.174.click] [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, appium=http://127.0.0.1:4723/wd/hub, databaseEnabled=false, desired={platformName=android, appium=http://127.0.0.1:4723/wd/hub, app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, deviceName=demo, fullReset=false, noReset=true}, deviceApiLevel=23, deviceManufacturer=Netease, deviceModel=MuMu, deviceName=127.0.0.1:7555, deviceScreenDensity=240, deviceScreenSize=720x1280, deviceUDID=127.0.0.1:7555, fullReset=false, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, noReset=true, pixelRatio=1.5, platform=LINUX, platformName=Android, platformVersion=6.0.1, statBarHeight=36, takesScreenshot=true, viewportRect={left=0, top=36, width=720, height=1244}, warnings={}, webStorageEnabled=false}] -> -android uiautomator: new UiSelector().className("android.widget.TextView").text("仙源游侠").resourceId("com.xueqiu.android:id/userName")]
+2020-04-21 20:45:13 INFO [Crawler.1126.doElementAction] mark image exist
+2020-04-21 20:45:13 INFO [Crawler.1130.doElementAction] sleep 500 for loading
+2020-04-21 20:45:14 INFO [Crawler.627.refreshPage] refresh page
+2020-04-21 20:45:14 INFO [AppiumClient.102.getPageSourceWithRetry] start to get page source from appium
+2020-04-21 20:45:14 INFO [AppiumClient.117.$anonfun$getPageSourceWithRetry$1] xml format 
+2020-04-21 20:45:14 INFO [Crawler.645.parsePageContext] appName = 
+2020-04-21 20:45:15 INFO [Crawler.649.parsePageContext] url=UserProfileActivity
+2020-04-21 20:45:15 INFO [Crawler.673.parsePageContext] currentContentHash=b2dae7e8a55169e6a20ccdaaba239721 lastContentHash=cf9ff2cb04e900ba58b58fb43edb2d6f
+2020-04-21 20:45:15 INFO [Crawler.675.parsePageContext] ui change
+2020-04-21 20:45:15 INFO [Crawler.931.saveDom] save to 20200421204426/2_MainActivity.tag=TextView.depth=23.id=userName.text=仙源游侠.dom
+2020-04-21 20:45:15 INFO [Crawler.953.saveScreen] start screenshot
+2020-04-21 20:45:15 INFO [Crawler.956.$anonfun$saveScreen$2] ui change screenshot again
+2020-04-21 20:45:15 INFO [Crawler.977.saveScreen] screenshot success
+2020-04-21 20:45:15 INFO [Crawler.709.afterElementAction] backRetry=0
+2020-04-21 20:45:15 INFO [Crawler.712.afterElementAction] afterElementAction eval
+2020-04-21 20:45:15 INFO [ReportPlugin.36.afterElementAction] clickedElementsList size = 3
+2020-04-21 20:45:15 INFO [Crawler.772.crawl] 
+
+crawl next
+2020-04-21 20:45:16 INFO [Crawler.425.needReturn] urlStack=Stack(UserProfileActivity, MainActivity) baseUrl=List() maxDepth=10
+2020-04-21 20:45:16 INFO [Crawler.834.crawl] no need to back
+2020-04-21 20:45:16 INFO [Crawler.487.getAvailableElement] selected nodes size = 26
+2020-04-21 20:45:16 INFO [Crawler.499.getAvailableElement] all - black elements size = 21
+2020-04-21 20:45:16 INFO [Crawler.528.getAvailableElement] all - first - last elements size = 21
+2020-04-21 20:45:16 INFO [Crawler.590.getAvailableElement] all - backButton size=21
+2020-04-21 20:45:16 INFO [Crawler.598.getAvailableElement] all - clicked size=21
+2020-04-21 20:45:16 INFO [Crawler.605.getAvailableElement] all - skiped fresh elements size=21
+2020-04-21 20:45:16 INFO [Crawler.843.crawl] found UserProfileActivity.tag=TextView.depth=23.id=userName.text=仙源游侠 by first available element
+2020-04-21 20:45:16 INFO [Crawler.728.setElementAction] set action to click
+2020-04-21 20:45:17 INFO [Crawler.996.doElementAction] current element = UserProfileActivity.tag=TextView.depth=23.id=userName.text=仙源游侠
+2020-04-21 20:45:17 INFO [Crawler.997.doElementAction] current index = 3
+2020-04-21 20:45:17 INFO [Crawler.998.doElementAction] current action = click
+2020-04-21 20:45:17 INFO [Crawler.999.doElementAction] current xpath = //*[@resource-id="com.xueqiu.android:id/decor_content_parent"]//*[@resource-id="android:id/content"]//*[@resource-id="com.xueqiu.android:id/refresh_layout"]//*[@resource-id="com.xueqiu.android:id/indicator_ll"]//*[@resource-id="com.xueqiu.android:id/view_pager"]//*[@resource-id="com.xueqiu.android:id/refresh_layout"]//*[@resource-id="com.xueqiu.android:id/list_view"]//*[@resource-id="com.xueqiu.android:id/status_card_header_id"]//*[@resource-id="com.xueqiu.android:id/name_layout"]//*[@text="仙源游侠" and @resource-id="com.xueqiu.android:id/userName"]
+2020-04-21 20:45:17 INFO [Crawler.1000.doElementAction] current url = UserProfileActivity
+2020-04-21 20:45:17 INFO [Crawler.1001.doElementAction] current tag path = hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView
+2020-04-21 20:45:17 INFO [Crawler.1002.doElementAction] current file name = UserProfileActivity.tag=TextView.depth=23.id=userName.text=仙源游侠
+2020-04-21 20:45:17 INFO [Crawler.1071.doElementAction] need input click
+2020-04-21 20:45:17 INFO [AppiumClient.53.findElementByURI] find by uri element= UserProfileActivity.tag=TextView.depth=23.id=userName.text=仙源游侠
+2020-04-21 20:45:17 INFO [AppiumClient.245.findElementsByURI] findElementByAndroidUIAutomator new UiSelector().className("android.widget.TextView").text("仙源游侠").resourceId("com.xueqiu.android:id/userName")
+2020-04-21 20:45:17 INFO [AppiumClient.60.findElementByURI] find by xpath success
+2020-04-21 20:45:17 INFO [Crawler.1080.doElementAction] mark 20200421204426/2_MainActivity.tag=TextView.depth=23.id=userName.text=仙源游侠.clicked.png to 20200421204426/3_UserProfileActivity.tag=TextView.depth=23.id=userName.text=仙源游侠.click.png
+2020-04-21 20:45:17 INFO [AppiumClient.141.mark] read from 20200421204426/2_MainActivity.tag=TextView.depth=23.id=userName.text=仙源游侠.clicked.png
+2020-04-21 20:45:17 INFO [AppiumClient.154.mark] write png 20200421204426/2_MainActivity.tag=TextView.depth=23.id=userName.text=仙源游侠.clicked.png
+2020-04-21 20:45:17 INFO [AppiumClient.161.mark] ImageIO.write newImageName 20200421204426/3_UserProfileActivity.tag=TextView.depth=23.id=userName.text=仙源游侠.click.png
+2020-04-21 20:45:17 INFO [Crawler.1095.$anonfun$doElementAction$5] click element
+2020-04-21 20:45:17 INFO [AppiumClient.174.click] [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, appium=http://127.0.0.1:4723/wd/hub, databaseEnabled=false, desired={platformName=android, appium=http://127.0.0.1:4723/wd/hub, app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, deviceName=demo, fullReset=false, noReset=true}, deviceApiLevel=23, deviceManufacturer=Netease, deviceModel=MuMu, deviceName=127.0.0.1:7555, deviceScreenDensity=240, deviceScreenSize=720x1280, deviceUDID=127.0.0.1:7555, fullReset=false, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, noReset=true, pixelRatio=1.5, platform=LINUX, platformName=Android, platformVersion=6.0.1, statBarHeight=36, takesScreenshot=true, viewportRect={left=0, top=36, width=720, height=1244}, warnings={}, webStorageEnabled=false}] -> -android uiautomator: new UiSelector().className("android.widget.TextView").text("仙源游侠").resourceId("com.xueqiu.android:id/userName")]
+2020-04-21 20:45:19 INFO [Crawler.1126.doElementAction] mark image exist
+2020-04-21 20:45:19 INFO [Crawler.1130.doElementAction] sleep 500 for loading
+2020-04-21 20:45:20 INFO [Crawler.627.refreshPage] refresh page
+2020-04-21 20:45:20 INFO [AppiumClient.102.getPageSourceWithRetry] start to get page source from appium
+2020-04-21 20:45:20 INFO [AppiumClient.117.$anonfun$getPageSourceWithRetry$1] xml format 
+2020-04-21 20:45:20 INFO [Crawler.645.parsePageContext] appName = 
+2020-04-21 20:45:20 INFO [Crawler.649.parsePageContext] url=UserProfileActivity
+2020-04-21 20:45:20 INFO [Crawler.673.parsePageContext] currentContentHash=b2dae7e8a55169e6a20ccdaaba239721 lastContentHash=b2dae7e8a55169e6a20ccdaaba239721
+2020-04-21 20:45:20 INFO [Crawler.677.parsePageContext] ui not change
+2020-04-21 20:45:20 INFO [Crawler.931.saveDom] save to 20200421204426/3_UserProfileActivity.tag=TextView.depth=23.id=userName.text=仙源游侠.dom
+2020-04-21 20:45:21 INFO [Crawler.953.saveScreen] start screenshot
+2020-04-21 20:45:21 INFO [Crawler.956.$anonfun$saveScreen$2] ui change screenshot again
+2020-04-21 20:45:21 INFO [Crawler.977.saveScreen] screenshot success
+2020-04-21 20:45:21 INFO [Crawler.709.afterElementAction] backRetry=0
+2020-04-21 20:45:21 INFO [Crawler.712.afterElementAction] afterElementAction eval
+2020-04-21 20:45:21 INFO [TagLimitPlugin.54.afterElementAction] tagLimit[UserProfileActivityhierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView]=1
+2020-04-21 20:45:21 INFO [ReportPlugin.36.afterElementAction] clickedElementsList size = 4
+2020-04-21 20:45:21 INFO [Crawler.772.crawl] 
+
+crawl next
+2020-04-21 20:45:21 INFO [Crawler.425.needReturn] urlStack=Stack(UserProfileActivity, MainActivity) baseUrl=List() maxDepth=10
+2020-04-21 20:45:21 INFO [Crawler.834.crawl] no need to back
+2020-04-21 20:45:21 INFO [Crawler.487.getAvailableElement] selected nodes size = 26
+2020-04-21 20:45:21 INFO [Crawler.499.getAvailableElement] all - black elements size = 21
+2020-04-21 20:45:21 INFO [Crawler.528.getAvailableElement] all - first - last elements size = 21
+2020-04-21 20:45:22 INFO [Crawler.590.getAvailableElement] all - backButton size=21
+2020-04-21 20:45:22 INFO [Crawler.598.getAvailableElement] all - clicked size=20
+2020-04-21 20:45:22 INFO [Crawler.605.getAvailableElement] all - skiped fresh elements size=20
+2020-04-21 20:45:22 INFO [Crawler.843.crawl] found UserProfileActivity.tag=TextView.depth=23.id=name.text=股民的日常 by first available element
+2020-04-21 20:45:22 INFO [Crawler.728.setElementAction] set action to click
+2020-04-21 20:45:22 INFO [Crawler.996.doElementAction] current element = UserProfileActivity.tag=TextView.depth=23.id=name.text=股民的日常
+2020-04-21 20:45:22 INFO [Crawler.997.doElementAction] current index = 4
+2020-04-21 20:45:22 INFO [Crawler.998.doElementAction] current action = click
+2020-04-21 20:45:22 INFO [Crawler.999.doElementAction] current xpath = //*[@resource-id="com.xueqiu.android:id/decor_content_parent"]//*[@resource-id="android:id/content"]//*[@resource-id="com.xueqiu.android:id/refresh_layout"]//*[@resource-id="com.xueqiu.android:id/indicator_ll"]//*[@resource-id="com.xueqiu.android:id/view_pager"]//*[@resource-id="com.xueqiu.android:id/refresh_layout"]//*[@resource-id="com.xueqiu.android:id/list_view"]//*[@resource-id="com.xueqiu.android:id/trade_opportunity"]//*[@resource-id="com.xueqiu.android:id/card_tag"]//*[@text="股民的日常" and @resource-id="com.xueqiu.android:id/name"]
+2020-04-21 20:45:22 INFO [Crawler.1000.doElementAction] current url = UserProfileActivity
+2020-04-21 20:45:22 INFO [Crawler.1001.doElementAction] current tag path = hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.TextView
+2020-04-21 20:45:22 INFO [Crawler.1002.doElementAction] current file name = UserProfileActivity.tag=TextView.depth=23.id=name.text=股民的日常
+2020-04-21 20:45:22 INFO [Crawler.1071.doElementAction] need input click
+2020-04-21 20:45:22 INFO [AppiumClient.53.findElementByURI] find by uri element= UserProfileActivity.tag=TextView.depth=23.id=name.text=股民的日常
+2020-04-21 20:45:22 INFO [AppiumClient.245.findElementsByURI] findElementByAndroidUIAutomator new UiSelector().className("android.widget.TextView").text("股民的日常").resourceId("com.xueqiu.android:id/name")
+2020-04-21 20:45:22 INFO [AppiumClient.60.findElementByURI] find by xpath success
+2020-04-21 20:45:23 INFO [Crawler.1080.doElementAction] mark 20200421204426/3_UserProfileActivity.tag=TextView.depth=23.id=userName.text=仙源游侠.clicked.png to 20200421204426/4_UserProfileActivity.tag=TextView.depth=23.id=name.text=股民的日常.click.png
+2020-04-21 20:45:23 INFO [AppiumClient.141.mark] read from 20200421204426/3_UserProfileActivity.tag=TextView.depth=23.id=userName.text=仙源游侠.clicked.png
+2020-04-21 20:45:23 INFO [AppiumClient.154.mark] write png 20200421204426/3_UserProfileActivity.tag=TextView.depth=23.id=userName.text=仙源游侠.clicked.png
+2020-04-21 20:45:23 INFO [AppiumClient.161.mark] ImageIO.write newImageName 20200421204426/4_UserProfileActivity.tag=TextView.depth=23.id=name.text=股民的日常.click.png
+2020-04-21 20:45:23 INFO [Crawler.1095.$anonfun$doElementAction$5] click element
+2020-04-21 20:45:23 INFO [AppiumClient.174.click] [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, appium=http://127.0.0.1:4723/wd/hub, databaseEnabled=false, desired={platformName=android, appium=http://127.0.0.1:4723/wd/hub, app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, deviceName=demo, fullReset=false, noReset=true}, deviceApiLevel=23, deviceManufacturer=Netease, deviceModel=MuMu, deviceName=127.0.0.1:7555, deviceScreenDensity=240, deviceScreenSize=720x1280, deviceUDID=127.0.0.1:7555, fullReset=false, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, noReset=true, pixelRatio=1.5, platform=LINUX, platformName=Android, platformVersion=6.0.1, statBarHeight=36, takesScreenshot=true, viewportRect={left=0, top=36, width=720, height=1244}, warnings={}, webStorageEnabled=false}] -> -android uiautomator: new UiSelector().className("android.widget.TextView").text("股民的日常").resourceId("com.xueqiu.android:id/name")]
+2020-04-21 20:45:25 INFO [Crawler.1126.doElementAction] mark image exist
+2020-04-21 20:45:25 INFO [Crawler.1130.doElementAction] sleep 500 for loading
+2020-04-21 20:45:25 INFO [Crawler.627.refreshPage] refresh page
+2020-04-21 20:45:25 INFO [AppiumClient.102.getPageSourceWithRetry] start to get page source from appium
+2020-04-21 20:45:26 INFO [AppiumClient.117.$anonfun$getPageSourceWithRetry$1] xml format 
+2020-04-21 20:45:26 INFO [Crawler.645.parsePageContext] appName = 
+2020-04-21 20:45:26 INFO [Crawler.649.parsePageContext] url=TopicWordActivity
+2020-04-21 20:45:26 INFO [Crawler.673.parsePageContext] currentContentHash=480d28b20aa826f128d60fcefcd747c5 lastContentHash=b2dae7e8a55169e6a20ccdaaba239721
+2020-04-21 20:45:26 INFO [Crawler.675.parsePageContext] ui change
+2020-04-21 20:45:26 INFO [Crawler.931.saveDom] save to 20200421204426/4_UserProfileActivity.tag=TextView.depth=23.id=name.text=股民的日常.dom
+2020-04-21 20:45:26 INFO [Crawler.953.saveScreen] start screenshot
+2020-04-21 20:45:26 INFO [Crawler.956.$anonfun$saveScreen$2] ui change screenshot again
+2020-04-21 20:45:27 INFO [Crawler.977.saveScreen] screenshot success
+2020-04-21 20:45:27 INFO [Crawler.709.afterElementAction] backRetry=0
+2020-04-21 20:45:27 INFO [Crawler.712.afterElementAction] afterElementAction eval
+2020-04-21 20:45:27 INFO [ReportPlugin.36.afterElementAction] clickedElementsList size = 5
+2020-04-21 20:45:27 INFO [Crawler.772.crawl] 
+
+crawl next
+2020-04-21 20:45:27 INFO [Crawler.425.needReturn] urlStack=Stack(TopicWordActivity, UserProfileActivity, MainActivity) baseUrl=List() maxDepth=10
+2020-04-21 20:45:27 INFO [Crawler.834.crawl] no need to back
+2020-04-21 20:45:27 INFO [Crawler.487.getAvailableElement] selected nodes size = 20
+2020-04-21 20:45:27 INFO [Crawler.499.getAvailableElement] all - black elements size = 16
+2020-04-21 20:45:27 INFO [Crawler.528.getAvailableElement] all - first - last elements size = 16
+2020-04-21 20:45:27 INFO [Crawler.590.getAvailableElement] all - backButton size=16
+2020-04-21 20:45:27 INFO [Crawler.598.getAvailableElement] all - clicked size=16
+2020-04-21 20:45:27 INFO [Crawler.605.getAvailableElement] all - skiped fresh elements size=16
+2020-04-21 20:45:27 INFO [Crawler.843.crawl] found TopicWordActivity.tag=TextView.depth=21.id=userName.text=粹语 by first available element
+2020-04-21 20:45:27 INFO [Crawler.728.setElementAction] set action to click
+2020-04-21 20:45:27 INFO [Crawler.996.doElementAction] current element = TopicWordActivity.tag=TextView.depth=21.id=userName.text=粹语
+2020-04-21 20:45:27 INFO [Crawler.997.doElementAction] current index = 5
+2020-04-21 20:45:27 INFO [Crawler.998.doElementAction] current action = click
+2020-04-21 20:45:27 INFO [Crawler.999.doElementAction] current xpath = //*[@resource-id="com.xueqiu.android:id/decor_content_parent"]//*[@resource-id="android:id/content"]//*[@resource-id="com.xueqiu.android:id/container"]//*[@resource-id="com.xueqiu.android:id/view_pager"]//*[@resource-id="com.xueqiu.android:id/refresh_layout"]//*[@resource-id="com.xueqiu.android:id/list_view"]//*[@resource-id="com.xueqiu.android:id/status_card_header_id"]//*[@resource-id="com.xueqiu.android:id/name_layout"]//*[@text="粹语" and @resource-id="com.xueqiu.android:id/userName"]
+2020-04-21 20:45:27 INFO [Crawler.1000.doElementAction] current url = TopicWordActivity
+2020-04-21 20:45:27 INFO [Crawler.1001.doElementAction] current tag path = hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView
+2020-04-21 20:45:27 INFO [Crawler.1002.doElementAction] current file name = TopicWordActivity.tag=TextView.depth=21.id=userName.text=粹语
+2020-04-21 20:45:27 INFO [Crawler.1071.doElementAction] need input click
+2020-04-21 20:45:27 INFO [AppiumClient.53.findElementByURI] find by uri element= TopicWordActivity.tag=TextView.depth=21.id=userName.text=粹语
+2020-04-21 20:45:27 INFO [AppiumClient.245.findElementsByURI] findElementByAndroidUIAutomator new UiSelector().className("android.widget.TextView").text("粹语").resourceId("com.xueqiu.android:id/userName")
+2020-04-21 20:45:28 INFO [AppiumClient.60.findElementByURI] find by xpath success
+2020-04-21 20:45:28 INFO [Crawler.1080.doElementAction] mark 20200421204426/4_UserProfileActivity.tag=TextView.depth=23.id=name.text=股民的日常.clicked.png to 20200421204426/5_TopicWordActivity.tag=TextView.depth=21.id=userName.text=粹语.click.png
+2020-04-21 20:45:28 INFO [AppiumClient.141.mark] read from 20200421204426/4_UserProfileActivity.tag=TextView.depth=23.id=name.text=股民的日常.clicked.png
+2020-04-21 20:45:28 INFO [AppiumClient.154.mark] write png 20200421204426/4_UserProfileActivity.tag=TextView.depth=23.id=name.text=股民的日常.clicked.png
+2020-04-21 20:45:28 INFO [AppiumClient.161.mark] ImageIO.write newImageName 20200421204426/5_TopicWordActivity.tag=TextView.depth=21.id=userName.text=粹语.click.png
+2020-04-21 20:45:28 INFO [Crawler.1095.$anonfun$doElementAction$5] click element
+2020-04-21 20:45:28 INFO [AppiumClient.174.click] [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, appium=http://127.0.0.1:4723/wd/hub, databaseEnabled=false, desired={platformName=android, appium=http://127.0.0.1:4723/wd/hub, app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, deviceName=demo, fullReset=false, noReset=true}, deviceApiLevel=23, deviceManufacturer=Netease, deviceModel=MuMu, deviceName=127.0.0.1:7555, deviceScreenDensity=240, deviceScreenSize=720x1280, deviceUDID=127.0.0.1:7555, fullReset=false, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, noReset=true, pixelRatio=1.5, platform=LINUX, platformName=Android, platformVersion=6.0.1, statBarHeight=36, takesScreenshot=true, viewportRect={left=0, top=36, width=720, height=1244}, warnings={}, webStorageEnabled=false}] -> -android uiautomator: new UiSelector().className("android.widget.TextView").text("粹语").resourceId("com.xueqiu.android:id/userName")]
+2020-04-21 20:45:30 INFO [Crawler.1126.doElementAction] mark image exist
+2020-04-21 20:45:30 INFO [Crawler.1130.doElementAction] sleep 500 for loading
+2020-04-21 20:45:30 INFO [Crawler.627.refreshPage] refresh page
+2020-04-21 20:45:30 INFO [AppiumClient.102.getPageSourceWithRetry] start to get page source from appium
+2020-04-21 20:45:31 INFO [AppiumClient.117.$anonfun$getPageSourceWithRetry$1] xml format 
+2020-04-21 20:45:31 INFO [Crawler.645.parsePageContext] appName = 
+2020-04-21 20:45:31 INFO [Crawler.649.parsePageContext] url=UserProfileActivity
+2020-04-21 20:45:31 INFO [Crawler.673.parsePageContext] currentContentHash=6f14b3fafc9981d81ccac12744abf6a4 lastContentHash=480d28b20aa826f128d60fcefcd747c5
+2020-04-21 20:45:31 INFO [Crawler.675.parsePageContext] ui change
+2020-04-21 20:45:31 INFO [Crawler.931.saveDom] save to 20200421204426/5_TopicWordActivity.tag=TextView.depth=21.id=userName.text=粹语.dom
+2020-04-21 20:45:31 INFO [Crawler.953.saveScreen] start screenshot
+2020-04-21 20:45:31 INFO [Crawler.956.$anonfun$saveScreen$2] ui change screenshot again
+2020-04-21 20:45:32 INFO [Crawler.977.saveScreen] screenshot success
+2020-04-21 20:45:32 INFO [Crawler.709.afterElementAction] backRetry=0
+2020-04-21 20:45:32 INFO [Crawler.712.afterElementAction] afterElementAction eval
+2020-04-21 20:45:32 INFO [ReportPlugin.36.afterElementAction] clickedElementsList size = 6
+2020-04-21 20:45:32 INFO [Crawler.772.crawl] 
+
+crawl next
+2020-04-21 20:45:32 INFO [Crawler.425.needReturn] urlStack=Stack(UserProfileActivity, MainActivity) baseUrl=List() maxDepth=10
+2020-04-21 20:45:32 INFO [Crawler.834.crawl] no need to back
+2020-04-21 20:45:32 INFO [Crawler.487.getAvailableElement] selected nodes size = 27
+2020-04-21 20:45:32 INFO [Crawler.499.getAvailableElement] all - black elements size = 20
+2020-04-21 20:45:33 INFO [Crawler.528.getAvailableElement] all - first - last elements size = 20
+2020-04-21 20:45:33 INFO [Crawler.590.getAvailableElement] all - backButton size=20
+2020-04-21 20:45:33 INFO [Crawler.598.getAvailableElement] all - clicked size=20
+2020-04-21 20:45:33 INFO [Crawler.605.getAvailableElement] all - skiped fresh elements size=20
+2020-04-21 20:45:33 INFO [Crawler.843.crawl] found UserProfileActivity.tag=TextView.depth=23.id=userName.text=粹语 by first available element
+2020-04-21 20:45:33 INFO [Crawler.728.setElementAction] set action to click
+2020-04-21 20:45:33 INFO [Crawler.996.doElementAction] current element = UserProfileActivity.tag=TextView.depth=23.id=userName.text=粹语
+2020-04-21 20:45:33 INFO [Crawler.997.doElementAction] current index = 6
+2020-04-21 20:45:33 INFO [Crawler.998.doElementAction] current action = click
+2020-04-21 20:45:33 INFO [Crawler.999.doElementAction] current xpath = //*[@resource-id="com.xueqiu.android:id/decor_content_parent"]//*[@resource-id="android:id/content"]//*[@resource-id="com.xueqiu.android:id/refresh_layout"]//*[@resource-id="com.xueqiu.android:id/indicator_ll"]//*[@resource-id="com.xueqiu.android:id/view_pager"]//*[@resource-id="com.xueqiu.android:id/refresh_layout"]//*[@resource-id="com.xueqiu.android:id/list_view"]//*[@resource-id="com.xueqiu.android:id/status_card_header_id"]//*[@resource-id="com.xueqiu.android:id/name_layout"]//*[@text="粹语" and @resource-id="com.xueqiu.android:id/userName"]
+2020-04-21 20:45:33 INFO [Crawler.1000.doElementAction] current url = UserProfileActivity
+2020-04-21 20:45:33 INFO [Crawler.1001.doElementAction] current tag path = hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView
+2020-04-21 20:45:33 INFO [Crawler.1002.doElementAction] current file name = UserProfileActivity.tag=TextView.depth=23.id=userName.text=粹语
+2020-04-21 20:45:33 INFO [Crawler.1071.doElementAction] need input click
+2020-04-21 20:45:33 INFO [AppiumClient.53.findElementByURI] find by uri element= UserProfileActivity.tag=TextView.depth=23.id=userName.text=粹语
+2020-04-21 20:45:33 INFO [AppiumClient.245.findElementsByURI] findElementByAndroidUIAutomator new UiSelector().className("android.widget.TextView").text("粹语").resourceId("com.xueqiu.android:id/userName")
+2020-04-21 20:45:33 INFO [AppiumClient.60.findElementByURI] find by xpath success
+2020-04-21 20:45:33 INFO [Crawler.1080.doElementAction] mark 20200421204426/5_TopicWordActivity.tag=TextView.depth=21.id=userName.text=粹语.clicked.png to 20200421204426/6_UserProfileActivity.tag=TextView.depth=23.id=userName.text=粹语.click.png
+2020-04-21 20:45:33 INFO [AppiumClient.141.mark] read from 20200421204426/5_TopicWordActivity.tag=TextView.depth=21.id=userName.text=粹语.clicked.png
+2020-04-21 20:45:33 INFO [AppiumClient.154.mark] write png 20200421204426/5_TopicWordActivity.tag=TextView.depth=21.id=userName.text=粹语.clicked.png
+2020-04-21 20:45:33 INFO [AppiumClient.161.mark] ImageIO.write newImageName 20200421204426/6_UserProfileActivity.tag=TextView.depth=23.id=userName.text=粹语.click.png
+2020-04-21 20:45:34 INFO [Crawler.1095.$anonfun$doElementAction$5] click element
+2020-04-21 20:45:34 INFO [AppiumClient.174.click] [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, appium=http://127.0.0.1:4723/wd/hub, databaseEnabled=false, desired={platformName=android, appium=http://127.0.0.1:4723/wd/hub, app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, deviceName=demo, fullReset=false, noReset=true}, deviceApiLevel=23, deviceManufacturer=Netease, deviceModel=MuMu, deviceName=127.0.0.1:7555, deviceScreenDensity=240, deviceScreenSize=720x1280, deviceUDID=127.0.0.1:7555, fullReset=false, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, noReset=true, pixelRatio=1.5, platform=LINUX, platformName=Android, platformVersion=6.0.1, statBarHeight=36, takesScreenshot=true, viewportRect={left=0, top=36, width=720, height=1244}, warnings={}, webStorageEnabled=false}] -> -android uiautomator: new UiSelector().className("android.widget.TextView").text("粹语").resourceId("com.xueqiu.android:id/userName")]
+2020-04-21 20:45:35 INFO [Crawler.1126.doElementAction] mark image exist
+2020-04-21 20:45:35 INFO [Crawler.1130.doElementAction] sleep 500 for loading
+2020-04-21 20:45:36 INFO [Crawler.627.refreshPage] refresh page
+2020-04-21 20:45:36 INFO [AppiumClient.102.getPageSourceWithRetry] start to get page source from appium
+2020-04-21 20:45:36 INFO [AppiumClient.117.$anonfun$getPageSourceWithRetry$1] xml format 
+2020-04-21 20:45:36 INFO [Crawler.645.parsePageContext] appName = 
+2020-04-21 20:45:36 INFO [Crawler.649.parsePageContext] url=UserProfileActivity
+2020-04-21 20:45:37 INFO [Crawler.673.parsePageContext] currentContentHash=0ea02db9b9448a29c70bb08d9f01b7e1 lastContentHash=6f14b3fafc9981d81ccac12744abf6a4
+2020-04-21 20:45:37 INFO [Crawler.675.parsePageContext] ui change
+2020-04-21 20:45:37 INFO [Crawler.931.saveDom] save to 20200421204426/6_UserProfileActivity.tag=TextView.depth=23.id=userName.text=粹语.dom
+2020-04-21 20:45:37 INFO [Crawler.953.saveScreen] start screenshot
+2020-04-21 20:45:37 INFO [Crawler.956.$anonfun$saveScreen$2] ui change screenshot again
+2020-04-21 20:45:37 INFO [Crawler.977.saveScreen] screenshot success
+2020-04-21 20:45:37 INFO [Crawler.709.afterElementAction] backRetry=0
+2020-04-21 20:45:37 INFO [Crawler.712.afterElementAction] afterElementAction eval
+2020-04-21 20:45:37 INFO [TagLimitPlugin.54.afterElementAction] tagLimit[UserProfileActivityhierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView]=0
+2020-04-21 20:45:37 INFO [ReportPlugin.36.afterElementAction] clickedElementsList size = 7
+2020-04-21 20:45:37 INFO [Crawler.772.crawl] 
+
+crawl next
+2020-04-21 20:45:38 INFO [Crawler.425.needReturn] urlStack=Stack(UserProfileActivity, MainActivity) baseUrl=List() maxDepth=10
+2020-04-21 20:45:38 INFO [Crawler.834.crawl] no need to back
+2020-04-21 20:45:38 INFO [Crawler.487.getAvailableElement] selected nodes size = 27
+2020-04-21 20:45:38 INFO [Crawler.499.getAvailableElement] all - black elements size = 20
+2020-04-21 20:45:38 INFO [Crawler.528.getAvailableElement] all - first - last elements size = 20
+2020-04-21 20:45:38 INFO [Crawler.590.getAvailableElement] all - backButton size=20
+2020-04-21 20:45:38 INFO [Crawler.598.getAvailableElement] all - clicked size=19
+2020-04-21 20:45:38 INFO [Crawler.605.getAvailableElement] all - skiped fresh elements size=19
+2020-04-21 20:45:38 INFO [Crawler.843.crawl] found UserProfileActivity.tag=ImageView.depth=23.id=profileImage by first available element
+2020-04-21 20:45:38 INFO [Crawler.728.setElementAction] set action to click
+2020-04-21 20:45:39 INFO [Crawler.996.doElementAction] current element = UserProfileActivity.tag=ImageView.depth=23.id=profileImage
+2020-04-21 20:45:39 INFO [Crawler.997.doElementAction] current index = 7
+2020-04-21 20:45:39 INFO [Crawler.998.doElementAction] current action = click
+2020-04-21 20:45:39 INFO [Crawler.999.doElementAction] current xpath = //*[@resource-id="com.xueqiu.android:id/decor_content_parent"]//*[@resource-id="android:id/content"]//*[@resource-id="com.xueqiu.android:id/refresh_layout"]//*[@resource-id="com.xueqiu.android:id/indicator_ll"]//*[@resource-id="com.xueqiu.android:id/view_pager"]//*[@resource-id="com.xueqiu.android:id/refresh_layout"]//*[@resource-id="com.xueqiu.android:id/list_view"]//*[@resource-id="com.xueqiu.android:id/status_card_header_id"]//*[@resource-id="com.xueqiu.android:id/profileImage"]//*[@resource-id="com.xueqiu.android:id/profileImage"]
+2020-04-21 20:45:39 INFO [Crawler.1000.doElementAction] current url = UserProfileActivity
+2020-04-21 20:45:39 INFO [Crawler.1001.doElementAction] current tag path = hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.ImageView
+2020-04-21 20:45:39 INFO [Crawler.1002.doElementAction] current file name = UserProfileActivity.tag=ImageView.depth=23.id=profileImage
+2020-04-21 20:45:39 INFO [Crawler.1071.doElementAction] need input click
+2020-04-21 20:45:39 INFO [AppiumClient.53.findElementByURI] find by uri element= UserProfileActivity.tag=ImageView.depth=23.id=profileImage
+2020-04-21 20:45:39 INFO [AppiumClient.245.findElementsByURI] findElementByAndroidUIAutomator new UiSelector().className("android.widget.ImageView").resourceId("com.xueqiu.android:id/profileImage")
+2020-04-21 20:45:39 INFO [AppiumClient.60.findElementByURI] find by xpath success
+2020-04-21 20:45:39 INFO [Crawler.1080.doElementAction] mark 20200421204426/6_UserProfileActivity.tag=TextView.depth=23.id=userName.text=粹语.clicked.png to 20200421204426/7_UserProfileActivity.tag=ImageView.depth=23.id=profileImage.click.png
+2020-04-21 20:45:39 INFO [AppiumClient.141.mark] read from 20200421204426/6_UserProfileActivity.tag=TextView.depth=23.id=userName.text=粹语.clicked.png
+2020-04-21 20:45:39 INFO [AppiumClient.154.mark] write png 20200421204426/6_UserProfileActivity.tag=TextView.depth=23.id=userName.text=粹语.clicked.png
+2020-04-21 20:45:39 INFO [AppiumClient.161.mark] ImageIO.write newImageName 20200421204426/7_UserProfileActivity.tag=ImageView.depth=23.id=profileImage.click.png
+2020-04-21 20:45:40 INFO [Crawler.1095.$anonfun$doElementAction$5] click element
+2020-04-21 20:45:40 INFO [AppiumClient.174.click] [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, appium=http://127.0.0.1:4723/wd/hub, databaseEnabled=false, desired={platformName=android, appium=http://127.0.0.1:4723/wd/hub, app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, deviceName=demo, fullReset=false, noReset=true}, deviceApiLevel=23, deviceManufacturer=Netease, deviceModel=MuMu, deviceName=127.0.0.1:7555, deviceScreenDensity=240, deviceScreenSize=720x1280, deviceUDID=127.0.0.1:7555, fullReset=false, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, noReset=true, pixelRatio=1.5, platform=LINUX, platformName=Android, platformVersion=6.0.1, statBarHeight=36, takesScreenshot=true, viewportRect={left=0, top=36, width=720, height=1244}, warnings={}, webStorageEnabled=false}] -> -android uiautomator: new UiSelector().className("android.widget.ImageView").resourceId("com.xueqiu.android:id/profileImage")]
+2020-04-21 20:45:41 INFO [Crawler.1126.doElementAction] mark image exist
+2020-04-21 20:45:41 INFO [Crawler.1130.doElementAction] sleep 500 for loading
+2020-04-21 20:45:41 INFO [Crawler.627.refreshPage] refresh page
+2020-04-21 20:45:41 INFO [AppiumClient.102.getPageSourceWithRetry] start to get page source from appium
+2020-04-21 20:45:42 INFO [AppiumClient.117.$anonfun$getPageSourceWithRetry$1] xml format 
+2020-04-21 20:45:42 INFO [Crawler.645.parsePageContext] appName = 
+2020-04-21 20:45:42 INFO [Crawler.649.parsePageContext] url=UserProfileActivity
+2020-04-21 20:45:43 INFO [Crawler.673.parsePageContext] currentContentHash=fefc75b6a206a38fa7b7e4df1383dc1e lastContentHash=0ea02db9b9448a29c70bb08d9f01b7e1
+2020-04-21 20:45:43 INFO [Crawler.675.parsePageContext] ui change
+2020-04-21 20:45:43 INFO [Crawler.931.saveDom] save to 20200421204426/7_UserProfileActivity.tag=ImageView.depth=23.id=profileImage.dom
+2020-04-21 20:45:43 INFO [Crawler.953.saveScreen] start screenshot
+2020-04-21 20:45:43 INFO [Crawler.956.$anonfun$saveScreen$2] ui change screenshot again
+2020-04-21 20:45:43 INFO [Crawler.977.saveScreen] screenshot success
+2020-04-21 20:45:43 INFO [Crawler.709.afterElementAction] backRetry=0
+2020-04-21 20:45:43 INFO [Crawler.712.afterElementAction] afterElementAction eval
+2020-04-21 20:45:43 INFO [TagLimitPlugin.54.afterElementAction] tagLimit[UserProfileActivityhierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.ImageView]=1
+2020-04-21 20:45:43 INFO [ReportPlugin.36.afterElementAction] clickedElementsList size = 8
+2020-04-21 20:45:43 INFO [Crawler.772.crawl] 
+
+crawl next
+2020-04-21 20:45:44 INFO [Crawler.425.needReturn] urlStack=Stack(UserProfileActivity, MainActivity) baseUrl=List() maxDepth=10
+2020-04-21 20:45:44 INFO [Crawler.834.crawl] no need to back
+2020-04-21 20:45:44 INFO [Crawler.487.getAvailableElement] selected nodes size = 27
+2020-04-21 20:45:44 INFO [Crawler.499.getAvailableElement] all - black elements size = 20
+2020-04-21 20:45:44 INFO [Crawler.528.getAvailableElement] all - first - last elements size = 20
+2020-04-21 20:45:44 INFO [Crawler.590.getAvailableElement] all - backButton size=20
+2020-04-21 20:45:44 INFO [Crawler.598.getAvailableElement] all - clicked size=18
+2020-04-21 20:45:44 INFO [Crawler.605.getAvailableElement] all - skiped fresh elements size=18
+2020-04-21 20:45:44 INFO [Crawler.843.crawl] found UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=1 by first available element
+2020-04-21 20:45:44 INFO [Crawler.728.setElementAction] set action to click
+2020-04-21 20:45:44 INFO [Crawler.996.doElementAction] current element = UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=1
+2020-04-21 20:45:44 INFO [Crawler.997.doElementAction] current index = 8
+2020-04-21 20:45:44 INFO [Crawler.998.doElementAction] current action = click
+2020-04-21 20:45:44 INFO [Crawler.999.doElementAction] current xpath = //*[@resource-id="com.xueqiu.android:id/decor_content_parent"]//*[@resource-id="android:id/content"]//*[@resource-id="com.xueqiu.android:id/refresh_layout"]//*[@resource-id="com.xueqiu.android:id/indicator_ll"]//*[@resource-id="com.xueqiu.android:id/view_pager"]//*[@resource-id="com.xueqiu.android:id/refresh_layout"]//*[@resource-id="com.xueqiu.android:id/list_view"]//*[@resource-id="com.xueqiu.android:id/status_card_foot_id"]//*[@resource-id="com.xueqiu.android:id/normal_answer_layout"]//*[@resource-id="com.xueqiu.android:id/reward_count_view"]//*[@text="1" and @resource-id="com.xueqiu.android:id/reward_snowcoin"]
+2020-04-21 20:45:44 INFO [Crawler.1000.doElementAction] current url = UserProfileActivity
+2020-04-21 20:45:44 INFO [Crawler.1001.doElementAction] current tag path = hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView
+2020-04-21 20:45:44 INFO [Crawler.1002.doElementAction] current file name = UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=1
+2020-04-21 20:45:44 INFO [Crawler.1071.doElementAction] need input click
+2020-04-21 20:45:44 INFO [AppiumClient.53.findElementByURI] find by uri element= UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=1
+2020-04-21 20:45:44 INFO [AppiumClient.245.findElementsByURI] findElementByAndroidUIAutomator new UiSelector().className("android.widget.TextView").text("1").resourceId("com.xueqiu.android:id/reward_snowcoin")
+2020-04-21 20:45:45 INFO [AppiumClient.60.findElementByURI] find by xpath success
+2020-04-21 20:45:45 INFO [Crawler.1080.doElementAction] mark 20200421204426/7_UserProfileActivity.tag=ImageView.depth=23.id=profileImage.clicked.png to 20200421204426/8_UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=1.click.png
+2020-04-21 20:45:45 INFO [AppiumClient.141.mark] read from 20200421204426/7_UserProfileActivity.tag=ImageView.depth=23.id=profileImage.clicked.png
+2020-04-21 20:45:45 INFO [AppiumClient.154.mark] write png 20200421204426/7_UserProfileActivity.tag=ImageView.depth=23.id=profileImage.clicked.png
+2020-04-21 20:45:45 INFO [AppiumClient.161.mark] ImageIO.write newImageName 20200421204426/8_UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=1.click.png
+2020-04-21 20:45:45 INFO [Crawler.1095.$anonfun$doElementAction$5] click element
+2020-04-21 20:45:45 INFO [AppiumClient.174.click] [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, appium=http://127.0.0.1:4723/wd/hub, databaseEnabled=false, desired={platformName=android, appium=http://127.0.0.1:4723/wd/hub, app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, deviceName=demo, fullReset=false, noReset=true}, deviceApiLevel=23, deviceManufacturer=Netease, deviceModel=MuMu, deviceName=127.0.0.1:7555, deviceScreenDensity=240, deviceScreenSize=720x1280, deviceUDID=127.0.0.1:7555, fullReset=false, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, noReset=true, pixelRatio=1.5, platform=LINUX, platformName=Android, platformVersion=6.0.1, statBarHeight=36, takesScreenshot=true, viewportRect={left=0, top=36, width=720, height=1244}, warnings={}, webStorageEnabled=false}] -> -android uiautomator: new UiSelector().className("android.widget.TextView").text("1").resourceId("com.xueqiu.android:id/reward_snowcoin")]
+2020-04-21 20:45:46 INFO [Crawler.1126.doElementAction] mark image exist
+2020-04-21 20:45:46 INFO [Crawler.1130.doElementAction] sleep 500 for loading
+2020-04-21 20:45:47 INFO [Crawler.627.refreshPage] refresh page
+2020-04-21 20:45:47 INFO [AppiumClient.102.getPageSourceWithRetry] start to get page source from appium
+2020-04-21 20:45:48 INFO [AppiumClient.117.$anonfun$getPageSourceWithRetry$1] xml format 
+2020-04-21 20:45:48 INFO [Crawler.645.parsePageContext] appName = 
+2020-04-21 20:45:48 INFO [Crawler.649.parsePageContext] url=UserProfileActivity
+2020-04-21 20:45:48 INFO [Crawler.673.parsePageContext] currentContentHash=069ce75925a56bd237c4966e1e536a1b lastContentHash=fefc75b6a206a38fa7b7e4df1383dc1e
+2020-04-21 20:45:48 INFO [Crawler.675.parsePageContext] ui change
+2020-04-21 20:45:48 INFO [Crawler.931.saveDom] save to 20200421204426/8_UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=1.dom
+2020-04-21 20:45:48 INFO [Crawler.953.saveScreen] start screenshot
+2020-04-21 20:45:48 INFO [Crawler.956.$anonfun$saveScreen$2] ui change screenshot again
+2020-04-21 20:45:49 INFO [Crawler.977.saveScreen] screenshot success
+2020-04-21 20:45:49 INFO [Crawler.709.afterElementAction] backRetry=0
+2020-04-21 20:45:49 INFO [Crawler.712.afterElementAction] afterElementAction eval
+2020-04-21 20:45:49 INFO [TagLimitPlugin.54.afterElementAction] tagLimit[UserProfileActivityhierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView]=1
+2020-04-21 20:45:49 INFO [ReportPlugin.36.afterElementAction] clickedElementsList size = 9
+2020-04-21 20:45:49 INFO [Crawler.772.crawl] 
+
+crawl next
+2020-04-21 20:45:49 INFO [Crawler.425.needReturn] urlStack=Stack(UserProfileActivity, MainActivity) baseUrl=List() maxDepth=10
+2020-04-21 20:45:49 INFO [Crawler.834.crawl] no need to back
+2020-04-21 20:45:49 INFO [Crawler.487.getAvailableElement] selected nodes size = 27
+2020-04-21 20:45:49 INFO [Crawler.499.getAvailableElement] all - black elements size = 20
+2020-04-21 20:45:49 INFO [Crawler.528.getAvailableElement] all - first - last elements size = 20
+2020-04-21 20:45:49 INFO [Crawler.590.getAvailableElement] all - backButton size=20
+2020-04-21 20:45:49 INFO [Crawler.598.getAvailableElement] all - clicked size=18
+2020-04-21 20:45:49 INFO [Crawler.605.getAvailableElement] all - skiped fresh elements size=18
+2020-04-21 20:45:49 INFO [Crawler.843.crawl] found UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=2 by first available element
+2020-04-21 20:45:49 INFO [Crawler.728.setElementAction] set action to click
+2020-04-21 20:45:49 INFO [Crawler.996.doElementAction] current element = UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=2
+2020-04-21 20:45:49 INFO [Crawler.997.doElementAction] current index = 9
+2020-04-21 20:45:49 INFO [Crawler.998.doElementAction] current action = click
+2020-04-21 20:45:49 INFO [Crawler.999.doElementAction] current xpath = //*[@resource-id="com.xueqiu.android:id/decor_content_parent"]//*[@resource-id="android:id/content"]//*[@resource-id="com.xueqiu.android:id/refresh_layout"]//*[@resource-id="com.xueqiu.android:id/indicator_ll"]//*[@resource-id="com.xueqiu.android:id/view_pager"]//*[@resource-id="com.xueqiu.android:id/refresh_layout"]//*[@resource-id="com.xueqiu.android:id/list_view"]//*[@resource-id="com.xueqiu.android:id/status_card_foot_id"]//*[@resource-id="com.xueqiu.android:id/normal_answer_layout"]//*[@resource-id="com.xueqiu.android:id/reward_count_view"]//*[@text="2" and @resource-id="com.xueqiu.android:id/reward_snowcoin"]
+2020-04-21 20:45:49 INFO [Crawler.1000.doElementAction] current url = UserProfileActivity
+2020-04-21 20:45:49 INFO [Crawler.1001.doElementAction] current tag path = hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView
+2020-04-21 20:45:49 INFO [Crawler.1002.doElementAction] current file name = UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=2
+2020-04-21 20:45:49 INFO [Crawler.1071.doElementAction] need input click
+2020-04-21 20:45:49 INFO [AppiumClient.53.findElementByURI] find by uri element= UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=2
+2020-04-21 20:45:49 INFO [AppiumClient.245.findElementsByURI] findElementByAndroidUIAutomator new UiSelector().className("android.widget.TextView").text("2").resourceId("com.xueqiu.android:id/reward_snowcoin")
+2020-04-21 20:45:50 INFO [AppiumClient.60.findElementByURI] find by xpath success
+2020-04-21 20:45:50 INFO [Crawler.1080.doElementAction] mark 20200421204426/8_UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=1.clicked.png to 20200421204426/9_UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=2.click.png
+2020-04-21 20:45:50 INFO [AppiumClient.141.mark] read from 20200421204426/8_UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=1.clicked.png
+2020-04-21 20:45:50 INFO [AppiumClient.154.mark] write png 20200421204426/8_UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=1.clicked.png
+2020-04-21 20:45:50 INFO [AppiumClient.161.mark] ImageIO.write newImageName 20200421204426/9_UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=2.click.png
+2020-04-21 20:45:50 INFO [Crawler.1095.$anonfun$doElementAction$5] click element
+2020-04-21 20:45:50 INFO [AppiumClient.174.click] [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, appium=http://127.0.0.1:4723/wd/hub, databaseEnabled=false, desired={platformName=android, appium=http://127.0.0.1:4723/wd/hub, app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, deviceName=demo, fullReset=false, noReset=true}, deviceApiLevel=23, deviceManufacturer=Netease, deviceModel=MuMu, deviceName=127.0.0.1:7555, deviceScreenDensity=240, deviceScreenSize=720x1280, deviceUDID=127.0.0.1:7555, fullReset=false, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, noReset=true, pixelRatio=1.5, platform=LINUX, platformName=Android, platformVersion=6.0.1, statBarHeight=36, takesScreenshot=true, viewportRect={left=0, top=36, width=720, height=1244}, warnings={}, webStorageEnabled=false}] -> -android uiautomator: new UiSelector().className("android.widget.TextView").text("2").resourceId("com.xueqiu.android:id/reward_snowcoin")]
+2020-04-21 20:45:51 INFO [Crawler.1126.doElementAction] mark image exist
+2020-04-21 20:45:51 INFO [Crawler.1130.doElementAction] sleep 500 for loading
+2020-04-21 20:45:51 INFO [Crawler.627.refreshPage] refresh page
+2020-04-21 20:45:51 INFO [AppiumClient.102.getPageSourceWithRetry] start to get page source from appium
+2020-04-21 20:45:52 INFO [AppiumClient.117.$anonfun$getPageSourceWithRetry$1] xml format 
+2020-04-21 20:45:52 INFO [Crawler.645.parsePageContext] appName = 
+2020-04-21 20:45:52 INFO [Crawler.649.parsePageContext] url=UserProfileActivity
+2020-04-21 20:45:52 INFO [Crawler.673.parsePageContext] currentContentHash=fefc75b6a206a38fa7b7e4df1383dc1e lastContentHash=069ce75925a56bd237c4966e1e536a1b
+2020-04-21 20:45:52 INFO [Crawler.675.parsePageContext] ui change
+2020-04-21 20:45:52 INFO [Crawler.931.saveDom] save to 20200421204426/9_UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=2.dom
+2020-04-21 20:45:52 INFO [Crawler.953.saveScreen] start screenshot
+2020-04-21 20:45:52 INFO [Crawler.956.$anonfun$saveScreen$2] ui change screenshot again
+2020-04-21 20:45:53 INFO [Crawler.977.saveScreen] screenshot success
+2020-04-21 20:45:53 INFO [Crawler.709.afterElementAction] backRetry=0
+2020-04-21 20:45:53 INFO [Crawler.712.afterElementAction] afterElementAction eval
+2020-04-21 20:45:53 INFO [TagLimitPlugin.54.afterElementAction] tagLimit[UserProfileActivityhierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView]=0
+2020-04-21 20:45:53 INFO [ReportPlugin.36.afterElementAction] clickedElementsList size = 10
+2020-04-21 20:45:53 INFO [Crawler.772.crawl] 
+
+crawl next
+2020-04-21 20:45:53 INFO [Crawler.425.needReturn] urlStack=Stack(UserProfileActivity, MainActivity) baseUrl=List() maxDepth=10
+2020-04-21 20:45:53 INFO [Crawler.834.crawl] no need to back
+2020-04-21 20:45:53 INFO [Crawler.487.getAvailableElement] selected nodes size = 27
+2020-04-21 20:45:53 INFO [Crawler.499.getAvailableElement] all - black elements size = 20
+2020-04-21 20:45:54 INFO [Crawler.528.getAvailableElement] all - first - last elements size = 20
+2020-04-21 20:45:54 INFO [Crawler.590.getAvailableElement] all - backButton size=20
+2020-04-21 20:45:54 INFO [Crawler.598.getAvailableElement] all - clicked size=17
+2020-04-21 20:45:54 INFO [Crawler.605.getAvailableElement] all - skiped fresh elements size=17
+2020-04-21 20:45:54 INFO [Crawler.843.crawl] found UserProfileActivity.tag=ImageView.depth=22.id=more_action_button by first available element
+2020-04-21 20:45:54 INFO [Crawler.728.setElementAction] set action to click
+2020-04-21 20:45:54 INFO [Crawler.996.doElementAction] current element = UserProfileActivity.tag=ImageView.depth=22.id=more_action_button
+2020-04-21 20:45:54 INFO [Crawler.997.doElementAction] current index = 10
+2020-04-21 20:45:54 INFO [Crawler.998.doElementAction] current action = click
+2020-04-21 20:45:54 INFO [Crawler.999.doElementAction] current xpath = //*[@resource-id="com.xueqiu.android:id/decor_content_parent"]//*[@resource-id="android:id/content"]//*[@resource-id="com.xueqiu.android:id/refresh_layout"]//*[@resource-id="com.xueqiu.android:id/indicator_ll"]//*[@resource-id="com.xueqiu.android:id/view_pager"]//*[@resource-id="com.xueqiu.android:id/refresh_layout"]//*[@resource-id="com.xueqiu.android:id/list_view"]//*[@resource-id="com.xueqiu.android:id/status_card_foot_id"]//*[@resource-id="com.xueqiu.android:id/normal_answer_layout"]//*[@resource-id="com.xueqiu.android:id/more_action_button"]
+2020-04-21 20:45:54 INFO [Crawler.1000.doElementAction] current url = UserProfileActivity
+2020-04-21 20:45:54 INFO [Crawler.1001.doElementAction] current tag path = hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ImageView
+2020-04-21 20:45:54 INFO [Crawler.1002.doElementAction] current file name = UserProfileActivity.tag=ImageView.depth=22.id=more_action_button
+2020-04-21 20:45:54 INFO [Crawler.1071.doElementAction] need input click
+2020-04-21 20:45:54 INFO [AppiumClient.53.findElementByURI] find by uri element= UserProfileActivity.tag=ImageView.depth=22.id=more_action_button
+2020-04-21 20:45:54 INFO [AppiumClient.245.findElementsByURI] findElementByAndroidUIAutomator new UiSelector().className("android.widget.ImageView").resourceId("com.xueqiu.android:id/more_action_button")
+2020-04-21 20:45:54 INFO [AppiumClient.60.findElementByURI] find by xpath success
+2020-04-21 20:45:54 INFO [Crawler.1080.doElementAction] mark 20200421204426/9_UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=2.clicked.png to 20200421204426/10_UserProfileActivity.tag=ImageView.depth=22.id=more_action_button.click.png
+2020-04-21 20:45:54 INFO [AppiumClient.141.mark] read from 20200421204426/9_UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=2.clicked.png
+2020-04-21 20:45:55 INFO [AppiumClient.154.mark] write png 20200421204426/9_UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=2.clicked.png
+2020-04-21 20:45:55 INFO [AppiumClient.161.mark] ImageIO.write newImageName 20200421204426/10_UserProfileActivity.tag=ImageView.depth=22.id=more_action_button.click.png
+2020-04-21 20:45:55 INFO [Crawler.1095.$anonfun$doElementAction$5] click element
+2020-04-21 20:45:55 INFO [AppiumClient.174.click] [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, appium=http://127.0.0.1:4723/wd/hub, databaseEnabled=false, desired={platformName=android, appium=http://127.0.0.1:4723/wd/hub, app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, deviceName=demo, fullReset=false, noReset=true}, deviceApiLevel=23, deviceManufacturer=Netease, deviceModel=MuMu, deviceName=127.0.0.1:7555, deviceScreenDensity=240, deviceScreenSize=720x1280, deviceUDID=127.0.0.1:7555, fullReset=false, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, noReset=true, pixelRatio=1.5, platform=LINUX, platformName=Android, platformVersion=6.0.1, statBarHeight=36, takesScreenshot=true, viewportRect={left=0, top=36, width=720, height=1244}, warnings={}, webStorageEnabled=false}] -> -android uiautomator: new UiSelector().className("android.widget.ImageView").resourceId("com.xueqiu.android:id/more_action_button")]
+2020-04-21 20:45:56 INFO [Crawler.1126.doElementAction] mark image exist
+2020-04-21 20:45:56 INFO [Crawler.1130.doElementAction] sleep 500 for loading
+2020-04-21 20:45:57 INFO [Crawler.627.refreshPage] refresh page
+2020-04-21 20:45:57 INFO [AppiumClient.102.getPageSourceWithRetry] start to get page source from appium
+2020-04-21 20:45:57 INFO [AppiumClient.117.$anonfun$getPageSourceWithRetry$1] xml format 
+2020-04-21 20:45:57 INFO [Crawler.645.parsePageContext] appName = 
+2020-04-21 20:45:57 INFO [Crawler.649.parsePageContext] url=UserProfileActivity
+2020-04-21 20:45:57 INFO [Crawler.673.parsePageContext] currentContentHash=e23f55eb3b6df509780851b686026d26 lastContentHash=fefc75b6a206a38fa7b7e4df1383dc1e
+2020-04-21 20:45:57 INFO [Crawler.675.parsePageContext] ui change
+2020-04-21 20:45:57 INFO [Crawler.931.saveDom] save to 20200421204426/10_UserProfileActivity.tag=ImageView.depth=22.id=more_action_button.dom
+2020-04-21 20:45:57 INFO [Crawler.953.saveScreen] start screenshot
+2020-04-21 20:45:57 INFO [Crawler.956.$anonfun$saveScreen$2] ui change screenshot again
+2020-04-21 20:45:58 INFO [Crawler.977.saveScreen] screenshot success
+2020-04-21 20:45:58 INFO [Crawler.709.afterElementAction] backRetry=0
+2020-04-21 20:45:58 INFO [Crawler.712.afterElementAction] afterElementAction eval
+2020-04-21 20:45:58 INFO [TagLimitPlugin.54.afterElementAction] tagLimit[UserProfileActivityhierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ImageView]=1
+2020-04-21 20:45:58 INFO [ReportPlugin.36.afterElementAction] clickedElementsList size = 11
+2020-04-21 20:45:58 INFO [Crawler.772.crawl] 
+
+crawl next
+2020-04-21 20:45:58 INFO [Crawler.425.needReturn] urlStack=Stack(UserProfileActivity, MainActivity) baseUrl=List() maxDepth=10
+2020-04-21 20:45:58 INFO [Crawler.834.crawl] no need to back
+2020-04-21 20:45:58 INFO [Crawler.487.getAvailableElement] selected nodes size = 14
+2020-04-21 20:45:58 INFO [Crawler.499.getAvailableElement] all - black elements size = 14
+2020-04-21 20:45:58 INFO [Crawler.528.getAvailableElement] all - first - last elements size = 14
+2020-04-21 20:45:58 INFO [Crawler.590.getAvailableElement] all - backButton size=14
+2020-04-21 20:45:58 INFO [Crawler.598.getAvailableElement] all - clicked size=14
+2020-04-21 20:45:58 INFO [Crawler.605.getAvailableElement] all - skiped fresh elements size=14
+2020-04-21 20:45:58 INFO [Crawler.843.crawl] found UserProfileActivity.tag=TextView.depth=14.text=收藏 by first available element
+2020-04-21 20:45:58 INFO [Crawler.728.setElementAction] set action to click
+2020-04-21 20:45:58 INFO [Crawler.996.doElementAction] current element = UserProfileActivity.tag=TextView.depth=14.text=收藏
+2020-04-21 20:45:58 INFO [Crawler.997.doElementAction] current index = 11
+2020-04-21 20:45:58 INFO [Crawler.998.doElementAction] current action = click
+2020-04-21 20:45:58 INFO [Crawler.999.doElementAction] current xpath = //*[@resource-id="com.xueqiu.android:id/action_bar_root"]//*[@resource-id="android:id/content"]//*[@resource-id="com.xueqiu.android:id/container"]//*[@resource-id="com.xueqiu.android:id/coordinator"]//*[@resource-id="com.xueqiu.android:id/design_bottom_sheet"]//*[@resource-id="com.xueqiu.android:id/more_action_container"]//*[@resource-id="com.xueqiu.android:id/favorite"]//*[@text="收藏"]
+2020-04-21 20:45:58 INFO [Crawler.1000.doElementAction] current url = UserProfileActivity
+2020-04-21 20:45:58 INFO [Crawler.1001.doElementAction] current tag path = hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView
+2020-04-21 20:45:58 INFO [Crawler.1002.doElementAction] current file name = UserProfileActivity.tag=TextView.depth=14.text=收藏
+2020-04-21 20:45:58 INFO [Crawler.1071.doElementAction] need input click
+2020-04-21 20:45:58 INFO [AppiumClient.53.findElementByURI] find by uri element= UserProfileActivity.tag=TextView.depth=14.text=收藏
+2020-04-21 20:45:58 INFO [AppiumClient.245.findElementsByURI] findElementByAndroidUIAutomator new UiSelector().className("android.widget.TextView").text("收藏")
+2020-04-21 20:45:58 INFO [AppiumClient.60.findElementByURI] find by xpath success
+2020-04-21 20:45:58 INFO [Crawler.1080.doElementAction] mark 20200421204426/10_UserProfileActivity.tag=ImageView.depth=22.id=more_action_button.clicked.png to 20200421204426/11_UserProfileActivity.tag=TextView.depth=14.text=收藏.click.png
+2020-04-21 20:45:58 INFO [AppiumClient.141.mark] read from 20200421204426/10_UserProfileActivity.tag=ImageView.depth=22.id=more_action_button.clicked.png
+2020-04-21 20:45:58 INFO [AppiumClient.154.mark] write png 20200421204426/10_UserProfileActivity.tag=ImageView.depth=22.id=more_action_button.clicked.png
+2020-04-21 20:45:58 INFO [AppiumClient.161.mark] ImageIO.write newImageName 20200421204426/11_UserProfileActivity.tag=TextView.depth=14.text=收藏.click.png
+2020-04-21 20:45:59 INFO [Crawler.1095.$anonfun$doElementAction$5] click element
+2020-04-21 20:45:59 INFO [AppiumClient.174.click] [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, appium=http://127.0.0.1:4723/wd/hub, databaseEnabled=false, desired={platformName=android, appium=http://127.0.0.1:4723/wd/hub, app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, deviceName=demo, fullReset=false, noReset=true}, deviceApiLevel=23, deviceManufacturer=Netease, deviceModel=MuMu, deviceName=127.0.0.1:7555, deviceScreenDensity=240, deviceScreenSize=720x1280, deviceUDID=127.0.0.1:7555, fullReset=false, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, noReset=true, pixelRatio=1.5, platform=LINUX, platformName=Android, platformVersion=6.0.1, statBarHeight=36, takesScreenshot=true, viewportRect={left=0, top=36, width=720, height=1244}, warnings={}, webStorageEnabled=false}] -> -android uiautomator: new UiSelector().className("android.widget.TextView").text("收藏")]
+2020-04-21 20:46:00 INFO [Crawler.1126.doElementAction] mark image exist
+2020-04-21 20:46:00 INFO [Crawler.1130.doElementAction] sleep 500 for loading
+2020-04-21 20:46:01 INFO [Crawler.627.refreshPage] refresh page
+2020-04-21 20:46:01 INFO [AppiumClient.102.getPageSourceWithRetry] start to get page source from appium
+2020-04-21 20:46:01 INFO [AppiumClient.117.$anonfun$getPageSourceWithRetry$1] xml format 
+2020-04-21 20:46:01 INFO [Crawler.645.parsePageContext] appName = 
+2020-04-21 20:46:01 INFO [Crawler.649.parsePageContext] url=UserProfileActivity
+2020-04-21 20:46:01 INFO [Crawler.673.parsePageContext] currentContentHash=638297ec776c1ff4336927f416d58e63 lastContentHash=e23f55eb3b6df509780851b686026d26
+2020-04-21 20:46:01 INFO [Crawler.675.parsePageContext] ui change
+2020-04-21 20:46:01 INFO [Crawler.931.saveDom] save to 20200421204426/11_UserProfileActivity.tag=TextView.depth=14.text=收藏.dom
+2020-04-21 20:46:02 INFO [Crawler.953.saveScreen] start screenshot
+2020-04-21 20:46:02 INFO [Crawler.956.$anonfun$saveScreen$2] ui change screenshot again
+2020-04-21 20:46:02 INFO [Crawler.977.saveScreen] screenshot success
+2020-04-21 20:46:02 INFO [Crawler.709.afterElementAction] backRetry=0
+2020-04-21 20:46:02 INFO [Crawler.712.afterElementAction] afterElementAction eval
+2020-04-21 20:46:02 INFO [TagLimitPlugin.54.afterElementAction] tagLimit[UserProfileActivityhierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView]=1
+2020-04-21 20:46:02 INFO [ReportPlugin.36.afterElementAction] clickedElementsList size = 12
+2020-04-21 20:46:02 INFO [Crawler.772.crawl] 
+
+crawl next
+2020-04-21 20:46:02 INFO [Crawler.425.needReturn] urlStack=Stack(UserProfileActivity, MainActivity) baseUrl=List() maxDepth=10
+2020-04-21 20:46:02 INFO [Crawler.834.crawl] no need to back
+2020-04-21 20:46:02 INFO [Crawler.487.getAvailableElement] selected nodes size = 27
+2020-04-21 20:46:03 INFO [Crawler.499.getAvailableElement] all - black elements size = 20
+2020-04-21 20:46:03 INFO [Crawler.528.getAvailableElement] all - first - last elements size = 20
+2020-04-21 20:46:03 INFO [Crawler.590.getAvailableElement] all - backButton size=20
+2020-04-21 20:46:03 INFO [Crawler.598.getAvailableElement] all - clicked size=16
+2020-04-21 20:46:03 INFO [Crawler.605.getAvailableElement] all - skiped fresh elements size=16
+2020-04-21 20:46:03 INFO [Crawler.843.crawl] found UserProfileActivity.tag=ImageView.depth=22 by first available element
+2020-04-21 20:46:03 INFO [Crawler.728.setElementAction] set action to click
+2020-04-21 20:46:03 INFO [Crawler.996.doElementAction] current element = UserProfileActivity.tag=ImageView.depth=22
+2020-04-21 20:46:03 INFO [Crawler.997.doElementAction] current index = 12
+2020-04-21 20:46:03 INFO [Crawler.998.doElementAction] current action = click
+2020-04-21 20:46:03 INFO [Crawler.999.doElementAction] current xpath = //*[@resource-id="com.xueqiu.android:id/decor_content_parent"]//*[@resource-id="android:id/content"]//*[@resource-id="com.xueqiu.android:id/refresh_layout"]//*[@resource-id="com.xueqiu.android:id/indicator_ll"]//*[@resource-id="com.xueqiu.android:id/view_pager"]//*[@resource-id="com.xueqiu.android:id/refresh_layout"]//*[@resource-id="com.xueqiu.android:id/list_view"]//*[@resource-id="com.xueqiu.android:id/status_card_foot_id"]//*[@resource-id="com.xueqiu.android:id/normal_answer_layout"]//*[@resource-id="com.xueqiu.android:id/retweet_count_view"]
+2020-04-21 20:46:03 INFO [Crawler.1000.doElementAction] current url = UserProfileActivity
+2020-04-21 20:46:03 INFO [Crawler.1001.doElementAction] current tag path = hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ImageView
+2020-04-21 20:46:03 INFO [Crawler.1002.doElementAction] current file name = UserProfileActivity.tag=ImageView.depth=22
+2020-04-21 20:46:03 INFO [Crawler.1071.doElementAction] need input click
+2020-04-21 20:46:03 INFO [AppiumClient.53.findElementByURI] find by uri element= UserProfileActivity.tag=ImageView.depth=22
+2020-04-21 20:46:03 INFO [AppiumClient.245.findElementsByURI] findElementByAndroidUIAutomator new UiSelector().className("android.widget.ImageView")
+2020-04-21 20:46:03 INFO [AppiumClient.60.findElementByURI] find by xpath success
+2020-04-21 20:46:03 INFO [Crawler.1080.doElementAction] mark 20200421204426/11_UserProfileActivity.tag=TextView.depth=14.text=收藏.clicked.png to 20200421204426/12_UserProfileActivity.tag=ImageView.depth=22.click.png
+2020-04-21 20:46:03 INFO [AppiumClient.141.mark] read from 20200421204426/11_UserProfileActivity.tag=TextView.depth=14.text=收藏.clicked.png
+2020-04-21 20:46:03 INFO [AppiumClient.154.mark] write png 20200421204426/11_UserProfileActivity.tag=TextView.depth=14.text=收藏.clicked.png
+2020-04-21 20:46:03 INFO [AppiumClient.161.mark] ImageIO.write newImageName 20200421204426/12_UserProfileActivity.tag=ImageView.depth=22.click.png
+2020-04-21 20:46:04 INFO [Crawler.1095.$anonfun$doElementAction$5] click element
+2020-04-21 20:46:04 INFO [AppiumClient.174.click] [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, appium=http://127.0.0.1:4723/wd/hub, databaseEnabled=false, desired={platformName=android, appium=http://127.0.0.1:4723/wd/hub, app=, appActivity=.view.WelcomeActivityAlias, appPackage=com.xueqiu.android, deviceName=demo, fullReset=false, noReset=true}, deviceApiLevel=23, deviceManufacturer=Netease, deviceModel=MuMu, deviceName=127.0.0.1:7555, deviceScreenDensity=240, deviceScreenSize=720x1280, deviceUDID=127.0.0.1:7555, fullReset=false, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, noReset=true, pixelRatio=1.5, platform=LINUX, platformName=Android, platformVersion=6.0.1, statBarHeight=36, takesScreenshot=true, viewportRect={left=0, top=36, width=720, height=1244}, warnings={}, webStorageEnabled=false}] -> -android uiautomator: new UiSelector().className("android.widget.ImageView")]
+2020-04-21 20:46:05 INFO [Crawler.1126.doElementAction] mark image exist
+2020-04-21 20:46:05 INFO [Crawler.1130.doElementAction] sleep 500 for loading
+2020-04-21 20:46:05 INFO [Crawler.627.refreshPage] refresh page
+2020-04-21 20:46:05 INFO [AppiumClient.102.getPageSourceWithRetry] start to get page source from appium
+2020-04-21 20:46:06 INFO [AppiumClient.117.$anonfun$getPageSourceWithRetry$1] xml format 
+2020-04-21 20:46:06 INFO [Crawler.1198.stop] ctrl c interval = 0
+2020-04-21 20:46:06 INFO [Crawler.917.saveLog] save log to 20200421204426/elements.yml
+2020-04-21 20:46:06 INFO [Crawler.645.parsePageContext] appName = 
+2020-04-21 20:46:06 INFO [Crawler.649.parsePageContext] url=UserProfileActivity
+2020-04-21 20:46:06 INFO [Crawler.673.parsePageContext] currentContentHash=0ea02db9b9448a29c70bb08d9f01b7e1 lastContentHash=638297ec776c1ff4336927f416d58e63
+2020-04-21 20:46:06 INFO [Crawler.675.parsePageContext] ui change
+2020-04-21 20:46:06 INFO [Crawler.931.saveDom] save to 20200421204426/12_UserProfileActivity.tag=ImageView.depth=22.dom
+2020-04-21 20:46:06 INFO [Crawler.953.saveScreen] start screenshot
+2020-04-21 20:46:06 INFO [Crawler.956.$anonfun$saveScreen$2] ui change screenshot again
+2020-04-21 20:46:07 INFO [Crawler.977.saveScreen] screenshot success
+2020-04-21 20:46:07 INFO [Crawler.709.afterElementAction] backRetry=0
+2020-04-21 20:46:07 INFO [Crawler.712.afterElementAction] afterElementAction eval
+2020-04-21 20:46:07 INFO [TagLimitPlugin.54.afterElementAction] tagLimit[UserProfileActivityhierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ImageView]=0
+2020-04-21 20:46:07 INFO [ReportPlugin.36.afterElementAction] clickedElementsList size = 13
+2020-04-21 20:46:07 INFO [Crawler.772.crawl] 
+
+crawl next
+2020-04-21 20:46:07 INFO [Crawler.425.needReturn] urlStack=Stack(UserProfileActivity, MainActivity) baseUrl=List() maxDepth=10
+2020-04-21 20:46:07 INFO [Crawler.834.crawl] no need to back
+2020-04-21 20:46:07 INFO [Crawler.487.getAvailableElement] selected nodes size = 27
+2020-04-21 20:46:07 INFO [FreeMind.17.stop] genereate freemind file freemind.mm
+2020-04-21 20:46:07 INFO [Crawler.1207.stop] generate report finish

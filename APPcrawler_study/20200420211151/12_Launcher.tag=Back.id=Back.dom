@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hierarchy class="hierarchy" height="1280" index="0" rotation="0" width="720">
+  <android.widget.FrameLayout bounds="[0,0][720,1280]" checkable="false"
+    checked="false" class="android.widget.FrameLayout" clickable="false"
+    displayed="true" enabled="true" focusable="false" focused="false"
+    index="0" long-clickable="false" package="com.mumu.launcher"
+    password="false" scrollable="false" selected="false" text="">
+    <android.widget.LinearLayout bounds="[0,0][720,1280]"
+      checkable="false" checked="false"
+      class="android.widget.LinearLayout" clickable="false"
+      displayed="true" enabled="true" focusable="false" focused="false"
+      index="0" long-clickable="false" package="com.mumu.launcher"
+      password="false" scrollable="false" selected="false" text="">
+      <android.widget.FrameLayout bounds="[0,0][720,1280]"
+        checkable="false" checked="false"
+        class="android.widget.FrameLayout" clickable="false"
+        displayed="true" enabled="true" focusable="false"
+        focused="false" index="0" long-clickable="false"
+        package="com.mumu.launcher" password="false"
+        resource-id="android:id/content" scrollable="false"
+        selected="false" text="">
+        <android.widget.FrameLayout bounds="[0,0][720,1280]"
+          checkable="false" checked="false"
+          class="android.widget.FrameLayout" clickable="false"
+          displayed="true" enabled="true" focusable="false"
+          focused="false" index="0" long-clickable="false"
+          package="com.mumu.launcher" password="false"
+          resource-id="com.mumu.launcher:id/launcher" scrollable="false"
+          selected="false" text="">
+          <android.widget.FrameLayout bounds="[0,0][720,1280]"
+            checkable="false" checked="false"
+            class="android.widget.FrameLayout" clickable="false"
+            displayed="true" enabled="true" focusable="false"
+            focused="false" index="0" long-clickable="false"
+            package="com.mumu.launcher" password="false"
+            resource-id="com.mumu.launcher:id/popupmenu"
+            scrollable="false" selected="false" text=""/>
+          <android.widget.FrameLayout bounds="[0,0][720,1280]"
+            checkable="false" checked="false"
+            class="android.widget.FrameLayout" clickable="false"
+            displayed="true" enabled="true" focusable="false"
+            focused="false" index="1" long-clickable="false"
+            package="com.mumu.launcher" password="false"
+            resource-id="com.mumu.launcher:id/drag_layer"
+            scrollable="false" selected="false" text="">
+            <android.view.ViewGroup bounds="[0,0][720,1280]"
+              checkable="false" checked="false"
+              class="android.view.ViewGroup" clickable="false"
+              displayed="true" enabled="true" focusable="false"
+              focused="false" index="0" long-clickable="true"
+              package="com.mumu.launcher" password="false"
+              resource-id="com.mumu.launcher:id/workspace"
+              scrollable="false" selected="false" text="">
+              <android.view.ViewGroup bounds="[38,124][682,857]"
+                checkable="false" checked="false"
+                class="android.view.ViewGroup" clickable="true"
+                displayed="true" enabled="true" focusable="false"
+                focused="false" index="0" long-clickable="true"
+                package="com.mumu.launcher" password="false"
+                scrollable="false" selected="false" text="">
+                <android.view.ViewGroup bounds="[40,124][682,857]"
+                  checkable="false" checked="false"
+                  class="android.view.ViewGroup" clickable="false"
+                  displayed="true" enabled="true" focusable="false"
+                  focused="false" index="0" long-clickable="false"
+                  package="com.mumu.launcher" password="false"
+                  scrollable="false" selected="false" text="">
+                  <android.widget.TextView bounds="[40,124][168,368]"
+                    checkable="false" checked="false"
+                    class="android.widget.TextView" clickable="true"
+                    displayed="true" enabled="true" focusable="true"
+                    focused="false" index="0" long-clickable="true"
+                    package="com.mumu.launcher" password="false"
+                    scrollable="false" selected="false" text="Appium Settings"/>
+                  <android.widget.TextView bounds="[168,124][296,368]"
+                    checkable="false" checked="false"
+                    class="android.widget.TextView" clickable="true"
+                    displayed="true" enabled="true" focusable="true"
+                    focused="false" index="1" long-clickable="true"
+                    package="com.mumu.launcher" password="false"
+                    scrollable="false" selected="false" text="雪球"/>
+                  <android.widget.TextView bounds="[296,124][424,368]"
+                    checkable="false" checked="false"
+                    class="android.widget.TextView" clickable="true"
+                    displayed="true" enabled="true" focusable="true"
+                    focused="false" index="2" long-clickable="true"
+                    package="com.mumu.launcher" password="false"
+                    scrollable="false" selected="false" text="企业微信"/>
+                  <android.widget.TextView bounds="[424,124][552,368]"
+                    checkable="false" checked="false"
+                    class="android.widget.TextView" clickable="true"
+                    displayed="true" enabled="true" focusable="true"
+                    focused="false" index="3" long-clickable="true"
+                    package="com.mumu.launcher" password="false"
+                    scrollable="false" selected="false" text="API Demos"/>
+                  <android.widget.TextView bounds="[552,124][680,368]"
+                    checkable="false" checked="false"
+                    class="android.widget.TextView" clickable="true"
+                    displayed="true" enabled="true" focusable="true"
+                    focused="false" index="4" long-clickable="true"
+                    package="com.mumu.launcher" password="false"
+                    scrollable="false" selected="false" text="Chrome"/>
+                  <android.widget.TextView bounds="[40,368][168,612]"
+                    checkable="false" checked="false"
+                    class="android.widget.TextView" clickable="true"
+                    displayed="true" enabled="true" focusable="true"
+                    focused="false" index="5" long-clickable="true"
+                    package="com.mumu.launcher" password="false"
+                    scrollable="false" selected="false" text="Total Control"/>
+                </android.view.ViewGroup>
+              </android.view.ViewGroup>
+            </android.view.ViewGroup>
+            <android.view.ViewGroup bounds="[0,36][720,124]"
+              checkable="false" checked="false"
+              class="android.view.ViewGroup" clickable="false"
+              displayed="true" enabled="true" focusable="false"
+              focused="false" index="2" long-clickable="false"
+              package="com.mumu.launcher" password="false"
+              resource-id="com.mumu.launcher:id/search"
+              scrollable="false" selected="false" text="">
+              <android.view.ViewGroup bounds="[57,63][543,114]"
+                checkable="false" checked="false"
+                class="android.view.ViewGroup" clickable="true"
+                displayed="true" enabled="true" focusable="false"
+                focused="false" index="0" long-clickable="false"
+                package="com.mumu.launcher" password="false"
+                resource-id="com.mumu.launcher:id/layout_search"
+                scrollable="false" selected="false" text="">
+                <android.widget.EditText bounds="[57,75][513,103]"
+                  checkable="false" checked="false"
+                  class="android.widget.EditText" clickable="true"
+                  displayed="true" enabled="true" focusable="false"
+                  focused="false" index="0" long-clickable="true"
+                  package="com.mumu.launcher" password="false"
+                  resource-id="com.mumu.launcher:id/tv_search"
+                  scrollable="false" selected="false" text="Switch已就绪！后宫养成开启！"/>
+                <android.widget.ImageView bounds="[513,79][533,99]"
+                  checkable="false" checked="false"
+                  class="android.widget.ImageView" clickable="true"
+                  displayed="true" enabled="true" focusable="false"
+                  focused="false" index="1" long-clickable="false"
+                  package="com.mumu.launcher" password="false"
+                  resource-id="com.mumu.launcher:id/btn_search"
+                  scrollable="false" selected="false" text=""/>
+              </android.view.ViewGroup>
+              <android.widget.TextView bounds="[548,63][663,114]"
+                checkable="false" checked="false"
+                class="android.widget.TextView" clickable="true"
+                displayed="true" enabled="true" focusable="false"
+                focused="false" index="1" long-clickable="false"
+                package="com.mumu.launcher" password="false"
+                resource-id="com.mumu.launcher:id/btn_all_apps"
+                scrollable="false" selected="false" text="全部游戏 >"/>
+            </android.view.ViewGroup>
+            <android.widget.FrameLayout bounds="[0,114][108,204]"
+              checkable="false" checked="false"
+              class="android.widget.FrameLayout" clickable="false"
+              displayed="true" enabled="true" focusable="false"
+              focused="false" index="3" long-clickable="false"
+              package="com.mumu.launcher" password="false"
+              resource-id="com.mumu.launcher:id/qsb_bar"
+              scrollable="false" selected="false" text=""/>
+            <android.widget.LinearLayout bounds="[344,895][375,902]"
+              checkable="false" checked="false"
+              class="android.widget.LinearLayout" clickable="false"
+              content-desc="主屏幕：第1屏，共1屏, 设置" displayed="true"
+              enabled="true" focusable="false" focused="false" index="4"
+              long-clickable="false" package="com.mumu.launcher"
+              password="false"
+              resource-id="com.mumu.launcher:id/page_indicator"
+              scrollable="false" selected="false" text="">
+              <android.widget.RelativeLayout bounds="[344,895][375,902]"
+                checkable="false" checked="false"
+                class="android.widget.RelativeLayout" clickable="false"
+                displayed="true" enabled="true" focusable="false"
+                focused="false" index="0" long-clickable="false"
+                package="com.mumu.launcher" password="false"
+                scrollable="false" selected="false" text="">
+                <android.widget.ImageView bounds="[350,895][369,902]"
+                  checkable="false" checked="false"
+                  class="android.widget.ImageView" clickable="false"
+                  displayed="true" enabled="true" focusable="false"
+                  focused="false" index="0" long-clickable="false"
+                  package="com.mumu.launcher" password="false"
+                  resource-id="com.mumu.launcher:id/dot"
+                  scrollable="false" selected="false" text=""/>
+              </android.widget.RelativeLayout>
+            </android.widget.LinearLayout>
+            <android.widget.FrameLayout bounds="[0,960][720,1280]"
+              checkable="false" checked="false"
+              class="android.widget.FrameLayout" clickable="false"
+              displayed="true" enabled="true" focusable="false"
+              focused="false" index="5" long-clickable="false"
+              package="com.mumu.launcher" password="false"
+              resource-id="com.mumu.launcher:id/hotseat"
+              scrollable="false" selected="false" text="">
+              <android.view.ViewGroup bounds="[38,1035][682,1187]"
+                checkable="false" checked="false"
+                class="android.view.ViewGroup" clickable="false"
+                displayed="true" enabled="true" focusable="false"
+                focused="false" index="0" long-clickable="true"
+                package="com.mumu.launcher" password="false"
+                resource-id="com.mumu.launcher:id/layout"
+                scrollable="false" selected="false" text="">
+                <android.view.ViewGroup bounds="[56,1035][682,1187]"
+                  checkable="false" checked="false"
+                  class="android.view.ViewGroup" clickable="false"
+                  displayed="true" enabled="true" focusable="false"
+                  focused="false" index="0" long-clickable="false"
+                  package="com.mumu.launcher" password="false"
+                  scrollable="false" selected="false" text="">
+                  <android.widget.TextView bounds="[56,1035][173,1187]"
+                    checkable="false" checked="false"
+                    class="android.widget.TextView" clickable="true"
+                    displayed="true" enabled="true" focusable="true"
+                    focused="false" index="0" long-clickable="true"
+                    package="com.mumu.launcher" password="false"
+                    scrollable="false" selected="false" text="应用中心"/>
+                  <android.widget.TextView bounds="[173,1035][290,1187]"
+                    checkable="false" checked="false"
+                    class="android.widget.TextView" clickable="true"
+                    displayed="true" enabled="true" focusable="true"
+                    focused="false" index="1" long-clickable="true"
+                    package="com.mumu.launcher" password="false"
+                    scrollable="false" selected="false" text="多开助手"/>
+                  <android.widget.LinearLayout
+                    bounds="[430,1035][547,1187]" checkable="false"
+                    checked="false" class="android.widget.LinearLayout"
+                    clickable="true" content-desc="文件夹：系统应用"
+                    displayed="true" enabled="true" focusable="true"
+                    focused="false" index="2" long-clickable="true"
+                    package="com.mumu.launcher" password="false"
+                    scrollable="false" selected="false" text="">
+                    <android.widget.ImageView
+                      bounds="[453,1064][523,1134]" checkable="false"
+                      checked="false" class="android.widget.ImageView"
+                      clickable="false" displayed="true" enabled="true"
+                      focusable="false" focused="false" index="0"
+                      long-clickable="false" package="com.mumu.launcher"
+                      password="false"
+                      resource-id="com.mumu.launcher:id/preview_background"
+                      scrollable="false" selected="false" text=""/>
+                    <android.widget.TextView
+                      bounds="[434,1143][543,1187]" checkable="false"
+                      checked="false" class="android.widget.TextView"
+                      clickable="false" displayed="true" enabled="true"
+                      focusable="false" focused="false" index="1"
+                      long-clickable="false" package="com.mumu.launcher"
+                      password="false"
+                      resource-id="com.mumu.launcher:id/folder_icon_name"
+                      scrollable="false" selected="false" text="系统应用"/>
+                  </android.widget.LinearLayout>
+                  <android.widget.LinearLayout
+                    bounds="[547,1035][664,1187]" checkable="false"
+                    checked="false" class="android.widget.LinearLayout"
+                    clickable="true" content-desc="文件夹：小工具"
+                    displayed="true" enabled="true" focusable="true"
+                    focused="false" index="3" long-clickable="true"
+                    package="com.mumu.launcher" password="false"
+                    scrollable="false" selected="false" text="">
+                    <android.widget.ImageView
+                      bounds="[570,1064][640,1134]" checkable="false"
+                      checked="false" class="android.widget.ImageView"
+                      clickable="false" displayed="true" enabled="true"
+                      focusable="false" focused="false" index="0"
+                      long-clickable="false" package="com.mumu.launcher"
+                      password="false"
+                      resource-id="com.mumu.launcher:id/preview_background"
+                      scrollable="false" selected="false" text=""/>
+                    <android.widget.TextView
+                      bounds="[551,1143][660,1187]" checkable="false"
+                      checked="false" class="android.widget.TextView"
+                      clickable="false" displayed="true" enabled="true"
+                      focusable="false" focused="false" index="1"
+                      long-clickable="false" package="com.mumu.launcher"
+                      password="false"
+                      resource-id="com.mumu.launcher:id/folder_icon_name"
+                      scrollable="false" selected="false" text="小工具"/>
+                  </android.widget.LinearLayout>
+                </android.view.ViewGroup>
+              </android.view.ViewGroup>
+              <android.widget.ImageView bounds="[310,1061][409,1160]"
+                checkable="false" checked="false"
+                class="android.widget.ImageView" clickable="true"
+                displayed="true" enabled="true" focusable="false"
+                focused="false" index="1" long-clickable="false"
+                package="com.mumu.launcher" password="false"
+                resource-id="com.mumu.launcher:id/iconImageView"
+                scrollable="false" selected="false" text=""/>
+            </android.widget.FrameLayout>
+          </android.widget.FrameLayout>
+          <android.widget.LinearLayout bounds="[249,983][471,1035]"
+            checkable="false" checked="false"
+            class="android.widget.LinearLayout" clickable="false"
+            displayed="true" enabled="true" focusable="false"
+            focused="false" index="2" long-clickable="false"
+            package="com.mumu.launcher" password="false"
+            resource-id="com.mumu.launcher:id/textLayout"
+            scrollable="false" selected="false" text="">
+            <android.widget.TextView bounds="[437,993][453,1016]"
+              checkable="false" checked="false"
+              class="android.widget.TextView" clickable="true"
+              displayed="true" enabled="true" focusable="false"
+              focused="false" index="0" long-clickable="false"
+              package="com.mumu.launcher" password="false"
+              resource-id="com.mumu.launcher:id/closeTextView"
+              scrollable="false" selected="false" text="?"/>
+            <android.widget.ImageView bounds="[429,995][431,1013]"
+              checkable="false" checked="false"
+              class="android.widget.ImageView" clickable="false"
+              displayed="true" enabled="true" focusable="false"
+              focused="false" index="1" long-clickable="false"
+              package="com.mumu.launcher" password="false"
+              resource-id="com.mumu.launcher:id/textSplitImageView"
+              scrollable="false" selected="false" text=""/>
+            <android.widget.TextView bounds="[267,994][423,1015]"
+              checkable="false" checked="false"
+              class="android.widget.TextView" clickable="false"
+              displayed="true" enabled="true" focusable="false"
+              focused="false" index="2" long-clickable="false"
+              package="com.mumu.launcher" password="false"
+              resource-id="com.mumu.launcher:id/descriptionTextView"
+              scrollable="false" selected="false" text="开启后宫养成之旅~"/>
+          </android.widget.LinearLayout>
+        </android.widget.FrameLayout>
+      </android.widget.FrameLayout>
+    </android.widget.LinearLayout>
+  </android.widget.FrameLayout>
+</hierarchy>

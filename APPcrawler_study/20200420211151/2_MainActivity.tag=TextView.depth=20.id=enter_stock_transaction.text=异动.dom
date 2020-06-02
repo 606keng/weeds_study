@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hierarchy class="hierarchy" height="1280" index="0" rotation="0" width="720">
+  <android.widget.FrameLayout bounds="[0,0][720,1280]" checkable="false"
+    checked="false" class="android.widget.FrameLayout" clickable="false"
+    displayed="true" enabled="true" focusable="false" focused="false"
+    index="0" long-clickable="false" package="com.xueqiu.android"
+    password="false" scrollable="false" selected="false" text="">
+    <android.widget.FrameLayout bounds="[0,0][720,1280]"
+      checkable="false" checked="false"
+      class="android.widget.FrameLayout" clickable="false"
+      displayed="true" enabled="true" focusable="false" focused="false"
+      index="0" long-clickable="false" package="com.xueqiu.android"
+      password="false" scrollable="false" selected="false" text="">
+      <android.widget.LinearLayout bounds="[0,0][720,1280]"
+        checkable="false" checked="false"
+        class="android.widget.LinearLayout" clickable="false"
+        displayed="true" enabled="true" focusable="false"
+        focused="false" index="0" long-clickable="false"
+        package="com.xueqiu.android" password="false" scrollable="false"
+        selected="false" text="">
+        <android.widget.FrameLayout bounds="[0,0][720,1280]"
+          checkable="false" checked="false"
+          class="android.widget.FrameLayout" clickable="false"
+          displayed="true" enabled="true" focusable="false"
+          focused="false" index="0" long-clickable="false"
+          package="com.xueqiu.android" password="false"
+          scrollable="false" selected="false" text="">
+          <android.view.ViewGroup bounds="[0,0][720,1280]"
+            checkable="false" checked="false"
+            class="android.view.ViewGroup" clickable="false"
+            displayed="true" enabled="true" focusable="false"
+            focused="false" index="0" long-clickable="false"
+            package="com.xueqiu.android" password="false"
+            resource-id="com.xueqiu.android:id/decor_content_parent"
+            scrollable="false" selected="false" text="">
+            <android.widget.FrameLayout bounds="[0,0][720,1280]"
+              checkable="false" checked="false"
+              class="android.widget.FrameLayout" clickable="false"
+              displayed="true" enabled="true" focusable="false"
+              focused="false" index="0" long-clickable="false"
+              package="com.xueqiu.android" password="false"
+              resource-id="android:id/content" scrollable="false"
+              selected="false" text="">
+              <android.widget.LinearLayout bounds="[0,36][720,1280]"
+                checkable="false" checked="false"
+                class="android.widget.LinearLayout" clickable="false"
+                displayed="true" enabled="true" focusable="false"
+                focused="false" index="1" long-clickable="false"
+                package="com.xueqiu.android" password="false"
+                scrollable="false" selected="false" text="">
+                <android.widget.RelativeLayout bounds="[0,36][720,108]"
+                  checkable="false" checked="false"
+                  class="android.widget.RelativeLayout"
+                  clickable="false" displayed="true" enabled="true"
+                  focusable="false" focused="false" index="0"
+                  long-clickable="false" package="com.xueqiu.android"
+                  password="false"
+                  resource-id="com.xueqiu.android:id/stock_detail_action_bar"
+                  scrollable="false" selected="false" text="">
+                  <android.widget.TextView bounds="[0,36][720,108]"
+                    checkable="false" checked="false"
+                    class="android.widget.TextView" clickable="false"
+                    displayed="true" enabled="true" focusable="false"
+                    focused="false" index="0" long-clickable="false"
+                    package="com.xueqiu.android" password="false"
+                    resource-id="com.xueqiu.android:id/action_title"
+                    scrollable="false" selected="false" text="自选异动"/>
+                  <android.widget.ImageView bounds="[0,36][66,108]"
+                    checkable="false" checked="false"
+                    class="android.widget.ImageView" clickable="true"
+                    displayed="true" enabled="true" focusable="false"
+                    focused="false" index="1" long-clickable="false"
+                    package="com.xueqiu.android" password="false"
+                    resource-id="com.xueqiu.android:id/action_back"
+                    scrollable="false" selected="false" text=""/>
+                  <android.widget.ImageView bounds="[648,36][720,108]"
+                    checkable="false" checked="false"
+                    class="android.widget.ImageView" clickable="true"
+                    displayed="true" enabled="true" focusable="false"
+                    focused="false" index="2" long-clickable="false"
+                    package="com.xueqiu.android" password="false"
+                    resource-id="com.xueqiu.android:id/action_icon"
+                    scrollable="false" selected="false" text=""/>
+                </android.widget.RelativeLayout>
+                <android.view.ViewGroup bounds="[0,108][720,1280]"
+                  checkable="false" checked="false"
+                  class="android.view.ViewGroup" clickable="false"
+                  displayed="true" enabled="true" focusable="false"
+                  focused="false" index="1" long-clickable="false"
+                  package="com.xueqiu.android" password="false"
+                  resource-id="com.xueqiu.android:id/smart_refresh_layout"
+                  scrollable="false" selected="false" text="">
+                  <android.widget.FrameLayout bounds="[0,108][720,1280]"
+                    checkable="false" checked="false"
+                    class="android.widget.FrameLayout" clickable="false"
+                    displayed="true" enabled="true" focusable="false"
+                    focused="false" index="1" long-clickable="false"
+                    package="com.xueqiu.android" password="false"
+                    resource-id="com.xueqiu.android:id/content_container"
+                    scrollable="false" selected="false" text="">
+                    <androidx.recyclerview.widget.RecyclerView
+                      bounds="[0,108][720,1280]" checkable="false"
+                      checked="false"
+                      class="androidx.recyclerview.widget.RecyclerView"
+                      clickable="false" displayed="true" enabled="true"
+                      focusable="true" focused="true" index="0"
+                      long-clickable="false"
+                      package="com.xueqiu.android" password="false"
+                      resource-id="com.xueqiu.android:id/recycler_view"
+                      scrollable="true" selected="false" text="">
+                      <android.widget.LinearLayout
+                        bounds="[0,108][720,109]" checkable="false"
+                        checked="false"
+                        class="android.widget.LinearLayout"
+                        clickable="false" displayed="true"
+                        enabled="true" focusable="false" focused="false"
+                        index="0" long-clickable="false"
+                        package="com.xueqiu.android" password="false"
+                        scrollable="false" selected="false" text="">
+                        <android.view.View bounds="[0,108][720,109]"
+                          checkable="false" checked="false"
+                          class="android.view.View" clickable="false"
+                          displayed="true" enabled="true"
+                          focusable="false" focused="false" index="0"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          scrollable="false" selected="false" text=""/>
+                      </android.widget.LinearLayout>
+                      <android.widget.LinearLayout
+                        bounds="[0,184][720,302]" checkable="false"
+                        checked="false"
+                        class="android.widget.LinearLayout"
+                        clickable="true" displayed="true" enabled="true"
+                        focusable="false" focused="false" index="1"
+                        long-clickable="false"
+                        package="com.xueqiu.android" password="false"
+                        scrollable="false" selected="false" text="">
+                        <android.widget.TextView
+                          bounds="[24,187][65,208]" checkable="false"
+                          checked="false"
+                          class="android.widget.TextView"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="0"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/tv_time"
+                          scrollable="false" selected="false" text="09:30"/>
+                        <android.widget.RelativeLayout
+                          bounds="[77,184][86,302]" checkable="false"
+                          checked="false"
+                          class="android.widget.RelativeLayout"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="1"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          scrollable="false" selected="false" text="">
+                          <android.widget.ImageView
+                            bounds="[77,192][86,201]" checkable="false"
+                            checked="false"
+                            class="android.widget.ImageView"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="0"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/iv_states"
+                            scrollable="false" selected="false" text=""/>
+                          <android.view.View bounds="[81,201][82,302]"
+                            checkable="false" checked="false"
+                            class="android.view.View" clickable="false"
+                            displayed="true" enabled="true"
+                            focusable="false" focused="false" index="1"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/v_line_bottom"
+                            scrollable="false" selected="false" text=""/>
+                        </android.widget.RelativeLayout>
+                        <android.widget.LinearLayout
+                          bounds="[101,184][696,302]" checkable="false"
+                          checked="false"
+                          class="android.widget.LinearLayout"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="2"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/ll_top_view"
+                          scrollable="false" selected="false" text="">
+                          <android.widget.LinearLayout
+                            bounds="[101,184][696,208]"
+                            checkable="false" checked="false"
+                            class="android.widget.LinearLayout"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="0"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false" scrollable="false"
+                            selected="false" text="">
+                            <android.widget.ImageView
+                              bounds="[101,187][122,205]"
+                              checkable="false" checked="false"
+                              class="android.widget.ImageView"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="0"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/iv_stock_market"
+                              scrollable="false" selected="false" text=""/>
+                            <android.widget.LinearLayout
+                              bounds="[131,184][656,208]"
+                              checkable="false" checked="false"
+                              class="android.widget.LinearLayout"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="1"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false" scrollable="false"
+                              selected="false" text="">
+                              <android.widget.TextView
+                                bounds="[131,184][263,208]"
+                                checkable="false" checked="false"
+                                class="android.widget.TextView"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="0"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false"
+                                resource-id="com.xueqiu.android:id/tv_title"
+                                scrollable="false" selected="false" text="阿里巴巴-SW"/>
+                              <android.widget.TextView
+                                bounds="[275,185][406,208]"
+                                checkable="false" checked="false"
+                                class="android.widget.TextView"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="1"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false"
+                                resource-id="com.xueqiu.android:id/tv_percent"
+                                scrollable="false" selected="false" text="205.80 -0.87%"/>
+                            </android.widget.LinearLayout>
+                            <android.widget.TextView
+                              bounds="[656,184][696,207]"
+                              checkable="false" checked="false"
+                              class="android.widget.TextView"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="2"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/tv_state"
+                              scrollable="false" selected="false" text="涨幅"/>
+                          </android.widget.LinearLayout>
+                          <android.widget.TextView
+                            bounds="[101,220][696,272]"
+                            checkable="false" checked="false"
+                            class="android.widget.TextView"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="1"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/tv_content_des"
+                            scrollable="false" selected="false" text="阿里巴巴-SW09:30涨幅达4.04%，现价211.00港元"/>
+                          <android.view.View bounds="[101,272][102,302]"
+                            checkable="false" checked="false"
+                            class="android.view.View" clickable="false"
+                            displayed="true" enabled="true"
+                            focusable="false" focused="false" index="2"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/v_bottom_height"
+                            scrollable="false" selected="false" text=""/>
+                        </android.widget.LinearLayout>
+                      </android.widget.LinearLayout>
+                      <android.widget.LinearLayout
+                        bounds="[0,302][720,390]" checkable="false"
+                        checked="false"
+                        class="android.widget.LinearLayout"
+                        clickable="true" displayed="true" enabled="true"
+                        focusable="false" focused="false" index="2"
+                        long-clickable="false"
+                        package="com.xueqiu.android" password="false"
+                        scrollable="false" selected="false" text="">
+                        <android.widget.TextView
+                          bounds="[24,305][65,326]" checkable="false"
+                          checked="false"
+                          class="android.widget.TextView"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="0"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/tv_time"
+                          scrollable="false" selected="false" text="05:37"/>
+                        <android.widget.RelativeLayout
+                          bounds="[77,302][86,390]" checkable="false"
+                          checked="false"
+                          class="android.widget.RelativeLayout"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="1"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          scrollable="false" selected="false" text="">
+                          <android.view.View bounds="[81,302][82,310]"
+                            checkable="false" checked="false"
+                            class="android.view.View" clickable="false"
+                            displayed="true" enabled="true"
+                            focusable="false" focused="false" index="0"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/v_line_top"
+                            scrollable="false" selected="false" text=""/>
+                          <android.widget.ImageView
+                            bounds="[77,310][86,319]" checkable="false"
+                            checked="false"
+                            class="android.widget.ImageView"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="1"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/iv_states"
+                            scrollable="false" selected="false" text=""/>
+                        </android.widget.RelativeLayout>
+                        <android.widget.LinearLayout
+                          bounds="[101,302][696,390]" checkable="false"
+                          checked="false"
+                          class="android.widget.LinearLayout"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="2"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/ll_top_view"
+                          scrollable="false" selected="false" text="">
+                          <android.widget.LinearLayout
+                            bounds="[101,302][696,326]"
+                            checkable="false" checked="false"
+                            class="android.widget.LinearLayout"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="0"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false" scrollable="false"
+                            selected="false" text="">
+                            <android.widget.ImageView
+                              bounds="[101,305][122,323]"
+                              checkable="false" checked="false"
+                              class="android.widget.ImageView"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="0"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/iv_stock_market"
+                              scrollable="false" selected="false" text=""/>
+                            <android.widget.LinearLayout
+                              bounds="[131,302][622,326]"
+                              checkable="false" checked="false"
+                              class="android.widget.LinearLayout"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="1"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false" scrollable="false"
+                              selected="false" text="">
+                              <android.widget.TextView
+                                bounds="[131,302][223,326]"
+                                checkable="false" checked="false"
+                                class="android.widget.TextView"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="0"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false"
+                                resource-id="com.xueqiu.android:id/tv_title"
+                                scrollable="false" selected="false" text="阿里巴巴"/>
+                              <android.widget.TextView
+                                bounds="[235,303][368,326]"
+                                checkable="false" checked="false"
+                                class="android.widget.TextView"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="1"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false"
+                                resource-id="com.xueqiu.android:id/tv_percent"
+                                scrollable="false" selected="false" text="212.29 +1.33%"/>
+                            </android.widget.LinearLayout>
+                            <android.widget.TextView
+                              bounds="[622,302][696,325]"
+                              checkable="false" checked="false"
+                              class="android.widget.TextView"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="2"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/tv_state"
+                              scrollable="false" selected="false" text="盘后跌幅"/>
+                          </android.widget.LinearLayout>
+                          <android.widget.TextView
+                            bounds="[101,338][696,390]"
+                            checkable="false" checked="false"
+                            class="android.widget.TextView"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="1"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/tv_content_des"
+                            scrollable="false" selected="false" text="阿里巴巴盘后05:37跌幅达-5.60%，现价200.75美元"/>
+                        </android.widget.LinearLayout>
+                      </android.widget.LinearLayout>
+                      <android.widget.LinearLayout
+                        bounds="[0,465][720,553]" checkable="false"
+                        checked="false"
+                        class="android.widget.LinearLayout"
+                        clickable="true" displayed="true" enabled="true"
+                        focusable="false" focused="false" index="3"
+                        long-clickable="false"
+                        package="com.xueqiu.android" password="false"
+                        scrollable="false" selected="false" text="">
+                        <android.widget.TextView
+                          bounds="[24,468][65,489]" checkable="false"
+                          checked="false"
+                          class="android.widget.TextView"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="0"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/tv_time"
+                          scrollable="false" selected="false" text="01:41"/>
+                        <android.widget.RelativeLayout
+                          bounds="[77,465][86,553]" checkable="false"
+                          checked="false"
+                          class="android.widget.RelativeLayout"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="1"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          scrollable="false" selected="false" text="">
+                          <android.widget.ImageView
+                            bounds="[77,473][86,482]" checkable="false"
+                            checked="false"
+                            class="android.widget.ImageView"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="0"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/iv_states"
+                            scrollable="false" selected="false" text=""/>
+                        </android.widget.RelativeLayout>
+                        <android.widget.LinearLayout
+                          bounds="[101,465][696,553]" checkable="false"
+                          checked="false"
+                          class="android.widget.LinearLayout"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="2"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/ll_top_view"
+                          scrollable="false" selected="false" text="">
+                          <android.widget.LinearLayout
+                            bounds="[101,465][696,489]"
+                            checkable="false" checked="false"
+                            class="android.widget.LinearLayout"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="0"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false" scrollable="false"
+                            selected="false" text="">
+                            <android.widget.ImageView
+                              bounds="[101,468][122,486]"
+                              checkable="false" checked="false"
+                              class="android.widget.ImageView"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="0"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/iv_stock_market"
+                              scrollable="false" selected="false" text=""/>
+                            <android.widget.LinearLayout
+                              bounds="[131,465][656,489]"
+                              checkable="false" checked="false"
+                              class="android.widget.LinearLayout"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="1"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false" scrollable="false"
+                              selected="false" text="">
+                              <android.widget.TextView
+                                bounds="[131,465][223,489]"
+                                checkable="false" checked="false"
+                                class="android.widget.TextView"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="0"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false"
+                                resource-id="com.xueqiu.android:id/tv_title"
+                                scrollable="false" selected="false" text="阿里巴巴"/>
+                              <android.widget.TextView
+                                bounds="[235,466][368,489]"
+                                checkable="false" checked="false"
+                                class="android.widget.TextView"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="1"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false"
+                                resource-id="com.xueqiu.android:id/tv_percent"
+                                scrollable="false" selected="false" text="212.29 +1.33%"/>
+                            </android.widget.LinearLayout>
+                            <android.widget.TextView
+                              bounds="[656,465][696,488]"
+                              checkable="false" checked="false"
+                              class="android.widget.TextView"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="2"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/tv_state"
+                              scrollable="false" selected="false" text="涨幅"/>
+                          </android.widget.LinearLayout>
+                          <android.widget.TextView
+                            bounds="[101,501][696,553]"
+                            checkable="false" checked="false"
+                            class="android.widget.TextView"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="1"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/tv_content_des"
+                            scrollable="false" selected="false" text="阿里巴巴01:41涨幅达4.01%，现价207.44美元"/>
+                        </android.widget.LinearLayout>
+                      </android.widget.LinearLayout>
+                      <android.widget.LinearLayout
+                        bounds="[0,628][720,746]" checkable="false"
+                        checked="false"
+                        class="android.widget.LinearLayout"
+                        clickable="true" displayed="true" enabled="true"
+                        focusable="false" focused="false" index="4"
+                        long-clickable="false"
+                        package="com.xueqiu.android" password="false"
+                        scrollable="false" selected="false" text="">
+                        <android.widget.TextView
+                          bounds="[24,631][65,652]" checkable="false"
+                          checked="false"
+                          class="android.widget.TextView"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="0"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/tv_time"
+                          scrollable="false" selected="false" text="21:30"/>
+                        <android.widget.RelativeLayout
+                          bounds="[77,628][86,746]" checkable="false"
+                          checked="false"
+                          class="android.widget.RelativeLayout"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="1"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          scrollable="false" selected="false" text="">
+                          <android.widget.ImageView
+                            bounds="[77,636][86,645]" checkable="false"
+                            checked="false"
+                            class="android.widget.ImageView"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="0"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/iv_states"
+                            scrollable="false" selected="false" text=""/>
+                          <android.view.View bounds="[81,645][82,746]"
+                            checkable="false" checked="false"
+                            class="android.view.View" clickable="false"
+                            displayed="true" enabled="true"
+                            focusable="false" focused="false" index="1"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/v_line_bottom"
+                            scrollable="false" selected="false" text=""/>
+                        </android.widget.RelativeLayout>
+                        <android.widget.LinearLayout
+                          bounds="[101,628][696,746]" checkable="false"
+                          checked="false"
+                          class="android.widget.LinearLayout"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="2"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/ll_top_view"
+                          scrollable="false" selected="false" text="">
+                          <android.widget.LinearLayout
+                            bounds="[101,628][696,652]"
+                            checkable="false" checked="false"
+                            class="android.widget.LinearLayout"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="0"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false" scrollable="false"
+                            selected="false" text="">
+                            <android.widget.ImageView
+                              bounds="[101,631][122,649]"
+                              checkable="false" checked="false"
+                              class="android.widget.ImageView"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="0"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/iv_stock_market"
+                              scrollable="false" selected="false" text=""/>
+                            <android.widget.LinearLayout
+                              bounds="[131,628][656,652]"
+                              checkable="false" checked="false"
+                              class="android.widget.LinearLayout"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="1"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false" scrollable="false"
+                              selected="false" text="">
+                              <android.widget.TextView
+                                bounds="[131,628][223,652]"
+                                checkable="false" checked="false"
+                                class="android.widget.TextView"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="0"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false"
+                                resource-id="com.xueqiu.android:id/tv_title"
+                                scrollable="false" selected="false" text="阿里巴巴"/>
+                              <android.widget.TextView
+                                bounds="[235,629][368,652]"
+                                checkable="false" checked="false"
+                                class="android.widget.TextView"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="1"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false"
+                                resource-id="com.xueqiu.android:id/tv_percent"
+                                scrollable="false" selected="false" text="212.29 +1.33%"/>
+                            </android.widget.LinearLayout>
+                            <android.widget.TextView
+                              bounds="[656,628][696,651]"
+                              checkable="false" checked="false"
+                              class="android.widget.TextView"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="2"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/tv_state"
+                              scrollable="false" selected="false" text="涨幅"/>
+                          </android.widget.LinearLayout>
+                          <android.widget.TextView
+                            bounds="[101,664][696,716]"
+                            checkable="false" checked="false"
+                            class="android.widget.TextView"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="1"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/tv_content_des"
+                            scrollable="false" selected="false" text="阿里巴巴21:30涨幅达4.08%，现价194.74美元"/>
+                          <android.view.View bounds="[101,716][102,746]"
+                            checkable="false" checked="false"
+                            class="android.view.View" clickable="false"
+                            displayed="true" enabled="true"
+                            focusable="false" focused="false" index="2"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/v_bottom_height"
+                            scrollable="false" selected="false" text=""/>
+                        </android.widget.LinearLayout>
+                      </android.widget.LinearLayout>
+                      <android.widget.LinearLayout
+                        bounds="[0,746][720,834]" checkable="false"
+                        checked="false"
+                        class="android.widget.LinearLayout"
+                        clickable="true" displayed="true" enabled="true"
+                        focusable="false" focused="false" index="5"
+                        long-clickable="false"
+                        package="com.xueqiu.android" password="false"
+                        scrollable="false" selected="false" text="">
+                        <android.widget.TextView
+                          bounds="[24,749][65,770]" checkable="false"
+                          checked="false"
+                          class="android.widget.TextView"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="0"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/tv_time"
+                          scrollable="false" selected="false" text="16:01"/>
+                        <android.widget.RelativeLayout
+                          bounds="[77,746][86,834]" checkable="false"
+                          checked="false"
+                          class="android.widget.RelativeLayout"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="1"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          scrollable="false" selected="false" text="">
+                          <android.view.View bounds="[81,746][82,754]"
+                            checkable="false" checked="false"
+                            class="android.view.View" clickable="false"
+                            displayed="true" enabled="true"
+                            focusable="false" focused="false" index="0"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/v_line_top"
+                            scrollable="false" selected="false" text=""/>
+                          <android.widget.ImageView
+                            bounds="[77,754][86,763]" checkable="false"
+                            checked="false"
+                            class="android.widget.ImageView"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="1"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/iv_states"
+                            scrollable="false" selected="false" text=""/>
+                        </android.widget.RelativeLayout>
+                        <android.widget.LinearLayout
+                          bounds="[101,746][696,834]" checkable="false"
+                          checked="false"
+                          class="android.widget.LinearLayout"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="2"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/ll_top_view"
+                          scrollable="false" selected="false" text="">
+                          <android.widget.LinearLayout
+                            bounds="[101,746][696,770]"
+                            checkable="false" checked="false"
+                            class="android.widget.LinearLayout"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="0"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false" scrollable="false"
+                            selected="false" text="">
+                            <android.widget.ImageView
+                              bounds="[101,749][122,767]"
+                              checkable="false" checked="false"
+                              class="android.widget.ImageView"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="0"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/iv_stock_market"
+                              scrollable="false" selected="false" text=""/>
+                            <android.widget.LinearLayout
+                              bounds="[131,746][622,770]"
+                              checkable="false" checked="false"
+                              class="android.widget.LinearLayout"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="1"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false" scrollable="false"
+                              selected="false" text="">
+                              <android.widget.TextView
+                                bounds="[131,746][223,770]"
+                                checkable="false" checked="false"
+                                class="android.widget.TextView"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="0"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false"
+                                resource-id="com.xueqiu.android:id/tv_title"
+                                scrollable="false" selected="false" text="阿里巴巴"/>
+                              <android.widget.TextView
+                                bounds="[235,747][368,770]"
+                                checkable="false" checked="false"
+                                class="android.widget.TextView"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="1"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false"
+                                resource-id="com.xueqiu.android:id/tv_percent"
+                                scrollable="false" selected="false" text="212.29 +1.33%"/>
+                            </android.widget.LinearLayout>
+                            <android.widget.TextView
+                              bounds="[622,746][696,769]"
+                              checkable="false" checked="false"
+                              class="android.widget.TextView"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="2"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/tv_state"
+                              scrollable="false" selected="false" text="盘前涨幅"/>
+                          </android.widget.LinearLayout>
+                          <android.widget.TextView
+                            bounds="[101,782][696,834]"
+                            checkable="false" checked="false"
+                            class="android.widget.TextView"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="1"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/tv_content_des"
+                            scrollable="false" selected="false" text="阿里巴巴盘前16:01涨幅达4.18%，现价194.94美元"/>
+                        </android.widget.LinearLayout>
+                      </android.widget.LinearLayout>
+                      <android.widget.LinearLayout
+                        bounds="[0,909][720,997]" checkable="false"
+                        checked="false"
+                        class="android.widget.LinearLayout"
+                        clickable="true" displayed="true" enabled="true"
+                        focusable="false" focused="false" index="6"
+                        long-clickable="false"
+                        package="com.xueqiu.android" password="false"
+                        scrollable="false" selected="false" text="">
+                        <android.widget.TextView
+                          bounds="[24,912][65,933]" checkable="false"
+                          checked="false"
+                          class="android.widget.TextView"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="0"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/tv_time"
+                          scrollable="false" selected="false" text="02:57"/>
+                        <android.widget.RelativeLayout
+                          bounds="[77,909][86,997]" checkable="false"
+                          checked="false"
+                          class="android.widget.RelativeLayout"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="1"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          scrollable="false" selected="false" text="">
+                          <android.widget.ImageView
+                            bounds="[77,917][86,926]" checkable="false"
+                            checked="false"
+                            class="android.widget.ImageView"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="0"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/iv_states"
+                            scrollable="false" selected="false" text=""/>
+                        </android.widget.RelativeLayout>
+                        <android.widget.LinearLayout
+                          bounds="[101,909][696,997]" checkable="false"
+                          checked="false"
+                          class="android.widget.LinearLayout"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="2"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/ll_top_view"
+                          scrollable="false" selected="false" text="">
+                          <android.widget.LinearLayout
+                            bounds="[101,909][696,933]"
+                            checkable="false" checked="false"
+                            class="android.widget.LinearLayout"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="0"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false" scrollable="false"
+                            selected="false" text="">
+                            <android.widget.ImageView
+                              bounds="[101,912][122,930]"
+                              checkable="false" checked="false"
+                              class="android.widget.ImageView"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="0"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/iv_stock_market"
+                              scrollable="false" selected="false" text=""/>
+                            <android.widget.LinearLayout
+                              bounds="[131,909][656,933]"
+                              checkable="false" checked="false"
+                              class="android.widget.LinearLayout"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="1"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false" scrollable="false"
+                              selected="false" text="">
+                              <android.widget.TextView
+                                bounds="[131,909][223,933]"
+                                checkable="false" checked="false"
+                                class="android.widget.TextView"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="0"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false"
+                                resource-id="com.xueqiu.android:id/tv_title"
+                                scrollable="false" selected="false" text="阿里巴巴"/>
+                              <android.widget.TextView
+                                bounds="[235,910][368,933]"
+                                checkable="false" checked="false"
+                                class="android.widget.TextView"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="1"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false"
+                                resource-id="com.xueqiu.android:id/tv_percent"
+                                scrollable="false" selected="false" text="212.29 +1.33%"/>
+                            </android.widget.LinearLayout>
+                            <android.widget.TextView
+                              bounds="[656,909][696,932]"
+                              checkable="false" checked="false"
+                              class="android.widget.TextView"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="2"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/tv_state"
+                              scrollable="false" selected="false" text="跌幅"/>
+                          </android.widget.LinearLayout>
+                          <android.widget.TextView
+                            bounds="[101,945][696,997]"
+                            checkable="false" checked="false"
+                            class="android.widget.TextView"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="1"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/tv_content_des"
+                            scrollable="false" selected="false" text="阿里巴巴02:57跌幅达-4.01%，现价186.68美元"/>
+                        </android.widget.LinearLayout>
+                      </android.widget.LinearLayout>
+                      <android.widget.LinearLayout
+                        bounds="[0,1072][720,1160]" checkable="false"
+                        checked="false"
+                        class="android.widget.LinearLayout"
+                        clickable="true" displayed="true" enabled="true"
+                        focusable="false" focused="false" index="7"
+                        long-clickable="false"
+                        package="com.xueqiu.android" password="false"
+                        scrollable="false" selected="false" text="">
+                        <android.widget.TextView
+                          bounds="[24,1075][65,1096]" checkable="false"
+                          checked="false"
+                          class="android.widget.TextView"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="0"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/tv_time"
+                          scrollable="false" selected="false" text="05:57"/>
+                        <android.widget.RelativeLayout
+                          bounds="[77,1072][86,1160]" checkable="false"
+                          checked="false"
+                          class="android.widget.RelativeLayout"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="1"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          scrollable="false" selected="false" text="">
+                          <android.widget.ImageView
+                            bounds="[77,1080][86,1089]"
+                            checkable="false" checked="false"
+                            class="android.widget.ImageView"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="0"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/iv_states"
+                            scrollable="false" selected="false" text=""/>
+                        </android.widget.RelativeLayout>
+                        <android.widget.LinearLayout
+                          bounds="[101,1072][696,1160]"
+                          checkable="false" checked="false"
+                          class="android.widget.LinearLayout"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="2"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/ll_top_view"
+                          scrollable="false" selected="false" text="">
+                          <android.widget.LinearLayout
+                            bounds="[101,1072][696,1096]"
+                            checkable="false" checked="false"
+                            class="android.widget.LinearLayout"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="0"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false" scrollable="false"
+                            selected="false" text="">
+                            <android.widget.ImageView
+                              bounds="[101,1075][122,1093]"
+                              checkable="false" checked="false"
+                              class="android.widget.ImageView"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="0"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/iv_stock_market"
+                              scrollable="false" selected="false" text=""/>
+                            <android.widget.LinearLayout
+                              bounds="[131,1072][622,1096]"
+                              checkable="false" checked="false"
+                              class="android.widget.LinearLayout"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="1"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false" scrollable="false"
+                              selected="false" text="">
+                              <android.widget.TextView
+                                bounds="[131,1072][223,1096]"
+                                checkable="false" checked="false"
+                                class="android.widget.TextView"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="0"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false"
+                                resource-id="com.xueqiu.android:id/tv_title"
+                                scrollable="false" selected="false" text="阿里巴巴"/>
+                              <android.widget.TextView
+                                bounds="[235,1073][368,1096]"
+                                checkable="false" checked="false"
+                                class="android.widget.TextView"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="1"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false"
+                                resource-id="com.xueqiu.android:id/tv_percent"
+                                scrollable="false" selected="false" text="212.29 +1.33%"/>
+                            </android.widget.LinearLayout>
+                            <android.widget.TextView
+                              bounds="[622,1072][696,1095]"
+                              checkable="false" checked="false"
+                              class="android.widget.TextView"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="2"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/tv_state"
+                              scrollable="false" selected="false" text="盘后涨幅"/>
+                          </android.widget.LinearLayout>
+                          <android.widget.TextView
+                            bounds="[101,1108][696,1160]"
+                            checkable="false" checked="false"
+                            class="android.widget.TextView"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="1"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/tv_content_des"
+                            scrollable="false" selected="false" text="阿里巴巴盘后05:57涨幅达4.60%，现价197.26美元"/>
+                        </android.widget.LinearLayout>
+                      </android.widget.LinearLayout>
+                      <android.widget.LinearLayout
+                        bounds="[0,1235][720,1280]" checkable="false"
+                        checked="false"
+                        class="android.widget.LinearLayout"
+                        clickable="true" displayed="true" enabled="true"
+                        focusable="false" focused="false" index="8"
+                        long-clickable="false"
+                        package="com.xueqiu.android" password="false"
+                        scrollable="false" selected="false" text="">
+                        <android.widget.TextView
+                          bounds="[24,1238][65,1259]" checkable="false"
+                          checked="false"
+                          class="android.widget.TextView"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="0"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/tv_time"
+                          scrollable="false" selected="false" text="04:00"/>
+                        <android.widget.RelativeLayout
+                          bounds="[77,1235][86,1280]" checkable="false"
+                          checked="false"
+                          class="android.widget.RelativeLayout"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="1"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          scrollable="false" selected="false" text="">
+                          <android.widget.ImageView
+                            bounds="[77,1243][86,1252]"
+                            checkable="false" checked="false"
+                            class="android.widget.ImageView"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="0"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/iv_states"
+                            scrollable="false" selected="false" text=""/>
+                        </android.widget.RelativeLayout>
+                        <android.widget.LinearLayout
+                          bounds="[101,1235][696,1280]"
+                          checkable="false" checked="false"
+                          class="android.widget.LinearLayout"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="2"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/ll_top_view"
+                          scrollable="false" selected="false" text="">
+                          <android.widget.LinearLayout
+                            bounds="[101,1235][696,1259]"
+                            checkable="false" checked="false"
+                            class="android.widget.LinearLayout"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="0"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false" scrollable="false"
+                            selected="false" text="">
+                            <android.widget.ImageView
+                              bounds="[101,1238][122,1256]"
+                              checkable="false" checked="false"
+                              class="android.widget.ImageView"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="0"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/iv_stock_market"
+                              scrollable="false" selected="false" text=""/>
+                            <android.widget.LinearLayout
+                              bounds="[131,1235][656,1259]"
+                              checkable="false" checked="false"
+                              class="android.widget.LinearLayout"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="1"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false" scrollable="false"
+                              selected="false" text="">
+                              <android.widget.TextView
+                                bounds="[131,1235][223,1259]"
+                                checkable="false" checked="false"
+                                class="android.widget.TextView"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="0"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false"
+                                resource-id="com.xueqiu.android:id/tv_title"
+                                scrollable="false" selected="false" text="阿里巴巴"/>
+                              <android.widget.TextView
+                                bounds="[235,1236][368,1259]"
+                                checkable="false" checked="false"
+                                class="android.widget.TextView"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="1"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false"
+                                resource-id="com.xueqiu.android:id/tv_percent"
+                                scrollable="false" selected="false" text="212.29 +1.33%"/>
+                            </android.widget.LinearLayout>
+                            <android.widget.TextView
+                              bounds="[656,1235][696,1258]"
+                              checkable="false" checked="false"
+                              class="android.widget.TextView"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="2"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/tv_state"
+                              scrollable="false" selected="false" text="涨幅"/>
+                          </android.widget.LinearLayout>
+                          <android.widget.TextView
+                            bounds="[101,1271][696,1280]"
+                            checkable="false" checked="false"
+                            class="android.widget.TextView"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="1"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/tv_content_des"
+                            scrollable="false" selected="false" text="阿里巴巴04:00涨幅达4.12%，现价196.32美元"/>
+                        </android.widget.LinearLayout>
+                      </android.widget.LinearLayout>
+                    </androidx.recyclerview.widget.RecyclerView>
+                  </android.widget.FrameLayout>
+                </android.view.ViewGroup>
+              </android.widget.LinearLayout>
+            </android.widget.FrameLayout>
+          </android.view.ViewGroup>
+        </android.widget.FrameLayout>
+      </android.widget.LinearLayout>
+      <android.widget.ImageView bounds="[0,0][15,1280]"
+        checkable="false" checked="false"
+        class="android.widget.ImageView" clickable="false"
+        displayed="true" enabled="true" focusable="false"
+        focused="false" index="1" long-clickable="false"
+        package="com.xueqiu.android" password="false" scrollable="false"
+        selected="false" text=""/>
+    </android.widget.FrameLayout>
+  </android.widget.FrameLayout>
+</hierarchy>

@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hierarchy class="hierarchy" height="1280" index="0" rotation="0" width="720">
+  <android.widget.FrameLayout bounds="[0,0][720,1280]" checkable="false"
+    checked="false" class="android.widget.FrameLayout" clickable="false"
+    displayed="true" enabled="true" focusable="false" focused="false"
+    index="0" long-clickable="false" package="com.xueqiu.android"
+    password="false" scrollable="false" selected="false" text="">
+    <android.widget.FrameLayout bounds="[0,0][720,1280]"
+      checkable="false" checked="false"
+      class="android.widget.FrameLayout" clickable="false"
+      displayed="true" enabled="true" focusable="false" focused="false"
+      index="0" long-clickable="false" package="com.xueqiu.android"
+      password="false" scrollable="false" selected="false" text="">
+      <android.widget.LinearLayout bounds="[0,0][720,1280]"
+        checkable="false" checked="false"
+        class="android.widget.LinearLayout" clickable="false"
+        displayed="true" enabled="true" focusable="false"
+        focused="false" index="0" long-clickable="false"
+        package="com.xueqiu.android" password="false" scrollable="false"
+        selected="false" text="">
+        <android.widget.FrameLayout bounds="[0,0][720,1280]"
+          checkable="false" checked="false"
+          class="android.widget.FrameLayout" clickable="false"
+          displayed="true" enabled="true" focusable="false"
+          focused="false" index="0" long-clickable="false"
+          package="com.xueqiu.android" password="false"
+          scrollable="false" selected="false" text="">
+          <android.view.ViewGroup bounds="[0,0][720,1280]"
+            checkable="false" checked="false"
+            class="android.view.ViewGroup" clickable="false"
+            displayed="true" enabled="true" focusable="false"
+            focused="false" index="0" long-clickable="false"
+            package="com.xueqiu.android" password="false"
+            resource-id="com.xueqiu.android:id/decor_content_parent"
+            scrollable="false" selected="false" text="">
+            <android.widget.FrameLayout bounds="[0,0][720,1280]"
+              checkable="false" checked="false"
+              class="android.widget.FrameLayout" clickable="false"
+              displayed="true" enabled="true" focusable="false"
+              focused="false" index="0" long-clickable="false"
+              package="com.xueqiu.android" password="false"
+              resource-id="android:id/content" scrollable="false"
+              selected="false" text="">
+              <android.widget.FrameLayout bounds="[0,0][720,1280]"
+                checkable="false" checked="false"
+                class="android.widget.FrameLayout" clickable="false"
+                displayed="true" enabled="true" focusable="false"
+                focused="false" index="0" long-clickable="false"
+                package="com.xueqiu.android" password="false"
+                resource-id="com.xueqiu.android:id/container"
+                scrollable="false" selected="false" text="">
+                <android.view.ViewGroup bounds="[0,0][720,1280]"
+                  checkable="false" checked="false"
+                  class="android.view.ViewGroup" clickable="false"
+                  displayed="true" enabled="true" focusable="false"
+                  focused="false" index="0" long-clickable="false"
+                  package="com.xueqiu.android" password="false"
+                  scrollable="false" selected="false" text="">
+                  <android.widget.LinearLayout bounds="[0,0][720,295]"
+                    checkable="false" checked="false"
+                    class="android.widget.LinearLayout"
+                    clickable="false" displayed="true" enabled="true"
+                    focusable="false" focused="false" index="0"
+                    long-clickable="false" package="com.xueqiu.android"
+                    password="false"
+                    resource-id="com.xueqiu.android:id/appBarLayout"
+                    scrollable="false" selected="false" text="">
+                    <android.widget.LinearLayout bounds="[0,0][720,295]"
+                      checkable="false" checked="false"
+                      class="android.widget.LinearLayout"
+                      clickable="false" displayed="true" enabled="true"
+                      focusable="false" focused="false" index="0"
+                      long-clickable="false"
+                      package="com.xueqiu.android" password="false"
+                      scrollable="false" selected="false" text="">
+                      <android.widget.FrameLayout
+                        bounds="[0,0][720,231]" checkable="false"
+                        checked="false"
+                        class="android.widget.FrameLayout"
+                        clickable="false" displayed="true"
+                        enabled="true" focusable="false" focused="false"
+                        index="0" long-clickable="false"
+                        package="com.xueqiu.android" password="false"
+                        scrollable="false" selected="false" text="">
+                        <android.widget.ImageView
+                          bounds="[0,0][720,231]" checkable="false"
+                          checked="false"
+                          class="android.widget.ImageView"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="0"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/background_mask"
+                          scrollable="false" selected="false" text=""/>
+                        <android.widget.RelativeLayout
+                          bounds="[24,90][696,231]" checkable="false"
+                          checked="false"
+                          class="android.widget.RelativeLayout"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="1"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          scrollable="false" selected="false" text="">
+                          <android.widget.FrameLayout
+                            bounds="[24,90][144,210]" checkable="false"
+                            checked="false"
+                            class="android.widget.FrameLayout"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="0"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/topic_profile_image"
+                            scrollable="false" selected="false" text="">
+                            <android.widget.ImageView
+                              bounds="[24,90][144,210]"
+                              checkable="false" checked="false"
+                              class="android.widget.ImageView"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="0"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/topic_profile_image"
+                              scrollable="false" selected="false" text=""/>
+                          </android.widget.FrameLayout>
+                          <android.widget.TextView
+                            bounds="[159,90][345,171]" checkable="false"
+                            checked="false"
+                            class="android.widget.TextView"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="1"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/hash_tag_title"
+                            scrollable="false" selected="false" text="#股民的日常#"/>
+                          <android.widget.RelativeLayout
+                            bounds="[159,157][696,196]"
+                            checkable="false" checked="false"
+                            class="android.widget.RelativeLayout"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="2"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/topic_info_container"
+                            scrollable="false" selected="false" text="">
+                            <android.widget.TextView
+                              bounds="[159,162][416,190]"
+                              checkable="false" checked="false"
+                              class="android.widget.TextView"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="0"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/hash_tag_status_count"
+                              scrollable="false" selected="false" text="1695 人关注  |  2.68万 条讨论"/>
+                            <android.widget.TextView
+                              bounds="[606,157][696,196]"
+                              checkable="false" checked="false"
+                              class="android.widget.TextView"
+                              clickable="true" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="1"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false"
+                              resource-id="com.xueqiu.android:id/follow_btn"
+                              scrollable="false" selected="false" text="关注"/>
+                          </android.widget.RelativeLayout>
+                        </android.widget.RelativeLayout>
+                      </android.widget.FrameLayout>
+                      <android.widget.LinearLayout
+                        bounds="[0,231][720,295]" checkable="false"
+                        checked="false"
+                        class="android.widget.LinearLayout"
+                        clickable="false" displayed="true"
+                        enabled="true" focusable="false" focused="false"
+                        index="1" long-clickable="false"
+                        package="com.xueqiu.android" password="false"
+                        resource-id="com.xueqiu.android:id/hash_tag_content_container"
+                        scrollable="false" selected="false" text="">
+                        <android.widget.TextView
+                          bounds="[0,231][720,295]" checkable="false"
+                          checked="false"
+                          class="android.widget.TextView"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="0"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/hash_tag_content"
+                          scrollable="false" selected="false" text=" 一个股民的真实生活记录。"/>
+                      </android.widget.LinearLayout>
+                    </android.widget.LinearLayout>
+                  </android.widget.LinearLayout>
+                  <android.widget.LinearLayout
+                    bounds="[0,295][720,1280]" checkable="false"
+                    checked="false" class="android.widget.LinearLayout"
+                    clickable="false" displayed="true" enabled="true"
+                    focusable="false" focused="false" index="1"
+                    long-clickable="false" package="com.xueqiu.android"
+                    password="false" scrollable="false" selected="false" text="">
+                    <android.widget.FrameLayout
+                      bounds="[0,295][720,355]" checkable="false"
+                      checked="false" class="android.widget.FrameLayout"
+                      clickable="false" displayed="true" enabled="true"
+                      focusable="false" focused="false" index="0"
+                      long-clickable="false"
+                      package="com.xueqiu.android" password="false"
+                      resource-id="com.xueqiu.android:id/indicator"
+                      scrollable="false" selected="false" text="">
+                      <android.widget.FrameLayout
+                        bounds="[0,295][720,355]" checkable="false"
+                        checked="false"
+                        class="android.widget.FrameLayout"
+                        clickable="false" displayed="true"
+                        enabled="true" focusable="false" focused="false"
+                        index="0" long-clickable="false"
+                        package="com.xueqiu.android" password="false"
+                        scrollable="false" selected="false" text="">
+                        <android.widget.FrameLayout
+                          bounds="[0,295][720,355]" checkable="false"
+                          checked="false"
+                          class="android.widget.FrameLayout"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="0"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          scrollable="false" selected="false" text="">
+                          <android.widget.LinearLayout
+                            bounds="[0,295][720,355]" checkable="false"
+                            checked="false"
+                            class="android.widget.LinearLayout"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="0"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/title_container"
+                            scrollable="false" selected="false" text="">
+                            <android.widget.TextView
+                              bounds="[0,295][360,355]"
+                              checkable="false" checked="false"
+                              class="android.widget.TextView"
+                              clickable="true" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="0"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false" scrollable="false"
+                              selected="false" text="最热讨论"/>
+                            <android.widget.TextView
+                              bounds="[360,295][720,355]"
+                              checkable="false" checked="false"
+                              class="android.widget.TextView"
+                              clickable="true" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="1"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false" scrollable="false"
+                              selected="false" text="最新讨论"/>
+                          </android.widget.LinearLayout>
+                          <android.widget.LinearLayout
+                            bounds="[0,295][720,355]" checkable="false"
+                            checked="false"
+                            class="android.widget.LinearLayout"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="false"
+                            focused="false" index="1"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/indicator_container"
+                            scrollable="false" selected="false" text="">
+                            <android.view.View bounds="[0,295][720,355]"
+                              checkable="false" checked="false"
+                              class="android.view.View"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="0"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false" scrollable="false"
+                              selected="false" text=""/>
+                          </android.widget.LinearLayout>
+                        </android.widget.FrameLayout>
+                      </android.widget.FrameLayout>
+                    </android.widget.FrameLayout>
+                    <androidx.viewpager.widget.ViewPager
+                      bounds="[0,355][720,1280]" checkable="false"
+                      checked="false"
+                      class="androidx.viewpager.widget.ViewPager"
+                      clickable="false" displayed="true" enabled="true"
+                      focusable="true" focused="false" index="1"
+                      long-clickable="false"
+                      package="com.xueqiu.android" password="false"
+                      resource-id="com.xueqiu.android:id/view_pager"
+                      scrollable="true" selected="false" text="">
+                      <android.widget.RelativeLayout
+                        bounds="[0,355][720,1280]" checkable="false"
+                        checked="false"
+                        class="android.widget.RelativeLayout"
+                        clickable="false" displayed="true"
+                        enabled="true" focusable="false" focused="false"
+                        index="0" long-clickable="false"
+                        package="com.xueqiu.android" password="false"
+                        scrollable="false" selected="false" text="">
+                        <android.view.ViewGroup
+                          bounds="[0,355][720,1280]" checkable="false"
+                          checked="false" class="android.view.ViewGroup"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="0"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/refresh_layout"
+                          scrollable="false" selected="false" text="">
+                          <androidx.recyclerview.widget.RecyclerView
+                            bounds="[0,355][720,1280]" checkable="false"
+                            checked="false"
+                            class="androidx.recyclerview.widget.RecyclerView"
+                            clickable="false" displayed="true"
+                            enabled="true" focusable="true"
+                            focused="true" index="1"
+                            long-clickable="false"
+                            package="com.xueqiu.android"
+                            password="false"
+                            resource-id="com.xueqiu.android:id/list_view"
+                            scrollable="true" selected="false" text="">
+                            <android.widget.LinearLayout
+                              bounds="[0,355][720,364]"
+                              checkable="false" checked="false"
+                              class="android.widget.LinearLayout"
+                              clickable="false" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="0"
+                              long-clickable="false"
+                              package="com.xueqiu.android"
+                              password="false" scrollable="false"
+                              selected="false" text="">
+                              <android.view.View
+                                bounds="[0,355][720,364]"
+                                checkable="false" checked="false"
+                                class="android.view.View"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="0"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false" scrollable="false"
+                                selected="false" text=""/>
+                            </android.widget.LinearLayout>
+                            <android.widget.LinearLayout
+                              bounds="[0,364][720,1052]"
+                              checkable="false" checked="false"
+                              class="android.widget.LinearLayout"
+                              clickable="true" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="1"
+                              long-clickable="true"
+                              package="com.xueqiu.android"
+                              password="false" scrollable="false"
+                              selected="false" text="">
+                              <android.widget.LinearLayout
+                                bounds="[0,364][720,1051]"
+                                checkable="false" checked="false"
+                                class="android.widget.LinearLayout"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="0"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false" scrollable="false"
+                                selected="false" text="">
+                                <android.widget.FrameLayout
+                                  bounds="[24,364][696,469]"
+                                  checkable="false" checked="false"
+                                  class="android.widget.FrameLayout"
+                                  clickable="false" displayed="true"
+                                  enabled="true" focusable="false"
+                                  focused="false" index="0"
+                                  long-clickable="false"
+                                  package="com.xueqiu.android"
+                                  password="false"
+                                  resource-id="com.xueqiu.android:id/status_card_header_id"
+                                  scrollable="false" selected="false" text="">
+                                  <android.widget.LinearLayout
+                                    bounds="[24,364][696,469]"
+                                    checkable="false" checked="false"
+                                    class="android.widget.LinearLayout"
+                                    clickable="false" displayed="true"
+                                    enabled="true" focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false" scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.RelativeLayout
+                                    bounds="[24,364][696,469]"
+                                    checkable="false" checked="false"
+                                    class="android.widget.RelativeLayout"
+                                    clickable="false" displayed="true"
+                                    enabled="true" focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.FrameLayout
+                                    bounds="[24,389][78,443]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.FrameLayout"
+                                    clickable="true"
+                                    displayed="true" enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/profileImage"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.ImageView
+                                    bounds="[24,389][78,443]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.ImageView"
+                                    clickable="false"
+                                    displayed="true"
+                                    enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/profileImage"
+                                    scrollable="false"
+                                    selected="false" text=""/>
+                                    </android.widget.FrameLayout>
+                                    <android.widget.LinearLayout
+                                    bounds="[93,387][173,445]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.LinearLayout"
+                                    clickable="true"
+                                    displayed="true" enabled="true"
+                                    focusable="false"
+                                    focused="false" index="1"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/name_layout"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.TextView
+                                    bounds="[93,387][141,420]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.TextView"
+                                    clickable="false"
+                                    displayed="true"
+                                    enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/userName"
+                                    scrollable="false"
+                                    selected="false" text="粹语"/>
+                                    <android.widget.TextView
+                                    bounds="[93,420][173,445]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.TextView"
+                                    clickable="false"
+                                    displayed="true"
+                                    enabled="true"
+                                    focusable="false"
+                                    focused="false" index="1"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/created_at"
+                                    scrollable="false"
+                                    selected="false" text="昨天21:18"/>
+                                    </android.widget.LinearLayout>
+                                    </android.widget.RelativeLayout>
+                                  </android.widget.LinearLayout>
+                                </android.widget.FrameLayout>
+                                <android.widget.FrameLayout
+                                  bounds="[24,469][696,677]"
+                                  checkable="false" checked="false"
+                                  class="android.widget.FrameLayout"
+                                  clickable="false" displayed="true"
+                                  enabled="true" focusable="false"
+                                  focused="false" index="1"
+                                  long-clickable="false"
+                                  package="com.xueqiu.android"
+                                  password="false"
+                                  resource-id="com.xueqiu.android:id/status_container"
+                                  scrollable="false" selected="false" text="">
+                                  <android.widget.RelativeLayout
+                                    bounds="[24,469][696,677]"
+                                    checkable="false" checked="false"
+                                    class="android.widget.RelativeLayout"
+                                    clickable="false" displayed="true"
+                                    enabled="true" focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/status_container"
+                                    scrollable="false" selected="false" text="">
+                                    <android.widget.TextView
+                                    bounds="[24,469][696,677]"
+                                    checkable="false" checked="false"
+                                    class="android.widget.TextView"
+                                    clickable="false" displayed="true"
+                                    enabled="true" focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/statusText"
+                                    scrollable="false"
+                                    selected="false" text="【全网首发！股神林园最新发声！】1、目前A股处于熊末牛初阶段，这种趋势一旦形成不会轻易改变。2、普通人要学会投垄断型的行业，而且是长期持有，满仓操作，重点看好医药板块，投资医药股，要配置全球头部医药公司。3、可转债作为配置的话，也是非常好的标的。4、年轻人，千万不要封锁他的想法，..."/>
+                                  </android.widget.RelativeLayout>
+                                </android.widget.FrameLayout>
+                                <android.widget.FrameLayout
+                                  bounds="[24,686][696,907]"
+                                  checkable="false" checked="false"
+                                  class="android.widget.FrameLayout"
+                                  clickable="false" displayed="true"
+                                  enabled="true" focusable="false"
+                                  focused="false" index="2"
+                                  long-clickable="false"
+                                  package="com.xueqiu.android"
+                                  password="false"
+                                  resource-id="com.xueqiu.android:id/status_image_layout"
+                                  scrollable="false" selected="false" text="">
+                                  <android.widget.LinearLayout
+                                    bounds="[24,686][696,907]"
+                                    checkable="false" checked="false"
+                                    class="android.widget.LinearLayout"
+                                    clickable="false" displayed="true"
+                                    enabled="true" focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/topic_foot_container"
+                                    scrollable="false" selected="false" text="">
+                                    <android.widget.GridView
+                                    bounds="[24,686][472,907]"
+                                    checkable="false" checked="false"
+                                    class="android.widget.GridView"
+                                    clickable="true" displayed="true"
+                                    enabled="true" focusable="false"
+                                    focused="false" index="1"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/gv_images"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.LinearLayout
+                                    bounds="[24,686][245,907]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.LinearLayout"
+                                    clickable="true"
+                                    displayed="true" enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.FrameLayout
+                                    bounds="[24,686][245,907]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.FrameLayout"
+                                    clickable="true"
+                                    displayed="true"
+                                    enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/status_image_layout"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.RelativeLayout
+                                    bounds="[25,687][244,906]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.RelativeLayout"
+                                    clickable="false"
+                                    displayed="true"
+                                    enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.FrameLayout
+                                    bounds="[25,687][244,906]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.FrameLayout"
+                                    clickable="false"
+                                    displayed="true"
+                                    enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/status_image"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.ImageView
+                                    bounds="[25,687][244,906]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.ImageView"
+                                    clickable="false"
+                                    displayed="true"
+                                    enabled="true"
+                                    focusable="false"
+                                    focused="false"
+                                    index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/status_image"
+                                    scrollable="false"
+                                    selected="false" text=""/>
+                                    </android.widget.FrameLayout>
+                                    </android.widget.RelativeLayout>
+                                    </android.widget.FrameLayout>
+                                    </android.widget.LinearLayout>
+                                    <android.widget.LinearLayout
+                                    bounds="[251,686][472,907]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.LinearLayout"
+                                    clickable="true"
+                                    displayed="true" enabled="true"
+                                    focusable="false"
+                                    focused="false" index="1"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.FrameLayout
+                                    bounds="[251,686][472,907]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.FrameLayout"
+                                    clickable="true"
+                                    displayed="true"
+                                    enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/status_image_layout"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.RelativeLayout
+                                    bounds="[252,687][471,906]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.RelativeLayout"
+                                    clickable="false"
+                                    displayed="true"
+                                    enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.FrameLayout
+                                    bounds="[252,687][471,906]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.FrameLayout"
+                                    clickable="false"
+                                    displayed="true"
+                                    enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/status_image"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.ImageView
+                                    bounds="[252,687][471,906]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.ImageView"
+                                    clickable="false"
+                                    displayed="true"
+                                    enabled="true"
+                                    focusable="false"
+                                    focused="false"
+                                    index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/status_image"
+                                    scrollable="false"
+                                    selected="false" text=""/>
+                                    </android.widget.FrameLayout>
+                                    </android.widget.RelativeLayout>
+                                    </android.widget.FrameLayout>
+                                    </android.widget.LinearLayout>
+                                    </android.widget.GridView>
+                                  </android.widget.LinearLayout>
+                                </android.widget.FrameLayout>
+                                <android.widget.FrameLayout
+                                  bounds="[24,907][696,964]"
+                                  checkable="false" checked="false"
+                                  class="android.widget.FrameLayout"
+                                  clickable="false" displayed="true"
+                                  enabled="true" focusable="false"
+                                  focused="false" index="3"
+                                  long-clickable="false"
+                                  package="com.xueqiu.android"
+                                  password="false"
+                                  resource-id="com.xueqiu.android:id/trade_opportunity"
+                                  scrollable="false" selected="false" text="">
+                                  <android.widget.LinearLayout
+                                    bounds="[24,907][696,964]"
+                                    checkable="false" checked="false"
+                                    class="android.widget.LinearLayout"
+                                    clickable="false" displayed="true"
+                                    enabled="true" focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false" scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.FrameLayout
+                                    bounds="[24,922][207,964]"
+                                    checkable="false" checked="false"
+                                    class="android.widget.FrameLayout"
+                                    clickable="false" displayed="true"
+                                    enabled="true" focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/card_tag"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.LinearLayout
+                                    bounds="[24,922][207,964]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.LinearLayout"
+                                    clickable="true"
+                                    displayed="true" enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.ImageView
+                                    bounds="[30,925][66,961]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.ImageView"
+                                    clickable="false"
+                                    displayed="true"
+                                    enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/image"
+                                    scrollable="false"
+                                    selected="false" text=""/>
+                                    <android.widget.TextView
+                                    bounds="[75,929][175,957]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.TextView"
+                                    clickable="false"
+                                    displayed="true"
+                                    enabled="true"
+                                    focusable="false"
+                                    focused="false" index="1"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/name"
+                                    scrollable="false"
+                                    selected="false" text="股民的日常"/>
+                                    <android.widget.ImageView
+                                    bounds="[181,934][201,952]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.ImageView"
+                                    clickable="false"
+                                    displayed="true"
+                                    enabled="true"
+                                    focusable="false"
+                                    focused="false" index="2"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    scrollable="false"
+                                    selected="false" text=""/>
+                                    </android.widget.LinearLayout>
+                                    </android.widget.FrameLayout>
+                                  </android.widget.LinearLayout>
+                                </android.widget.FrameLayout>
+                                <android.widget.FrameLayout
+                                  bounds="[0,964][720,1051]"
+                                  checkable="false" checked="false"
+                                  class="android.widget.FrameLayout"
+                                  clickable="false" displayed="true"
+                                  enabled="true" focusable="false"
+                                  focused="false" index="4"
+                                  long-clickable="false"
+                                  package="com.xueqiu.android"
+                                  password="false"
+                                  resource-id="com.xueqiu.android:id/status_card_foot_id"
+                                  scrollable="false" selected="false" text="">
+                                  <android.widget.LinearLayout
+                                    bounds="[0,964][720,1051]"
+                                    checkable="false" checked="false"
+                                    class="android.widget.LinearLayout"
+                                    clickable="false" displayed="true"
+                                    enabled="true" focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/normal_answer_layout"
+                                    scrollable="false" selected="false" text="">
+                                    <android.widget.LinearLayout
+                                    bounds="[24,964][138,1051]"
+                                    checkable="false" checked="false"
+                                    class="android.widget.LinearLayout"
+                                    clickable="true" displayed="true"
+                                    enabled="true" focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/retweet_count_view"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.ImageView
+                                    bounds="[24,989][60,1025]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.ImageView"
+                                    clickable="false"
+                                    displayed="true" enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    scrollable="false"
+                                    selected="false" text=""/>
+                                    <android.widget.TextView
+                                    bounds="[65,993][87,1021]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.TextView"
+                                    clickable="false"
+                                    displayed="true" enabled="true"
+                                    focusable="false"
+                                    focused="false" index="1"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/retweet_count"
+                                    scrollable="false"
+                                    selected="false" text="17"/>
+                                    </android.widget.LinearLayout>
+                                    <android.widget.LinearLayout
+                                    bounds="[138,964][267,1051]"
+                                    checkable="false" checked="false"
+                                    class="android.widget.LinearLayout"
+                                    clickable="true" displayed="true"
+                                    enabled="true" focusable="false"
+                                    focused="false" index="1"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/comment_count_view"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.ImageView
+                                    bounds="[153,989][189,1025]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.ImageView"
+                                    clickable="false"
+                                    displayed="true" enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    scrollable="false"
+                                    selected="false" text=""/>
+                                    <android.widget.TextView
+                                    bounds="[194,993][216,1021]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.TextView"
+                                    clickable="false"
+                                    displayed="true" enabled="true"
+                                    focusable="false"
+                                    focused="false" index="1"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/comment_count"
+                                    scrollable="false"
+                                    selected="false" text="59"/>
+                                    </android.widget.LinearLayout>
+                                    <android.widget.LinearLayout
+                                    bounds="[267,964][375,1051]"
+                                    checkable="false" checked="false"
+                                    class="android.widget.LinearLayout"
+                                    clickable="true" displayed="true"
+                                    enabled="true" focusable="false"
+                                    focused="false" index="2"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/reward_count_view"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.FrameLayout
+                                    bounds="[282,980][318,1025]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.FrameLayout"
+                                    clickable="false"
+                                    displayed="true" enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.ImageView
+                                    bounds="[282,980][318,1025]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.ImageView"
+                                    clickable="false"
+                                    displayed="true"
+                                    enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/like_view"
+                                    scrollable="false"
+                                    selected="false" text=""/>
+                                    </android.widget.FrameLayout>
+                                    <android.widget.TextView
+                                    bounds="[323,993][345,1021]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.TextView"
+                                    clickable="false"
+                                    displayed="true" enabled="true"
+                                    focusable="false"
+                                    focused="false" index="1"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/reward_snowcoin"
+                                    scrollable="false"
+                                    selected="false" text="98"/>
+                                    </android.widget.LinearLayout>
+                                    <android.widget.LinearLayout
+                                    bounds="[375,964][696,1051]"
+                                    checkable="false" checked="false"
+                                    class="android.widget.LinearLayout"
+                                    clickable="false" displayed="true"
+                                    enabled="true" focusable="false"
+                                    focused="false" index="3"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.ImageView
+                                    bounds="[655,968][696,1051]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.ImageView"
+                                    clickable="true"
+                                    displayed="true" enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/more_action_button"
+                                    scrollable="false"
+                                    selected="false" text=""/>
+                                    </android.widget.LinearLayout>
+                                  </android.widget.LinearLayout>
+                                </android.widget.FrameLayout>
+                              </android.widget.LinearLayout>
+                              <android.view.View
+                                bounds="[24,1051][696,1052]"
+                                checkable="false" checked="false"
+                                class="android.view.View"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="2"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false" scrollable="false"
+                                selected="false" text=""/>
+                            </android.widget.LinearLayout>
+                            <android.widget.LinearLayout
+                              bounds="[0,1052][720,1280]"
+                              checkable="false" checked="false"
+                              class="android.widget.LinearLayout"
+                              clickable="true" displayed="true"
+                              enabled="true" focusable="false"
+                              focused="false" index="2"
+                              long-clickable="true"
+                              package="com.xueqiu.android"
+                              password="false" scrollable="false"
+                              selected="false" text="">
+                              <android.widget.LinearLayout
+                                bounds="[0,1052][720,1280]"
+                                checkable="false" checked="false"
+                                class="android.widget.LinearLayout"
+                                clickable="false" displayed="true"
+                                enabled="true" focusable="false"
+                                focused="false" index="0"
+                                long-clickable="false"
+                                package="com.xueqiu.android"
+                                password="false" scrollable="false"
+                                selected="false" text="">
+                                <android.widget.FrameLayout
+                                  bounds="[24,1052][696,1157]"
+                                  checkable="false" checked="false"
+                                  class="android.widget.FrameLayout"
+                                  clickable="false" displayed="true"
+                                  enabled="true" focusable="false"
+                                  focused="false" index="0"
+                                  long-clickable="false"
+                                  package="com.xueqiu.android"
+                                  password="false"
+                                  resource-id="com.xueqiu.android:id/status_card_header_id"
+                                  scrollable="false" selected="false" text="">
+                                  <android.widget.LinearLayout
+                                    bounds="[24,1052][696,1157]"
+                                    checkable="false" checked="false"
+                                    class="android.widget.LinearLayout"
+                                    clickable="false" displayed="true"
+                                    enabled="true" focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false" scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.RelativeLayout
+                                    bounds="[24,1052][696,1157]"
+                                    checkable="false" checked="false"
+                                    class="android.widget.RelativeLayout"
+                                    clickable="false" displayed="true"
+                                    enabled="true" focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.FrameLayout
+                                    bounds="[24,1077][78,1131]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.FrameLayout"
+                                    clickable="true"
+                                    displayed="true" enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/profileImage"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.ImageView
+                                    bounds="[24,1077][78,1131]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.ImageView"
+                                    clickable="false"
+                                    displayed="true"
+                                    enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/profileImage"
+                                    scrollable="false"
+                                    selected="false" text=""/>
+                                    </android.widget.FrameLayout>
+                                    <android.widget.LinearLayout
+                                    bounds="[93,1075][261,1133]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.LinearLayout"
+                                    clickable="true"
+                                    displayed="true" enabled="true"
+                                    focusable="false"
+                                    focused="false" index="1"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/name_layout"
+                                    scrollable="false"
+                                    selected="false" text="">
+                                    <android.widget.TextView
+                                    bounds="[93,1075][261,1108]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.TextView"
+                                    clickable="false"
+                                    displayed="true"
+                                    enabled="true"
+                                    focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/userName"
+                                    scrollable="false"
+                                    selected="false" text="接飞刀的女神经"/>
+                                    <android.widget.TextView
+                                    bounds="[93,1108][157,1133]"
+                                    checkable="false"
+                                    checked="false"
+                                    class="android.widget.TextView"
+                                    clickable="false"
+                                    displayed="true"
+                                    enabled="true"
+                                    focusable="false"
+                                    focused="false" index="1"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/created_at"
+                                    scrollable="false"
+                                    selected="false" text="2小时前"/>
+                                    </android.widget.LinearLayout>
+                                    </android.widget.RelativeLayout>
+                                  </android.widget.LinearLayout>
+                                </android.widget.FrameLayout>
+                                <android.widget.FrameLayout
+                                  bounds="[24,1157][696,1280]"
+                                  checkable="false" checked="false"
+                                  class="android.widget.FrameLayout"
+                                  clickable="false" displayed="true"
+                                  enabled="true" focusable="false"
+                                  focused="false" index="1"
+                                  long-clickable="false"
+                                  package="com.xueqiu.android"
+                                  password="false"
+                                  resource-id="com.xueqiu.android:id/status_container"
+                                  scrollable="false" selected="false" text="">
+                                  <android.widget.RelativeLayout
+                                    bounds="[24,1157][696,1280]"
+                                    checkable="false" checked="false"
+                                    class="android.widget.RelativeLayout"
+                                    clickable="false" displayed="true"
+                                    enabled="true" focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/status_container"
+                                    scrollable="false" selected="false" text="">
+                                    <android.widget.TextView
+                                    bounds="[24,1157][696,1280]"
+                                    checkable="false" checked="false"
+                                    class="android.widget.TextView"
+                                    clickable="false" displayed="true"
+                                    enabled="true" focusable="false"
+                                    focused="false" index="0"
+                                    long-clickable="false"
+                                    package="com.xueqiu.android"
+                                    password="false"
+                                    resource-id="com.xueqiu.android:id/statusText"
+                                    scrollable="false"
+                                    selected="false" text="悬赏[?19.00] 求致富代码，要求有四： 1）今年业绩保持增长不下滑； 2）有重组或者收购预期； 3）拒绝银行地产； 4）目前动态市盈率30倍以下。 如果找不到符合标准标的，把你的自选截图发过来，被我看上同样分配奖金。 各显神通，靠你们了。 $上证指数(SH000001)$ $长春高新(SZ000661)$ $纳斯达克综合指数(.IXI..."/>
+                                  </android.widget.RelativeLayout>
+                                </android.widget.FrameLayout>
+                              </android.widget.LinearLayout>
+                            </android.widget.LinearLayout>
+                          </androidx.recyclerview.widget.RecyclerView>
+                        </android.view.ViewGroup>
+                      </android.widget.RelativeLayout>
+                    </androidx.viewpager.widget.ViewPager>
+                  </android.widget.LinearLayout>
+                </android.view.ViewGroup>
+                <android.widget.LinearLayout bounds="[0,0][720,108]"
+                  checkable="false" checked="false"
+                  class="android.widget.LinearLayout" clickable="false"
+                  displayed="true" enabled="true" focusable="false"
+                  focused="false" index="1" long-clickable="false"
+                  package="com.xueqiu.android" password="false"
+                  scrollable="false" selected="false" text="">
+                  <android.widget.FrameLayout bounds="[0,0][720,108]"
+                    checkable="false" checked="false"
+                    class="android.widget.FrameLayout" clickable="false"
+                    displayed="true" enabled="true" focusable="false"
+                    focused="false" index="0" long-clickable="false"
+                    package="com.xueqiu.android" password="false"
+                    scrollable="false" selected="false" text="">
+                    <android.widget.RelativeLayout
+                      bounds="[0,36][720,108]" checkable="false"
+                      checked="false"
+                      class="android.widget.RelativeLayout"
+                      clickable="false" displayed="true" enabled="true"
+                      focusable="false" focused="false" index="1"
+                      long-clickable="false"
+                      package="com.xueqiu.android" password="false"
+                      resource-id="com.xueqiu.android:id/transparent_action_bar"
+                      scrollable="false" selected="false" text="">
+                      <android.widget.RelativeLayout
+                        bounds="[0,36][78,108]" checkable="false"
+                        checked="false"
+                        class="android.widget.RelativeLayout"
+                        clickable="true" displayed="true" enabled="true"
+                        focusable="false" focused="false" index="0"
+                        long-clickable="false"
+                        package="com.xueqiu.android" password="false"
+                        resource-id="com.xueqiu.android:id/transparent_action_back"
+                        scrollable="false" selected="false" text="">
+                        <android.widget.ImageView
+                          bounds="[24,36][60,108]" checkable="false"
+                          checked="false"
+                          class="android.widget.ImageView"
+                          clickable="false" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="0"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          scrollable="false" selected="false" text=""/>
+                      </android.widget.RelativeLayout>
+                      <android.widget.LinearLayout
+                        bounds="[650,36][720,108]" checkable="false"
+                        checked="false"
+                        class="android.widget.LinearLayout"
+                        clickable="false" displayed="true"
+                        enabled="true" focusable="false" focused="false"
+                        index="1" long-clickable="false"
+                        package="com.xueqiu.android" password="false"
+                        scrollable="false" selected="false" text="">
+                        <android.widget.ImageView
+                          bounds="[650,54][720,90]" checkable="false"
+                          checked="false"
+                          class="android.widget.ImageView"
+                          clickable="true" displayed="true"
+                          enabled="true" focusable="false"
+                          focused="false" index="0"
+                          long-clickable="false"
+                          package="com.xueqiu.android" password="false"
+                          resource-id="com.xueqiu.android:id/transparent_action_more"
+                          scrollable="false" selected="false" text=""/>
+                      </android.widget.LinearLayout>
+                    </android.widget.RelativeLayout>
+                  </android.widget.FrameLayout>
+                </android.widget.LinearLayout>
+                <android.widget.ImageView bounds="[588,1110][690,1212]"
+                  checkable="false" checked="false"
+                  class="android.widget.ImageView" clickable="true"
+                  displayed="true" enabled="true" focusable="false"
+                  focused="false" index="2" long-clickable="false"
+                  package="com.xueqiu.android" password="false"
+                  resource-id="com.xueqiu.android:id/post_topic_status"
+                  scrollable="false" selected="false" text=""/>
+              </android.widget.FrameLayout>
+            </android.widget.FrameLayout>
+          </android.view.ViewGroup>
+        </android.widget.FrameLayout>
+      </android.widget.LinearLayout>
+      <android.widget.ImageView bounds="[0,0][15,1280]"
+        checkable="false" checked="false"
+        class="android.widget.ImageView" clickable="false"
+        displayed="true" enabled="true" focusable="false"
+        focused="false" index="1" long-clickable="false"
+        package="com.xueqiu.android" password="false" scrollable="false"
+        selected="false" text=""/>
+    </android.widget.FrameLayout>
+  </android.widget.FrameLayout>
+</hierarchy>

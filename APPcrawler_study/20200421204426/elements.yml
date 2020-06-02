@@ -1,0 +1,692 @@
+---
+elementStore:
+  MainActivity.tag=start.id=start:
+    reqDom: "MainActivity.tag=start.id=start"
+    resDom: "MainActivity.tag=start.id=start"
+    reqHash: "cf9ff2cb04e900ba58b58fb43edb2d6f"
+    resHash: "cf9ff2cb04e900ba58b58fb43edb2d6f"
+    reqImg: "20200421204426/0_MainActivity.tag=start.id=start.click.png"
+    resImg: "20200421204426/0_MainActivity.tag=start.id=start.clicked.png"
+    clickedIndex: 0
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "MainActivity"
+      tag: "start"
+      id: "start"
+      name: ""
+      text: ""
+      instance: ""
+      depth: ""
+      valid: "true"
+      selected: "false"
+      xpath: "Start-Start-0"
+      ancestor: ""
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  Steps.tag=.name=NOT_FOUND:
+    reqDom: "MainActivity.tag=start.id=start"
+    resDom: "Steps.tag=.name=NOT_FOUND"
+    reqHash: "cf9ff2cb04e900ba58b58fb43edb2d6f"
+    resHash: "cf9ff2cb04e900ba58b58fb43edb2d6f"
+    reqImg: "20200421204426/1_Steps.tag=.name=NOT_FOUND.click.png"
+    resImg: "20200421204426/1_Steps.tag=.name=NOT_FOUND.clicked.png"
+    clickedIndex: 1
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "Steps"
+      tag: ""
+      id: ""
+      name: "NOT_FOUND"
+      text: ""
+      instance: ""
+      depth: ""
+      valid: "true"
+      selected: "false"
+      xpath: "/*"
+      ancestor: ""
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  TopicWordActivity.tag=TextView.depth=21.id=userName.text=粹语:
+    reqDom: "UserProfileActivity.tag=TextView.depth=23.id=name.text=股民的日常"
+    resDom: "TopicWordActivity.tag=TextView.depth=21.id=userName.text=粹语"
+    reqHash: "480d28b20aa826f128d60fcefcd747c5"
+    resHash: "6f14b3fafc9981d81ccac12744abf6a4"
+    reqImg: "20200421204426/5_TopicWordActivity.tag=TextView.depth=21.id=userName.text=粹\
+      语.click.png"
+    resImg: "20200421204426/5_TopicWordActivity.tag=TextView.depth=21.id=userName.text=粹\
+      语.clicked.png"
+    clickedIndex: 5
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "TopicWordActivity"
+      tag: "android.widget.TextView"
+      id: "com.xueqiu.android:id/userName"
+      name: ""
+      text: "粹语"
+      instance: ""
+      depth: "21"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/view_pager\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/refresh_layout\"]//*[@resource-id=\"com.xueqiu.android:id/list_view\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/status_card_header_id\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/name_layout\"]//*[@text=\"粹语\" and @resource-id=\"com.xueqiu.android:id/userName\"\
+        ]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  MainActivity.tag=TextView.depth=23.id=userName.text=仙源游侠:
+    reqDom: "Steps.tag=.name=NOT_FOUND"
+    resDom: "MainActivity.tag=TextView.depth=23.id=userName.text=仙源游侠"
+    reqHash: "cf9ff2cb04e900ba58b58fb43edb2d6f"
+    resHash: "b2dae7e8a55169e6a20ccdaaba239721"
+    reqImg: "20200421204426/2_MainActivity.tag=TextView.depth=23.id=userName.text=仙\
+      源游侠.click.png"
+    resImg: "20200421204426/2_MainActivity.tag=TextView.depth=23.id=userName.text=仙\
+      源游侠.clicked.png"
+    clickedIndex: 2
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "MainActivity"
+      tag: "android.widget.TextView"
+      id: "com.xueqiu.android:id/userName"
+      name: ""
+      text: "仙源游侠"
+      instance: ""
+      depth: "23"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/mainContent\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/home_container\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/main_content\"]//*[@resource-id=\"com.xueqiu.android:id/view_pager\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/recommend_layout_refresh\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/recommend_recycler_view\"]//*[@resource-id=\"com.xueqiu.android:id/status_card_header_id\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/name_layout\"]//*[@text=\"仙源游侠\"\
+        \ and @resource-id=\"com.xueqiu.android:id/userName\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.RelativeLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  UserProfileActivity.tag=ImageView.depth=23.id=profileImage:
+    reqDom: "UserProfileActivity.tag=TextView.depth=23.id=userName.text=粹语"
+    resDom: "UserProfileActivity.tag=ImageView.depth=23.id=profileImage"
+    reqHash: "0ea02db9b9448a29c70bb08d9f01b7e1"
+    resHash: "fefc75b6a206a38fa7b7e4df1383dc1e"
+    reqImg: "20200421204426/7_UserProfileActivity.tag=ImageView.depth=23.id=profileImage.click.png"
+    resImg: "20200421204426/7_UserProfileActivity.tag=ImageView.depth=23.id=profileImage.clicked.png"
+    clickedIndex: 7
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "UserProfileActivity"
+      tag: "android.widget.ImageView"
+      id: "com.xueqiu.android:id/profileImage"
+      name: ""
+      text: ""
+      instance: ""
+      depth: "23"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/indicator_ll\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/view_pager\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/list_view\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/status_card_header_id\"]//*[@resource-id=\"com.xueqiu.android:id/profileImage\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/profileImage\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.ImageView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  UserProfileActivity.tag=TextView.depth=23.id=userName.text=粹语:
+    reqDom: "TopicWordActivity.tag=TextView.depth=21.id=userName.text=粹语"
+    resDom: "UserProfileActivity.tag=TextView.depth=23.id=userName.text=粹语"
+    reqHash: "6f14b3fafc9981d81ccac12744abf6a4"
+    resHash: "0ea02db9b9448a29c70bb08d9f01b7e1"
+    reqImg: "20200421204426/6_UserProfileActivity.tag=TextView.depth=23.id=userName.text=粹\
+      语.click.png"
+    resImg: "20200421204426/6_UserProfileActivity.tag=TextView.depth=23.id=userName.text=粹\
+      语.clicked.png"
+    clickedIndex: 6
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "UserProfileActivity"
+      tag: "android.widget.TextView"
+      id: "com.xueqiu.android:id/userName"
+      name: ""
+      text: "粹语"
+      instance: ""
+      depth: "23"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/indicator_ll\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/view_pager\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/list_view\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/status_card_header_id\"]//*[@resource-id=\"com.xueqiu.android:id/name_layout\"\
+        ]//*[@text=\"粹语\" and @resource-id=\"com.xueqiu.android:id/userName\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=2:
+    reqDom: "UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=1"
+    resDom: "UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=2"
+    reqHash: "069ce75925a56bd237c4966e1e536a1b"
+    resHash: "fefc75b6a206a38fa7b7e4df1383dc1e"
+    reqImg: "20200421204426/9_UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=2.click.png"
+    resImg: "20200421204426/9_UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=2.clicked.png"
+    clickedIndex: 9
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "UserProfileActivity"
+      tag: "android.widget.TextView"
+      id: "com.xueqiu.android:id/reward_snowcoin"
+      name: ""
+      text: "2"
+      instance: ""
+      depth: "22"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/indicator_ll\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/view_pager\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/list_view\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/status_card_foot_id\"]//*[@resource-id=\"com.xueqiu.android:id/normal_answer_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/reward_count_view\"]//*[@text=\"\
+        2\" and @resource-id=\"com.xueqiu.android:id/reward_snowcoin\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  UserProfileActivity.tag=TextView.depth=14.text=收藏:
+    reqDom: "UserProfileActivity.tag=ImageView.depth=22.id=more_action_button"
+    resDom: "UserProfileActivity.tag=TextView.depth=14.text=收藏"
+    reqHash: "e23f55eb3b6df509780851b686026d26"
+    resHash: "638297ec776c1ff4336927f416d58e63"
+    reqImg: "20200421204426/11_UserProfileActivity.tag=TextView.depth=14.text=收藏.click.png"
+    resImg: "20200421204426/11_UserProfileActivity.tag=TextView.depth=14.text=收藏.clicked.png"
+    clickedIndex: 11
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "UserProfileActivity"
+      tag: "android.widget.TextView"
+      id: ""
+      name: ""
+      text: "收藏"
+      instance: ""
+      depth: "14"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/action_bar_root\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/coordinator\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/design_bottom_sheet\"]//*[@resource-id=\"com.xueqiu.android:id/more_action_container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/favorite\"]//*[@text=\"收藏\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  UserProfileActivity.tag=ImageView.depth=22.id=more_action_button:
+    reqDom: "UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=2"
+    resDom: "UserProfileActivity.tag=ImageView.depth=22.id=more_action_button"
+    reqHash: "fefc75b6a206a38fa7b7e4df1383dc1e"
+    resHash: "e23f55eb3b6df509780851b686026d26"
+    reqImg: "20200421204426/10_UserProfileActivity.tag=ImageView.depth=22.id=more_action_button.click.png"
+    resImg: "20200421204426/10_UserProfileActivity.tag=ImageView.depth=22.id=more_action_button.clicked.png"
+    clickedIndex: 10
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "UserProfileActivity"
+      tag: "android.widget.ImageView"
+      id: "com.xueqiu.android:id/more_action_button"
+      name: ""
+      text: ""
+      instance: ""
+      depth: "22"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/indicator_ll\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/view_pager\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/list_view\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/status_card_foot_id\"]//*[@resource-id=\"com.xueqiu.android:id/normal_answer_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/more_action_button\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ImageView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  UserProfileActivity.tag=TextView.depth=23.id=userName.text=仙源游侠:
+    reqDom: "MainActivity.tag=TextView.depth=23.id=userName.text=仙源游侠"
+    resDom: "UserProfileActivity.tag=TextView.depth=23.id=userName.text=仙源游侠"
+    reqHash: "b2dae7e8a55169e6a20ccdaaba239721"
+    resHash: "b2dae7e8a55169e6a20ccdaaba239721"
+    reqImg: "20200421204426/3_UserProfileActivity.tag=TextView.depth=23.id=userName.text=仙\
+      源游侠.click.png"
+    resImg: "20200421204426/3_UserProfileActivity.tag=TextView.depth=23.id=userName.text=仙\
+      源游侠.clicked.png"
+    clickedIndex: 3
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "UserProfileActivity"
+      tag: "android.widget.TextView"
+      id: "com.xueqiu.android:id/userName"
+      name: ""
+      text: "仙源游侠"
+      instance: ""
+      depth: "23"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/indicator_ll\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/view_pager\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/list_view\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/status_card_header_id\"]//*[@resource-id=\"com.xueqiu.android:id/name_layout\"\
+        ]//*[@text=\"仙源游侠\" and @resource-id=\"com.xueqiu.android:id/userName\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=1:
+    reqDom: "UserProfileActivity.tag=ImageView.depth=23.id=profileImage"
+    resDom: "UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=1"
+    reqHash: "fefc75b6a206a38fa7b7e4df1383dc1e"
+    resHash: "069ce75925a56bd237c4966e1e536a1b"
+    reqImg: "20200421204426/8_UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=1.click.png"
+    resImg: "20200421204426/8_UserProfileActivity.tag=TextView.depth=22.id=reward_snowcoin.text=1.clicked.png"
+    clickedIndex: 8
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "UserProfileActivity"
+      tag: "android.widget.TextView"
+      id: "com.xueqiu.android:id/reward_snowcoin"
+      name: ""
+      text: "1"
+      instance: ""
+      depth: "22"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/indicator_ll\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/view_pager\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/list_view\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/status_card_foot_id\"]//*[@resource-id=\"com.xueqiu.android:id/normal_answer_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/reward_count_view\"]//*[@text=\"\
+        1\" and @resource-id=\"com.xueqiu.android:id/reward_snowcoin\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  UserProfileActivity.tag=TextView.depth=23.id=name.text=股民的日常:
+    reqDom: "UserProfileActivity.tag=TextView.depth=23.id=userName.text=仙源游侠"
+    resDom: "UserProfileActivity.tag=TextView.depth=23.id=name.text=股民的日常"
+    reqHash: "b2dae7e8a55169e6a20ccdaaba239721"
+    resHash: "480d28b20aa826f128d60fcefcd747c5"
+    reqImg: "20200421204426/4_UserProfileActivity.tag=TextView.depth=23.id=name.text=股\
+      民的日常.click.png"
+    resImg: "20200421204426/4_UserProfileActivity.tag=TextView.depth=23.id=name.text=股\
+      民的日常.clicked.png"
+    clickedIndex: 4
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "UserProfileActivity"
+      tag: "android.widget.TextView"
+      id: "com.xueqiu.android:id/name"
+      name: ""
+      text: "股民的日常"
+      instance: ""
+      depth: "23"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/indicator_ll\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/view_pager\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/list_view\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/trade_opportunity\"]//*[@resource-id=\"com.xueqiu.android:id/card_tag\"\
+        ]//*[@text=\"股民的日常\" and @resource-id=\"com.xueqiu.android:id/name\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  UserProfileActivity.tag=ImageView.depth=22:
+    reqDom: "UserProfileActivity.tag=TextView.depth=14.text=收藏"
+    resDom: ""
+    reqHash: "638297ec776c1ff4336927f416d58e63"
+    resHash: ""
+    reqImg: "20200421204426/12_UserProfileActivity.tag=ImageView.depth=22.click.png"
+    resImg: ""
+    clickedIndex: 12
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "UserProfileActivity"
+      tag: "android.widget.ImageView"
+      id: ""
+      name: ""
+      text: ""
+      instance: ""
+      depth: "22"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/indicator_ll\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/view_pager\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/list_view\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/status_card_foot_id\"]//*[@resource-id=\"com.xueqiu.android:id/normal_answer_layout\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/retweet_count_view\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ImageView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+clickedElementsList:
+- url: "MainActivity"
+  tag: "start"
+  id: "start"
+  name: ""
+  text: ""
+  instance: ""
+  depth: ""
+  valid: "true"
+  selected: "false"
+  xpath: "Start-Start-0"
+  ancestor: ""
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "Steps"
+  tag: ""
+  id: ""
+  name: "NOT_FOUND"
+  text: ""
+  instance: ""
+  depth: ""
+  valid: "true"
+  selected: "false"
+  xpath: "/*"
+  ancestor: ""
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "MainActivity"
+  tag: "android.widget.TextView"
+  id: "com.xueqiu.android:id/userName"
+  name: ""
+  text: "仙源游侠"
+  instance: ""
+  depth: "23"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/mainContent\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/home_container\"]//*[@resource-id=\"com.xueqiu.android:id/main_content\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/view_pager\"]//*[@resource-id=\"com.xueqiu.android:id/recommend_layout_refresh\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/recommend_recycler_view\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/status_card_header_id\"]//*[@resource-id=\"com.xueqiu.android:id/name_layout\"\
+    ]//*[@text=\"仙源游侠\" and @resource-id=\"com.xueqiu.android:id/userName\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.RelativeLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "UserProfileActivity"
+  tag: "android.widget.TextView"
+  id: "com.xueqiu.android:id/userName"
+  name: ""
+  text: "仙源游侠"
+  instance: ""
+  depth: "23"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/indicator_ll\"]//*[@resource-id=\"com.xueqiu.android:id/view_pager\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/list_view\"]//*[@resource-id=\"com.xueqiu.android:id/status_card_header_id\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/name_layout\"]//*[@text=\"仙源游侠\" and\
+    \ @resource-id=\"com.xueqiu.android:id/userName\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "UserProfileActivity"
+  tag: "android.widget.TextView"
+  id: "com.xueqiu.android:id/name"
+  name: ""
+  text: "股民的日常"
+  instance: ""
+  depth: "23"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/indicator_ll\"]//*[@resource-id=\"com.xueqiu.android:id/view_pager\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/list_view\"]//*[@resource-id=\"com.xueqiu.android:id/trade_opportunity\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/card_tag\"]//*[@text=\"股民的日常\" and @resource-id=\"\
+    com.xueqiu.android:id/name\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "TopicWordActivity"
+  tag: "android.widget.TextView"
+  id: "com.xueqiu.android:id/userName"
+  name: ""
+  text: "粹语"
+  instance: ""
+  depth: "21"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/container\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/view_pager\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/list_view\"]//*[@resource-id=\"com.xueqiu.android:id/status_card_header_id\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/name_layout\"]//*[@text=\"粹语\" and @resource-id=\"\
+    com.xueqiu.android:id/userName\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "UserProfileActivity"
+  tag: "android.widget.TextView"
+  id: "com.xueqiu.android:id/userName"
+  name: ""
+  text: "粹语"
+  instance: ""
+  depth: "23"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/indicator_ll\"]//*[@resource-id=\"com.xueqiu.android:id/view_pager\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/list_view\"]//*[@resource-id=\"com.xueqiu.android:id/status_card_header_id\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/name_layout\"]//*[@text=\"粹语\" and @resource-id=\"\
+    com.xueqiu.android:id/userName\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "UserProfileActivity"
+  tag: "android.widget.ImageView"
+  id: "com.xueqiu.android:id/profileImage"
+  name: ""
+  text: ""
+  instance: ""
+  depth: "23"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/indicator_ll\"]//*[@resource-id=\"com.xueqiu.android:id/view_pager\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/list_view\"]//*[@resource-id=\"com.xueqiu.android:id/status_card_header_id\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/profileImage\"]//*[@resource-id=\"com.xueqiu.android:id/profileImage\"\
+    ]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.ImageView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "UserProfileActivity"
+  tag: "android.widget.TextView"
+  id: "com.xueqiu.android:id/reward_snowcoin"
+  name: ""
+  text: "1"
+  instance: ""
+  depth: "22"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/indicator_ll\"]//*[@resource-id=\"com.xueqiu.android:id/view_pager\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/list_view\"]//*[@resource-id=\"com.xueqiu.android:id/status_card_foot_id\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/normal_answer_layout\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/reward_count_view\"]//*[@text=\"1\" and @resource-id=\"\
+    com.xueqiu.android:id/reward_snowcoin\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "UserProfileActivity"
+  tag: "android.widget.TextView"
+  id: "com.xueqiu.android:id/reward_snowcoin"
+  name: ""
+  text: "2"
+  instance: ""
+  depth: "22"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/indicator_ll\"]//*[@resource-id=\"com.xueqiu.android:id/view_pager\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/list_view\"]//*[@resource-id=\"com.xueqiu.android:id/status_card_foot_id\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/normal_answer_layout\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/reward_count_view\"]//*[@text=\"2\" and @resource-id=\"\
+    com.xueqiu.android:id/reward_snowcoin\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "UserProfileActivity"
+  tag: "android.widget.ImageView"
+  id: "com.xueqiu.android:id/more_action_button"
+  name: ""
+  text: ""
+  instance: ""
+  depth: "22"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/indicator_ll\"]//*[@resource-id=\"com.xueqiu.android:id/view_pager\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/list_view\"]//*[@resource-id=\"com.xueqiu.android:id/status_card_foot_id\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/normal_answer_layout\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/more_action_button\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ImageView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "UserProfileActivity"
+  tag: "android.widget.TextView"
+  id: ""
+  name: ""
+  text: "收藏"
+  instance: ""
+  depth: "14"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/action_bar_root\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/container\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/coordinator\"]//*[@resource-id=\"com.xueqiu.android:id/design_bottom_sheet\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/more_action_container\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/favorite\"]//*[@text=\"收藏\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "UserProfileActivity"
+  tag: "android.widget.ImageView"
+  id: ""
+  name: ""
+  text: ""
+  instance: ""
+  depth: "22"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/indicator_ll\"]//*[@resource-id=\"com.xueqiu.android:id/view_pager\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/refresh_layout\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/list_view\"]//*[@resource-id=\"com.xueqiu.android:id/status_card_foot_id\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/normal_answer_layout\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/retweet_count_view\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ImageView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+diff: true

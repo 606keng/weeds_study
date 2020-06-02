@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <title>AppCrawler</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="Expires" content="-1"/>
+        <meta http-equiv="Pragma" content="no-cache"/>
+        <link href="css/styles.css" rel="stylesheet"/>
+        
+        <script type="text/javascript" src="js/d3.v2.min.js"></script>
+        <script type="text/javascript" src="js/sorttable.js"></script>
+        <script type="text/javascript">
+          var tagMap = {};
+var SUCCEEDED_BIT = 1;
+var FAILED_BIT = 2;
+var IGNORED_BIT = 4;
+var PENDING_BIT = 8;
+var CANCELED_BIT = 16;
+function applyFilter() {
+  var mask = 0;
+  if (document.getElementById('succeeded_checkbox').checked)
+    mask |= SUCCEEDED_BIT;
+  if (document.getElementById('failed_checkbox').checked)
+    mask |= FAILED_BIT;
+  if (document.getElementById('ignored_checkbox').checked)
+    mask |= IGNORED_BIT;
+  if (document.getElementById('pending_checkbox').checked)
+    mask |= PENDING_BIT;
+  if (document.getElementById('canceled_checkbox').checked)
+    mask |= CANCELED_BIT;
+  for (var key in tagMap) {
+    if (tagMap.hasOwnProperty(key)) {
+      var bitSet = tagMap[key];
+      var element = document.getElementById(key);
+      if ((bitSet & mask) != 0)
+        element.style.display = "table-row";
+      else 
+        element.style.display = "none";
+    }
+  }
+}
+function showDetails(suiteName) {
+  document.getElementById('details_view').innerHTML = "<iframe src='" + suiteName + ".html' width='100%' height='100%'></iframe>";
+}
+function resizeDetailsView() {
+  var headerView = document.getElementById('scalatest-header');
+  var detailsView = document.getElementById('details_view');
+  var summaryView = document.getElementById('summary_view');
+  var left = summaryView.offsetWidth + 30;
+  detailsView.style.left = left + "px";
+  detailsView.style.width = (window.innerWidth - left - 30) + "px";
+  detailsView.style.height = (window.innerHeight - headerView.offsetHeight - 20) + "px";
+}
+
+        </script>
+      </head>
+      <body onresize="resizeDetailsView()">
+        <div class="scalatest-report"> 
+          <div id="scalatest-header" class="scalatest-header-passed">
+      <div id="title">
+        AppCrawler
+      </div>
+
+      <div id="summary">
+        <p id="duration">Run completed in 168 milliseconds.</p>
+        <p id="totalTests">Total number of tests run: 19</p>
+        <p id="suiteSummary">Suites: completed 11, aborted 0</p>
+        <p id="testSummary">Tests: succeeded 19, failed 0, canceled 0, ignored 0, pending 0</p>
+      </div>
+    </div>
+          <table id="summary_view">
+            <tr id="summary_view_row_1">
+              <td id="summary_view_row_1_chart">
+                <div id="chart_div"></div>
+              </td>
+              <td id="summary_view_row_1_legend">
+                <table id="summary_view_row_1_legend_table">
+                  <tr id="summary_view_row_1_legend_table_row_succeeded">
+                    <td id="summary_view_row_1_legend_succeeded_label">Succeeded</td>
+                    <td id="summary_view_row_1_legend_succeeded_count">19</td>
+                    <td id="summary_view_row_1_legend_succeeded_percent">(100%)</td>
+                  </tr>
+                  <tr id="summary_view_row_1_legend_table_row_failed">
+                    <td id="summary_view_row_1_legend_failed_label">Failed</td>
+                    <td id="summary_view_row_1_legend_failed_count">0</td>
+                    <td id="summary_view_row_1_legend_failed_percent">(0%)</td>
+                  </tr>
+                  <tr id="summary_view_row_1_legend_table_row_canceled">
+                    <td id="summary_view_row_1_legend_canceled_label">Canceled</td>
+                    <td id="summary_view_row_1_legend_canceled_count">0</td>
+                    <td id="summary_view_row_1_legend_canceled_percent">(0%)</td>
+                  </tr>
+                  <tr id="summary_view_row_1_legend_table_row_ignored">
+                    <td id="summary_view_row_1_legend_ignored_label">Ignored</td>
+                    <td id="summary_view_row_1_legend_ignored_count">0</td>
+                    <td id="summary_view_row_1_legend_ignored_percent">(0%)</td>
+                  </tr>
+                  <tr id="summary_view_row_1_legend_table_row_pending">
+                    <td id="summary_view_row_1_legend_pending_label">Pending</td>
+                    <td id="summary_view_row_1_legend_pending_count">0</td>
+                    <td id="summary_view_row_1_legend_pending_percent">(0%)</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr id="summary_view_row_2">
+              <td id="summary_view_row_2_results" colspan="2">
+                <div id="display-filters">
+      <input id="succeeded_checkbox" name="succeeded_checkbox" type="checkbox" checked="checked" onchange="applyFilter()"/> <label id="succeeded_checkbox_label" for="passed_checkbox">Succeeded</label>
+      <input id="failed_checkbox" name="failed_checkbox" type="checkbox" checked="checked" onchange="applyFilter()"/> <label id="failed_checkbox_label" for="failed_checkbox">Failed</label>
+      <input id="canceled_checkbox" name="canceled_checkbox" type="checkbox" checked="checked" onchange="applyFilter()"/> <label id="canceled_checkbox_label" for="canceled_checkbox">Canceled</label>
+      <input id="ignored_checkbox" name="ignored_checkbox" type="checkbox" checked="checked" onchange="applyFilter()"/> <label id="ignored_checkbox_label" for="ignored_checkbox">Ignored</label>
+      <input id="pending_checkbox" name="pending_checkbox" type="checkbox" checked="checked" onchange="applyFilter()"/> <label id="pending_checkbox_label" for="pending_checkbox">Pending</label>
+    </div>
+                <table class="sortable">
+      <tr>
+        <td>Suite</td>
+        <td>Duration (ms.)</td>
+        <td>Succeeded</td>
+        <td>Failed</td>
+        <td>Canceled</td>
+        <td>Ignored</td>
+        <td>Pending</td>
+        <td>Total</td>
+      </tr>
+    <tr id="6e61b3dd-b49e-4ef6-8613-e674a15c8f3f">
+      <td class="suite_name_passed_all"><a href="javascript: showDetails('ConfigOptionalActivity')">ConfigOptionalActivity</a></td>
+      <td class="duration_passed_all">2</td>
+      <td class="succeeded_zero">0</td>
+      <td class="failed_zero">0</td>
+      <td class="canceled_zero">0</td>
+      <td class="ignored_zero">0</td>
+      <td class="pending_zero">0</td>
+      <td class="total_passed_all">0</td>
+    </tr><tr id="5bdb747a-1da5-465a-adcd-ea5d8c36316e">
+      <td class="suite_name_passed_all"><a href="javascript: showDetails('FundFlowListActivity')">FundFlowListActivity</a></td>
+      <td class="duration_passed_all">1</td>
+      <td class="succeeded_zero">0</td>
+      <td class="failed_zero">0</td>
+      <td class="canceled_zero">0</td>
+      <td class="ignored_zero">0</td>
+      <td class="pending_zero">0</td>
+      <td class="total_passed_all">0</td>
+    </tr><tr id="2ce23462-c593-4736-931a-a86d4c3bf4d4">
+      <td class="suite_name_passed_all"><a href="javascript: showDetails('GeneralNoticeActivity')">GeneralNoticeActivity</a></td>
+      <td class="duration_passed_all">2</td>
+      <td class="succeeded_zero">0</td>
+      <td class="failed_zero">0</td>
+      <td class="canceled_zero">0</td>
+      <td class="ignored_zero">0</td>
+      <td class="pending_zero">0</td>
+      <td class="total_passed_all">0</td>
+    </tr><tr id="7b8bb55f-30e8-4ada-86fc-db19d6a1f308">
+      <td class="suite_name_passed_all"><a href="javascript: showDetails('Launcher')">Launcher</a></td>
+      <td class="duration_passed_all">3</td>
+      <td class="succeeded">1</td>
+      <td class="failed_zero">0</td>
+      <td class="canceled_zero">0</td>
+      <td class="ignored_zero">0</td>
+      <td class="pending_zero">0</td>
+      <td class="total_passed_all">1</td>
+    </tr><tr id="5fce8fef-57c2-4bed-b89d-31efe11ccbed">
+      <td class="suite_name_passed_all"><a href="javascript: showDetails('LoginActivity')">LoginActivity</a></td>
+      <td class="duration_passed_all">2</td>
+      <td class="succeeded_zero">0</td>
+      <td class="failed_zero">0</td>
+      <td class="canceled_zero">0</td>
+      <td class="ignored_zero">0</td>
+      <td class="pending_zero">0</td>
+      <td class="total_passed_all">0</td>
+    </tr><tr id="c44edd69-b574-452d-b6ad-1376b8c29f6e">
+      <td class="suite_name_passed_all"><a href="javascript: showDetails('MainActivity')">MainActivity</a></td>
+      <td class="duration_passed_all">13</td>
+      <td class="succeeded">2</td>
+      <td class="failed_zero">0</td>
+      <td class="canceled_zero">0</td>
+      <td class="ignored_zero">0</td>
+      <td class="pending_zero">0</td>
+      <td class="total_passed_all">2</td>
+    </tr><tr id="17cc7401-3ae4-4c71-ac3d-5849704bd09d">
+      <td class="suite_name_passed_all"><a href="javascript: showDetails('Steps')">Steps</a></td>
+      <td class="duration_passed_all">11</td>
+      <td class="succeeded">4</td>
+      <td class="failed_zero">0</td>
+      <td class="canceled_zero">0</td>
+      <td class="ignored_zero">0</td>
+      <td class="pending_zero">0</td>
+      <td class="total_passed_all">4</td>
+    </tr><tr id="efd58b43-04b5-45ac-a3bf-55d117eeddcc">
+      <td class="suite_name_passed_all"><a href="javascript: showDetails('StockDetailActivity')">StockDetailActivity</a></td>
+      <td class="duration_passed_all">27</td>
+      <td class="succeeded">11</td>
+      <td class="failed_zero">0</td>
+      <td class="canceled_zero">0</td>
+      <td class="ignored_zero">0</td>
+      <td class="pending_zero">0</td>
+      <td class="total_passed_all">11</td>
+    </tr><tr id="d9f1545f-6a46-468d-8e07-0337951b3e4f">
+      <td class="suite_name_passed_all"><a href="javascript: showDetails('TopicWordActivity')">TopicWordActivity</a></td>
+      <td class="duration_passed_all">2</td>
+      <td class="succeeded_zero">0</td>
+      <td class="failed_zero">0</td>
+      <td class="canceled_zero">0</td>
+      <td class="ignored_zero">0</td>
+      <td class="pending_zero">0</td>
+      <td class="total_passed_all">0</td>
+    </tr><tr id="fb2a26c0-3ae6-4e94-af18-2c3e20263a65">
+      <td class="suite_name_passed_all"><a href="javascript: showDetails('USearchActivity')">USearchActivity</a></td>
+      <td class="duration_passed_all">4</td>
+      <td class="succeeded">1</td>
+      <td class="failed_zero">0</td>
+      <td class="canceled_zero">0</td>
+      <td class="ignored_zero">0</td>
+      <td class="pending_zero">0</td>
+      <td class="total_passed_all">1</td>
+    </tr><tr id="23d7d6ed-f46a-42da-adf2-58d65539e7e1">
+      <td class="suite_name_passed_all"><a href="javascript: showDetails('UserProfileActivity')">UserProfileActivity</a></td>
+      <td class="duration_passed_all">2</td>
+      <td class="succeeded_zero">0</td>
+      <td class="failed_zero">0</td>
+      <td class="canceled_zero">0</td>
+      <td class="ignored_zero">0</td>
+      <td class="pending_zero">0</td>
+      <td class="total_passed_all">0</td>
+    </tr>
+    </table>
+              </td>
+            </tr>
+          </table>
+          <div id="details_view">
+            <span id="click_suite_hint">Click on suite name to view details.</span> <br/>
+            <span id="click_column_hint">Click on column name to sort.</span>
+          </div>
+        </div>
+        <script type="text/javascript">
+          /* modified from http://www.permadi.com/tutorial/cssGettingBackgroundColor/index.html - */
+function getBgColor(elementId)
+{
+  var element = document.getElementById(elementId);
+  if (element.currentStyle)
+    return element.currentStyle.backgroundColor;
+  if (window.getComputedStyle)
+  {
+    var elementStyle=window.getComputedStyle(element,"");
+    if (elementStyle)
+      return elementStyle.getPropertyValue("background-color");
+  }
+  // Return 0 if both methods failed.
+  return 0;
+}
+var data = [19, 0, 0, 0, 0];
+var color = [getBgColor('summary_view_row_1_legend_succeeded_label'), 
+             getBgColor('summary_view_row_1_legend_failed_label'), 
+             getBgColor('summary_view_row_1_legend_ignored_label'), 
+             getBgColor('summary_view_row_1_legend_pending_label'), 
+             getBgColor('summary_view_row_1_legend_canceled_label')
+            ];
+var width = document.getElementById('chart_div').offsetWidth,
+    height = document.getElementById('chart_div').offsetHeight,
+    outerRadius = Math.min(width, height) / 2,
+    innerRadius = 0,
+    donut = d3.layout.pie(),
+    arc = d3.svg.arc().innerRadius(innerRadius).outerRadius(outerRadius);
+var vis = d3.select("#chart_div")
+            .append("svg")
+            .data([data])
+            .attr("width", width)
+            .attr("height", height);
+var arcs = vis.selectAll("g.arc")
+              .data(donut)
+              .enter().append("g")
+              .attr("class", "arc")
+              .attr("transform", "translate(" + outerRadius + "," + outerRadius + ")");
+arcs.append("path")
+    .attr("fill", function(d, i) { return color[i]; })
+    .attr("d", arc);
+
+        </script>
+        <script type="text/javascript">
+          tagMap = { 
+"23d7d6ed-f46a-42da-adf2-58d65539e7e1": 1, 
+"17cc7401-3ae4-4c71-ac3d-5849704bd09d": 1, 
+"c44edd69-b574-452d-b6ad-1376b8c29f6e": 1, 
+"7b8bb55f-30e8-4ada-86fc-db19d6a1f308": 1, 
+"6e61b3dd-b49e-4ef6-8613-e674a15c8f3f": 1, 
+"2ce23462-c593-4736-931a-a86d4c3bf4d4": 1, 
+"5bdb747a-1da5-465a-adcd-ea5d8c36316e": 1, 
+"d9f1545f-6a46-468d-8e07-0337951b3e4f": 1, 
+"efd58b43-04b5-45ac-a3bf-55d117eeddcc": 1, 
+"fb2a26c0-3ae6-4e94-af18-2c3e20263a65": 1, 
+"5fce8fef-57c2-4bed-b89d-31efe11ccbed": 1};
+applyFilter();
+        </script>
+        <script type="text/javascript">
+          resizeDetailsView();
+        </script>
+      </body>
+    </html>

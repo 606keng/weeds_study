@@ -1,0 +1,1141 @@
+---
+elementStore:
+  MainActivity.tag=start.id=start:
+    reqDom: "MainActivity.tag=start.id=start"
+    resDom: "MainActivity.tag=start.id=start"
+    reqHash: "959037e687bd6c2f004bf2a49e324ad8"
+    resHash: "959037e687bd6c2f004bf2a49e324ad8"
+    reqImg: "20200420211151/0_MainActivity.tag=start.id=start.click.png"
+    resImg: "20200420211151/0_MainActivity.tag=start.id=start.clicked.png"
+    clickedIndex: 0
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "MainActivity"
+      tag: "start"
+      id: "start"
+      name: ""
+      text: ""
+      instance: ""
+      depth: ""
+      valid: "true"
+      selected: "false"
+      xpath: "Start-Start-0"
+      ancestor: ""
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  StockDetailActivity.tag=TextView.depth=21.id=text.text=财务:
+    reqDom: ""
+    resDom: ""
+    reqHash: ""
+    resHash: ""
+    reqImg: ""
+    resImg: ""
+    clickedIndex: -1
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Skipped"
+    element:
+      url: "StockDetailActivity"
+      tag: "android.widget.TextView"
+      id: "com.xueqiu.android:id/text"
+      name: ""
+      text: "财务"
+      instance: ""
+      depth: "21"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/main_content\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/abl_header\"]//*[@resource-id=\"com.xueqiu.android:id/tab_indicator_view\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/container\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/tab_text_container\"]//*[@text=\"财务\" and @resource-id=\"\
+        com.xueqiu.android:id/text\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  StockDetailActivity.tag=TextView.depth=21.id=text.text=公告:
+    reqDom: ""
+    resDom: ""
+    reqHash: ""
+    resHash: ""
+    reqImg: ""
+    resImg: ""
+    clickedIndex: -1
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Skipped"
+    element:
+      url: "StockDetailActivity"
+      tag: "android.widget.TextView"
+      id: "com.xueqiu.android:id/text"
+      name: ""
+      text: "公告"
+      instance: ""
+      depth: "21"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/main_content\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/abl_header\"]//*[@resource-id=\"com.xueqiu.android:id/tab_indicator_view\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/container\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/tab_text_container\"]//*[@text=\"公告\" and @resource-id=\"\
+        com.xueqiu.android:id/text\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  StockDetailActivity.tag=TextView.depth=21.id=text.text=简况:
+    reqDom: ""
+    resDom: ""
+    reqHash: ""
+    resHash: ""
+    reqImg: ""
+    resImg: ""
+    clickedIndex: -1
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Skipped"
+    element:
+      url: "StockDetailActivity"
+      tag: "android.widget.TextView"
+      id: "com.xueqiu.android:id/text"
+      name: ""
+      text: "简况"
+      instance: ""
+      depth: "21"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/main_content\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/abl_header\"]//*[@resource-id=\"com.xueqiu.android:id/tab_indicator_view\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/container\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/tab_text_container\"]//*[@text=\"简况\" and @resource-id=\"\
+        com.xueqiu.android:id/text\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  USearchActivity.tag=Back.id=Back:
+    reqDom: "StockDetailActivity.tag=Back.id=Back"
+    resDom: "USearchActivity.tag=Back.id=Back"
+    reqHash: "b457ca233f578eb866c9de3692921a6c"
+    resHash: "959037e687bd6c2f004bf2a49e324ad8"
+    reqImg: "20200420211151/17_USearchActivity.tag=Back.id=Back.click.png"
+    resImg: "20200420211151/17_USearchActivity.tag=Back.id=Back.clicked.png"
+    clickedIndex: 17
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "USearchActivity"
+      tag: "Back"
+      id: "Back"
+      name: ""
+      text: ""
+      instance: ""
+      depth: ""
+      valid: "true"
+      selected: "false"
+      xpath: "Back-17"
+      ancestor: ""
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  StockDetailActivity.tag=Back.id=Back:
+    reqDom: "StockDetailActivity.tag=TextView.depth=24.text=分钟"
+    resDom: "StockDetailActivity.tag=Back.id=Back"
+    reqHash: "ca81674f0e893ca30ca19f8c00a0d639"
+    resHash: "d1b9df6c6822059ca3411d09a1a633ca"
+    reqImg: "20200420211151/15_StockDetailActivity.tag=Back.id=Back.click.png"
+    resImg: "20200420211151/15_StockDetailActivity.tag=Back.id=Back.clicked.png"
+    clickedIndex: 16
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "StockDetailActivity"
+      tag: "Back"
+      id: "Back"
+      name: ""
+      text: ""
+      instance: ""
+      depth: ""
+      valid: "true"
+      selected: "false"
+      xpath: "Back-15"
+      ancestor: ""
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  Launcher.tag=Back.id=Back:
+    reqDom: "MainActivity.tag=Back.id=Back"
+    resDom: "Launcher.tag=Back.id=Back"
+    reqHash: "86bc762eef485537bd538a1ecf9b6a32"
+    resHash: "86bc762eef485537bd538a1ecf9b6a32"
+    reqImg: "20200420211151/19_Launcher.tag=Back.id=Back.click.png"
+    resImg: "20200420211151/19_Launcher.tag=Back.id=Back.clicked.png"
+    clickedIndex: 21
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "Launcher"
+      tag: "Back"
+      id: "Back"
+      name: ""
+      text: ""
+      instance: ""
+      depth: ""
+      valid: "true"
+      selected: "false"
+      xpath: "Back-19"
+      ancestor: ""
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  Steps.tag=LinearLayout.depth=13.id=home_search:
+    reqDom: "MainActivity.tag=start.id=start"
+    resDom: "Steps.tag=LinearLayout.depth=13.id=home_search"
+    reqHash: "959037e687bd6c2f004bf2a49e324ad8"
+    resHash: "f47b0f5efdd290149c2018d29975cda2"
+    reqImg: "20200420211151/1_Steps.tag=LinearLayout.depth=13.id=home_search.click.png"
+    resImg: "20200420211151/1_Steps.tag=LinearLayout.depth=13.id=home_search.clicked.png"
+    clickedIndex: 1
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "Steps"
+      tag: "android.widget.LinearLayout"
+      id: "com.xueqiu.android:id/home_search"
+      name: ""
+      text: ""
+      instance: ""
+      depth: "13"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/mainContent\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/home_container\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/main_content\"]//*[@resource-id=\"com.xueqiu.android:id/appbar\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/home_search\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.LinearLayout"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  StockDetailActivity.tag=TextView.depth=24.text=月K:
+    reqDom: "StockDetailActivity.tag=TextView.depth=24.text=周K"
+    resDom: "StockDetailActivity.tag=TextView.depth=24.text=月K"
+    reqHash: "568d48d3ea7f2b6fc07719fb697cba9c"
+    resHash: "24da18251e388682a2967edcedc14445"
+    reqImg: "20200420211151/11_StockDetailActivity.tag=TextView.depth=24.text=月K.click.png"
+    resImg: "20200420211151/11_StockDetailActivity.tag=TextView.depth=24.text=月K.clicked.png"
+    clickedIndex: 11
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "StockDetailActivity"
+      tag: "android.widget.TextView"
+      id: ""
+      name: ""
+      text: "月K"
+      instance: ""
+      depth: "24"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/main_content\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/abl_header\"]//*[@resource-id=\"com.xueqiu.android:id/fl_chart_view\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_chart_fragment_container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_chart_stock_info_container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_period_container\"]//*[@text=\"\
+        月K\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  StockDetailActivity.tag=TextView.depth=24.text=分钟:
+    reqDom: "StockDetailActivity.tag=TextView.depth=24.text=年K"
+    resDom: "StockDetailActivity.tag=TextView.depth=24.text=分钟"
+    reqHash: "d1b9df6c6822059ca3411d09a1a633ca"
+    resHash: "ca81674f0e893ca30ca19f8c00a0d639"
+    reqImg: "20200420211151/14_StockDetailActivity.tag=TextView.depth=24.text=分钟.click.png"
+    resImg: "20200420211151/14_StockDetailActivity.tag=TextView.depth=24.text=分钟.clicked.png"
+    clickedIndex: 14
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "StockDetailActivity"
+      tag: "android.widget.TextView"
+      id: ""
+      name: ""
+      text: "分钟"
+      instance: ""
+      depth: "24"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/main_content\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/abl_header\"]//*[@resource-id=\"com.xueqiu.android:id/fl_chart_view\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_chart_fragment_container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_chart_stock_info_container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_period_container\"]//*[@text=\"\
+        分钟\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  StockDetailActivity.tag=TextView.depth=24.text=周K:
+    reqDom: "StockDetailActivity.tag=TextView.depth=24.text=日K"
+    resDom: "StockDetailActivity.tag=TextView.depth=24.text=周K"
+    reqHash: "1a63b9d94f40486c1132cc535e81877c"
+    resHash: "568d48d3ea7f2b6fc07719fb697cba9c"
+    reqImg: "20200420211151/10_StockDetailActivity.tag=TextView.depth=24.text=周K.click.png"
+    resImg: "20200420211151/10_StockDetailActivity.tag=TextView.depth=24.text=周K.clicked.png"
+    clickedIndex: 10
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "StockDetailActivity"
+      tag: "android.widget.TextView"
+      id: ""
+      name: ""
+      text: "周K"
+      instance: ""
+      depth: "24"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/main_content\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/abl_header\"]//*[@resource-id=\"com.xueqiu.android:id/fl_chart_view\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_chart_fragment_container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_chart_stock_info_container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_period_container\"]//*[@text=\"\
+        周K\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  Steps.tag=EditText.depth=11.id=search_input_text.text=新能源车ETF (515030):
+    reqDom: "Steps.tag=LinearLayout.depth=13.id=home_search"
+    resDom: "Steps.tag=EditText.depth=11.id=search_input_text.text=新能源车ETF (515030)"
+    reqHash: "f47b0f5efdd290149c2018d29975cda2"
+    resHash: "62be44b42cd7e8d8cd24131e6a10e60f"
+    reqImg: "20200420211151/2_Steps.tag=EditText.depth=11.id=search_input_text.text=新\
+      能源车ETF (515030).click.png"
+    resImg: "20200420211151/2_Steps.tag=EditText.depth=11.id=search_input_text.text=新\
+      能源车ETF (515030).clicked.png"
+    clickedIndex: 2
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "Steps"
+      tag: "android.widget.EditText"
+      id: "com.xueqiu.android:id/search_input_text"
+      name: ""
+      text: "新能源车ETF (515030)"
+      instance: ""
+      depth: "11"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/search_input_text\"\
+        ]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.EditText"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  StockDetailActivity.tag=TextView.depth=24.text=年K:
+    reqDom: "StockDetailActivity.tag=TextView.depth=24.text=季K"
+    resDom: "StockDetailActivity.tag=TextView.depth=24.text=年K"
+    reqHash: "df8d2de487489ac268d3916e8837e120"
+    resHash: "d1b9df6c6822059ca3411d09a1a633ca"
+    reqImg: "20200420211151/13_StockDetailActivity.tag=TextView.depth=24.text=年K.click.png"
+    resImg: "20200420211151/13_StockDetailActivity.tag=TextView.depth=24.text=年K.clicked.png"
+    clickedIndex: 13
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "StockDetailActivity"
+      tag: "android.widget.TextView"
+      id: ""
+      name: ""
+      text: "年K"
+      instance: ""
+      depth: "24"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/main_content\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/abl_header\"]//*[@resource-id=\"com.xueqiu.android:id/fl_chart_view\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_chart_fragment_container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_chart_stock_info_container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_period_container\"]//*[@text=\"\
+        年K\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  StockDetailActivity.tag=TextView.depth=24.text=分时:
+    reqDom: "StockDetailActivity.tag=TextView.depth=21.id=text.text=资金"
+    resDom: "StockDetailActivity.tag=TextView.depth=24.text=分时"
+    reqHash: "4315cafb2fa50c7caa58ee346fdae96c"
+    resHash: "4315cafb2fa50c7caa58ee346fdae96c"
+    reqImg: "20200420211151/7_StockDetailActivity.tag=TextView.depth=24.text=分时.click.png"
+    resImg: "20200420211151/7_StockDetailActivity.tag=TextView.depth=24.text=分时.clicked.png"
+    clickedIndex: 7
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "StockDetailActivity"
+      tag: "android.widget.TextView"
+      id: ""
+      name: ""
+      text: "分时"
+      instance: ""
+      depth: "24"
+      valid: "true"
+      selected: "true"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/main_content\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/abl_header\"]//*[@resource-id=\"com.xueqiu.android:id/fl_chart_view\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_chart_fragment_container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_chart_stock_info_container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_period_container\"]//*[@text=\"\
+        分时\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  StockDetailActivity.tag=TextView.depth=24.text=季K:
+    reqDom: "StockDetailActivity.tag=TextView.depth=24.text=月K"
+    resDom: "StockDetailActivity.tag=TextView.depth=24.text=季K"
+    reqHash: "24da18251e388682a2967edcedc14445"
+    resHash: "df8d2de487489ac268d3916e8837e120"
+    reqImg: "20200420211151/12_StockDetailActivity.tag=TextView.depth=24.text=季K.click.png"
+    resImg: "20200420211151/12_StockDetailActivity.tag=TextView.depth=24.text=季K.clicked.png"
+    clickedIndex: 12
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "StockDetailActivity"
+      tag: "android.widget.TextView"
+      id: ""
+      name: ""
+      text: "季K"
+      instance: ""
+      depth: "24"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/main_content\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/abl_header\"]//*[@resource-id=\"com.xueqiu.android:id/fl_chart_view\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_chart_fragment_container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_chart_stock_info_container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_period_container\"]//*[@text=\"\
+        季K\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  StockDetailActivity.tag=TextView.depth=21.id=text.text=讨论:
+    reqDom: "Steps.tag=TextView.depth=23.id=stockCode.text=09988"
+    resDom: "StockDetailActivity.tag=TextView.depth=21.id=text.text=讨论"
+    reqHash: "1e7cde108d10f9df8b70622352277dcb"
+    resHash: "7a531b8253cccf947ad71bae4aea4eda"
+    reqImg: "20200420211151/5_StockDetailActivity.tag=TextView.depth=21.id=text.text=讨\
+      论.click.png"
+    resImg: "20200420211151/5_StockDetailActivity.tag=TextView.depth=21.id=text.text=讨\
+      论.clicked.png"
+    clickedIndex: 5
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "StockDetailActivity"
+      tag: "android.widget.TextView"
+      id: "com.xueqiu.android:id/text"
+      name: ""
+      text: "讨论"
+      instance: ""
+      depth: "21"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/main_content\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/abl_header\"]//*[@resource-id=\"com.xueqiu.android:id/tab_indicator_view\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/container\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/tab_text_container\"]//*[@text=\"讨论\" and @resource-id=\"\
+        com.xueqiu.android:id/text\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  MainActivity.tag=Back.id=Back:
+    reqDom: "USearchActivity.tag=Back.id=Back"
+    resDom: "MainActivity.tag=Back.id=Back"
+    reqHash: "959037e687bd6c2f004bf2a49e324ad8"
+    resHash: "86bc762eef485537bd538a1ecf9b6a32"
+    reqImg: "20200420211151/18_MainActivity.tag=Back.id=Back.click.png"
+    resImg: "20200420211151/18_MainActivity.tag=Back.id=Back.clicked.png"
+    clickedIndex: 18
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "MainActivity"
+      tag: "Back"
+      id: "Back"
+      name: ""
+      text: ""
+      instance: ""
+      depth: ""
+      valid: "true"
+      selected: "false"
+      xpath: "Back-18"
+      ancestor: ""
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  StockDetailActivity.tag=TextView.depth=21.id=text.text=资金:
+    reqDom: "StockDetailActivity.tag=TextView.depth=21.id=text.text=讨论"
+    resDom: "StockDetailActivity.tag=TextView.depth=21.id=text.text=资金"
+    reqHash: "7a531b8253cccf947ad71bae4aea4eda"
+    resHash: "4315cafb2fa50c7caa58ee346fdae96c"
+    reqImg: "20200420211151/6_StockDetailActivity.tag=TextView.depth=21.id=text.text=资\
+      金.click.png"
+    resImg: "20200420211151/6_StockDetailActivity.tag=TextView.depth=21.id=text.text=资\
+      金.clicked.png"
+    clickedIndex: 6
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "StockDetailActivity"
+      tag: "android.widget.TextView"
+      id: "com.xueqiu.android:id/text"
+      name: ""
+      text: "资金"
+      instance: ""
+      depth: "21"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/main_content\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/abl_header\"]//*[@resource-id=\"com.xueqiu.android:id/tab_indicator_view\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/container\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/tab_text_container\"]//*[@text=\"资金\" and @resource-id=\"\
+        com.xueqiu.android:id/text\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  StockDetailActivity.tag=TextView.depth=21.id=text.text=资讯:
+    reqDom: ""
+    resDom: ""
+    reqHash: ""
+    resHash: ""
+    reqImg: ""
+    resImg: ""
+    clickedIndex: -1
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Skipped"
+    element:
+      url: "StockDetailActivity"
+      tag: "android.widget.TextView"
+      id: "com.xueqiu.android:id/text"
+      name: ""
+      text: "资讯"
+      instance: ""
+      depth: "21"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/main_content\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/abl_header\"]//*[@resource-id=\"com.xueqiu.android:id/tab_indicator_view\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/container\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/tab_text_container\"]//*[@text=\"资讯\" and @resource-id=\"\
+        com.xueqiu.android:id/text\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  StockDetailActivity.tag=TextView.depth=24.text=日K:
+    reqDom: "StockDetailActivity.tag=TextView.depth=24.text=五日"
+    resDom: "StockDetailActivity.tag=TextView.depth=24.text=日K"
+    reqHash: "6be285cf0f4346b6cf896b0fa1cf1ee5"
+    resHash: "1a63b9d94f40486c1132cc535e81877c"
+    reqImg: "20200420211151/9_StockDetailActivity.tag=TextView.depth=24.text=日K.click.png"
+    resImg: "20200420211151/9_StockDetailActivity.tag=TextView.depth=24.text=日K.clicked.png"
+    clickedIndex: 9
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "StockDetailActivity"
+      tag: "android.widget.TextView"
+      id: ""
+      name: ""
+      text: "日K"
+      instance: ""
+      depth: "24"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/main_content\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/abl_header\"]//*[@resource-id=\"com.xueqiu.android:id/fl_chart_view\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_chart_fragment_container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_chart_stock_info_container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_period_container\"]//*[@text=\"\
+        日K\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  Steps.tag=TextView.depth=15.id=name.text=阿里巴巴-SW:
+    reqDom: "Steps.tag=EditText.depth=11.id=search_input_text.text=新能源车ETF (515030)"
+    resDom: "Steps.tag=TextView.depth=15.id=name.text=阿里巴巴-SW"
+    reqHash: "62be44b42cd7e8d8cd24131e6a10e60f"
+    resHash: "b457ca233f578eb866c9de3692921a6c"
+    reqImg: "20200420211151/3_Steps.tag=TextView.depth=15.id=name.text=阿里巴巴-SW.click.png"
+    resImg: "20200420211151/3_Steps.tag=TextView.depth=15.id=name.text=阿里巴巴-SW.clicked.png"
+    clickedIndex: 3
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "Steps"
+      tag: "android.widget.TextView"
+      id: "com.xueqiu.android:id/name"
+      name: ""
+      text: "阿里巴巴-SW"
+      instance: ""
+      depth: "15"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/fl_suggest\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/listview\"]//*[@text=\"阿里巴巴-SW\"\
+        \ and @resource-id=\"com.xueqiu.android:id/name\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  StockDetailActivity.tag=TextView.depth=24.text=五日:
+    reqDom: "StockDetailActivity.tag=TextView.depth=24.text=分时"
+    resDom: "StockDetailActivity.tag=TextView.depth=24.text=五日"
+    reqHash: "4315cafb2fa50c7caa58ee346fdae96c"
+    resHash: "6be285cf0f4346b6cf896b0fa1cf1ee5"
+    reqImg: "20200420211151/8_StockDetailActivity.tag=TextView.depth=24.text=五日.click.png"
+    resImg: "20200420211151/8_StockDetailActivity.tag=TextView.depth=24.text=五日.clicked.png"
+    clickedIndex: 8
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "StockDetailActivity"
+      tag: "android.widget.TextView"
+      id: ""
+      name: ""
+      text: "五日"
+      instance: ""
+      depth: "24"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/main_content\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/abl_header\"]//*[@resource-id=\"com.xueqiu.android:id/fl_chart_view\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_chart_fragment_container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_chart_stock_info_container\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/small_period_container\"]//*[@text=\"\
+        五日\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+  Steps.tag=TextView.depth=23.id=stockCode.text=09988:
+    reqDom: "Steps.tag=TextView.depth=15.id=name.text=阿里巴巴-SW"
+    resDom: "Steps.tag=TextView.depth=23.id=stockCode.text=09988"
+    reqHash: "b457ca233f578eb866c9de3692921a6c"
+    resHash: "1e7cde108d10f9df8b70622352277dcb"
+    reqImg: "20200420211151/4_Steps.tag=TextView.depth=23.id=stockCode.text=09988.click.png"
+    resImg: "20200420211151/4_Steps.tag=TextView.depth=23.id=stockCode.text=09988.clicked.png"
+    clickedIndex: 4
+    action:
+      enumClass: "com.testerhome.appcrawler.ElementStatus"
+      value: "Clicked"
+    element:
+      url: "Steps"
+      tag: "android.widget.TextView"
+      id: "com.xueqiu.android:id/stockCode"
+      name: ""
+      text: "09988"
+      instance: ""
+      depth: "23"
+      valid: "true"
+      selected: "false"
+      xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+        android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/ll_search_result\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/vp_view_pager\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/layout_refresh\"]//*[@resource-id=\"com.xueqiu.android:id/list\"\
+        ]//*[@resource-id=\"com.xueqiu.android:id/ll_stock_result_view\"]//*[@resource-id=\"\
+        com.xueqiu.android:id/ll_stock_item_container\"]//*[@resource-id=\"com.xueqiu.android:id/stock_layout\"\
+        ]//*[@text=\"09988\" and @resource-id=\"com.xueqiu.android:id/stockCode\"]"
+      ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+clickedElementsList:
+- url: "MainActivity"
+  tag: "start"
+  id: "start"
+  name: ""
+  text: ""
+  instance: ""
+  depth: ""
+  valid: "true"
+  selected: "false"
+  xpath: "Start-Start-0"
+  ancestor: ""
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "Steps"
+  tag: "android.widget.LinearLayout"
+  id: "com.xueqiu.android:id/home_search"
+  name: ""
+  text: ""
+  instance: ""
+  depth: "13"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/mainContent\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/home_container\"]//*[@resource-id=\"com.xueqiu.android:id/main_content\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/appbar\"]//*[@resource-id=\"com.xueqiu.android:id/home_search\"\
+    ]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.LinearLayout"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "Steps"
+  tag: "android.widget.EditText"
+  id: "com.xueqiu.android:id/search_input_text"
+  name: ""
+  text: "新能源车ETF (515030)"
+  instance: ""
+  depth: "11"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/search_input_text\"\
+    ]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.EditText"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "Steps"
+  tag: "android.widget.TextView"
+  id: "com.xueqiu.android:id/name"
+  name: ""
+  text: "阿里巴巴-SW"
+  instance: ""
+  depth: "15"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/fl_suggest\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/listview\"]//*[@text=\"阿里巴巴-SW\" and @resource-id=\"com.xueqiu.android:id/name\"\
+    ]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "Steps"
+  tag: "android.widget.TextView"
+  id: "com.xueqiu.android:id/stockCode"
+  name: ""
+  text: "09988"
+  instance: ""
+  depth: "23"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/ll_search_result\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/vp_view_pager\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/layout_refresh\"]//*[@resource-id=\"com.xueqiu.android:id/list\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/ll_stock_result_view\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/ll_stock_item_container\"]//*[@resource-id=\"com.xueqiu.android:id/stock_layout\"\
+    ]//*[@text=\"09988\" and @resource-id=\"com.xueqiu.android:id/stockCode\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "StockDetailActivity"
+  tag: "android.widget.TextView"
+  id: "com.xueqiu.android:id/text"
+  name: ""
+  text: "讨论"
+  instance: ""
+  depth: "21"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/main_content\"]//*[@resource-id=\"com.xueqiu.android:id/abl_header\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/tab_indicator_view\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/container\"]//*[@resource-id=\"com.xueqiu.android:id/tab_text_container\"\
+    ]//*[@text=\"讨论\" and @resource-id=\"com.xueqiu.android:id/text\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "StockDetailActivity"
+  tag: "android.widget.TextView"
+  id: "com.xueqiu.android:id/text"
+  name: ""
+  text: "资金"
+  instance: ""
+  depth: "21"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/main_content\"]//*[@resource-id=\"com.xueqiu.android:id/abl_header\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/tab_indicator_view\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/container\"]//*[@resource-id=\"com.xueqiu.android:id/tab_text_container\"\
+    ]//*[@text=\"资金\" and @resource-id=\"com.xueqiu.android:id/text\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "StockDetailActivity"
+  tag: "android.widget.TextView"
+  id: ""
+  name: ""
+  text: "分时"
+  instance: ""
+  depth: "24"
+  valid: "true"
+  selected: "true"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/main_content\"]//*[@resource-id=\"com.xueqiu.android:id/abl_header\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/fl_chart_view\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/small_chart_fragment_container\"]//*[@resource-id=\"com.xueqiu.android:id/small_chart_stock_info_container\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/small_period_container\"]//*[@text=\"\
+    分时\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "StockDetailActivity"
+  tag: "android.widget.TextView"
+  id: ""
+  name: ""
+  text: "五日"
+  instance: ""
+  depth: "24"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/main_content\"]//*[@resource-id=\"com.xueqiu.android:id/abl_header\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/fl_chart_view\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/small_chart_fragment_container\"]//*[@resource-id=\"com.xueqiu.android:id/small_chart_stock_info_container\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/small_period_container\"]//*[@text=\"\
+    五日\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "StockDetailActivity"
+  tag: "android.widget.TextView"
+  id: ""
+  name: ""
+  text: "日K"
+  instance: ""
+  depth: "24"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/main_content\"]//*[@resource-id=\"com.xueqiu.android:id/abl_header\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/fl_chart_view\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/small_chart_fragment_container\"]//*[@resource-id=\"com.xueqiu.android:id/small_chart_stock_info_container\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/small_period_container\"]//*[@text=\"\
+    日K\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "StockDetailActivity"
+  tag: "android.widget.TextView"
+  id: ""
+  name: ""
+  text: "周K"
+  instance: ""
+  depth: "24"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/main_content\"]//*[@resource-id=\"com.xueqiu.android:id/abl_header\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/fl_chart_view\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/small_chart_fragment_container\"]//*[@resource-id=\"com.xueqiu.android:id/small_chart_stock_info_container\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/small_period_container\"]//*[@text=\"\
+    周K\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "StockDetailActivity"
+  tag: "android.widget.TextView"
+  id: ""
+  name: ""
+  text: "月K"
+  instance: ""
+  depth: "24"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/main_content\"]//*[@resource-id=\"com.xueqiu.android:id/abl_header\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/fl_chart_view\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/small_chart_fragment_container\"]//*[@resource-id=\"com.xueqiu.android:id/small_chart_stock_info_container\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/small_period_container\"]//*[@text=\"\
+    月K\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "StockDetailActivity"
+  tag: "android.widget.TextView"
+  id: ""
+  name: ""
+  text: "季K"
+  instance: ""
+  depth: "24"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/main_content\"]//*[@resource-id=\"com.xueqiu.android:id/abl_header\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/fl_chart_view\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/small_chart_fragment_container\"]//*[@resource-id=\"com.xueqiu.android:id/small_chart_stock_info_container\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/small_period_container\"]//*[@text=\"\
+    季K\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "StockDetailActivity"
+  tag: "android.widget.TextView"
+  id: ""
+  name: ""
+  text: "年K"
+  instance: ""
+  depth: "24"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/main_content\"]//*[@resource-id=\"com.xueqiu.android:id/abl_header\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/fl_chart_view\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/small_chart_fragment_container\"]//*[@resource-id=\"com.xueqiu.android:id/small_chart_stock_info_container\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/small_period_container\"]//*[@text=\"\
+    年K\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "StockDetailActivity"
+  tag: "android.widget.TextView"
+  id: ""
+  name: ""
+  text: "分钟"
+  instance: ""
+  depth: "24"
+  valid: "true"
+  selected: "false"
+  xpath: "//*[@resource-id=\"com.xueqiu.android:id/decor_content_parent\"]//*[@resource-id=\"\
+    android:id/content\"]//*[@resource-id=\"com.xueqiu.android:id/viewPager\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/main_content\"]//*[@resource-id=\"com.xueqiu.android:id/abl_header\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/fl_chart_view\"]//*[@resource-id=\"\
+    com.xueqiu.android:id/small_chart_fragment_container\"]//*[@resource-id=\"com.xueqiu.android:id/small_chart_stock_info_container\"\
+    ]//*[@resource-id=\"com.xueqiu.android:id/small_period_container\"]//*[@text=\"\
+    分钟\"]"
+  ancestor: "hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView"
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "StockDetailActivity"
+  tag: "Back"
+  id: "Back"
+  name: ""
+  text: ""
+  instance: ""
+  depth: ""
+  valid: "true"
+  selected: "false"
+  xpath: "Back-15"
+  ancestor: ""
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "StockDetailActivity"
+  tag: "Back"
+  id: "Back"
+  name: ""
+  text: ""
+  instance: ""
+  depth: ""
+  valid: "true"
+  selected: "false"
+  xpath: "Back-16"
+  ancestor: ""
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "USearchActivity"
+  tag: "Back"
+  id: "Back"
+  name: ""
+  text: ""
+  instance: ""
+  depth: ""
+  valid: "true"
+  selected: "false"
+  xpath: "Back-17"
+  ancestor: ""
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "MainActivity"
+  tag: "Back"
+  id: "Back"
+  name: ""
+  text: ""
+  instance: ""
+  depth: ""
+  valid: "true"
+  selected: "false"
+  xpath: "Back-18"
+  ancestor: ""
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "Launcher"
+  tag: "Back"
+  id: "Back"
+  name: ""
+  text: ""
+  instance: ""
+  depth: ""
+  valid: "true"
+  selected: "false"
+  xpath: "Back-19"
+  ancestor: ""
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "Launcher"
+  tag: "Back"
+  id: "Back"
+  name: ""
+  text: ""
+  instance: ""
+  depth: ""
+  valid: "true"
+  selected: "false"
+  xpath: "Back-20"
+  ancestor: ""
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+- url: "Launcher"
+  tag: "Back"
+  id: "Back"
+  name: ""
+  text: ""
+  instance: ""
+  depth: ""
+  valid: "true"
+  selected: "false"
+  xpath: "Back-21"
+  ancestor: ""
+  x: 0
+  y: 0
+  width: 0
+  height: 0
+diff: false
