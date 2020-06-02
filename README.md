@@ -1,1 +1,4 @@
 我的python学习记录
+
+APPcrawler_study：该目录存放APPcrawler学习资料
+appium_study:该目录存放appium学习资料
