@@ -1,5 +1,5 @@
-from carsir.easy_sell.api.base_api import BaseApi
-from carsir.easy_sell.api.login import Login
+from carsir_test.easy_sell.api.base_api import BaseApi
+from carsir_test.easy_sell.api.login import Login
 
 
 class updateEasyBuyApplicantSecond(BaseApi):
@@ -17,7 +17,7 @@ class updateEasyBuyApplicantSecond(BaseApi):
         for ImgType in ImgTypes:
             data = {
                 "method": "post",
-                "url": "https://test.carsir.xin/loan/AgentEasyBuyImgController/uploadImgs",
+                "url": "https://carsir_host/loan/AgentEasyBuyImgController/uploadImgs",
                 "headers": {
                     "token": self.token,
                     "agentId":self.agentId
@@ -34,7 +34,7 @@ class updateEasyBuyApplicantSecond(BaseApi):
     def update_easy_bug_applicant_second(self):
         data = {
             "method": "post",
-            "url": "https://test.carsir.xin/loan/AgentEasyBuyController/updateEasyBuyApplicantSecond",
+            "url": "https://carsir_host/loan/AgentEasyBuyController/updateEasyBuyApplicantSecond",
             "headers": {
                 "token": self.token,
                 "agentId":self.agentId,

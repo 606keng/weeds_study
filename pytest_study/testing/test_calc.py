@@ -1,6 +1,8 @@
 import sys
 import pytest
-from python.calc import Calc
+
+from pytest_study.python.calc import Calc
+
 
 @pytest.fixture(scope="module", params=[1,2,3])
 def data(request):

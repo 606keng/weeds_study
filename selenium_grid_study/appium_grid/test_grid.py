@@ -9,7 +9,7 @@ class TestGrid:
         caps = {}
         caps["platformName"] = "Android"
         caps["platformVersion"] = "9.0"
-        caps["appPackage"] = "com.server.carsir"
+        caps["appPackage"] = "com.server.carsir_test"
         caps["appActivity"] = ".garage.MainActivity"
         """
         deviceName:有一台设备时，
@@ -28,6 +28,6 @@ class TestGrid:
     def teardown(self):
         self.driver.quit()
     def test_case1(self):
-        self.driver.find_element(MobileBy.ID,"com.server.carsir:id/phoneInput").send_keys("18700000001")
-        self.driver.find_element(MobileBy.ID,"com.server.carsir:id/pwdInput").send_keys("111111")
-        self.driver.find_element(MobileBy.ID,"com.server.carsir:id/submit").click()
+        self.driver.find_element(MobileBy.ID,"com.server.carsir_test:id/phoneInput").send_keys("18700000001")
+        self.driver.find_element(MobileBy.ID,"com.server.carsir_test:id/pwdInput").send_keys("111111")
+        self.driver.find_element(MobileBy.ID,"com.server.carsir_test:id/submit").click()

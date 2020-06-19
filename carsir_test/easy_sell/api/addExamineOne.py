@@ -1,5 +1,5 @@
-from carsir.easy_sell.api.base_api import BaseApi
-from carsir.easy_sell.api.login import Login
+from carsir_test.easy_sell.api.base_api import BaseApi
+from carsir_test.easy_sell.api.login import Login
 
 
 class AddExamineOne(BaseApi):
@@ -14,7 +14,7 @@ class AddExamineOne(BaseApi):
     def add_examine_one(self):
         data = {
             "method": "post",
-            "url": "https://test.carsir.xin/loan/AgentEasyBuyController/addExamineOne",
+            "url": "https://carsir_host/loan/AgentEasyBuyController/addExamineOne",
             "headers": {
                 "token": self.token,
                 "agentId":self.agentId,
@@ -24,13 +24,13 @@ class AddExamineOne(BaseApi):
                 "lenderSex": "1",
                 "agentId":self.agentId,
                 "productId":"4",
-                "cityCode":"610116",
+                "cityCode":"450302",
                 "lenderInfoImgType":"1",
                 "lenderAge":"28",
-                "sercenterName":"西安天府-兜兜捏",
+                "sercenterName":"服务中心测试-Pre-L0001",
                 "lenderDataForBrith":"19951016",
-                "productName":"华夏银行",
-                "sercenterId":"f6604930da02477f86a935519ef5269d",
+                "productName":"轻松购一期产品",
+                "sercenterId":"268eec2ba97c4cfeb7804ed24db1234d",
                 "lenderIdcard":"610481199210165431",
                 "lenderName":"豆高",
                 "operationType":"2",
