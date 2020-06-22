@@ -1,4 +1,5 @@
 import logging
+import os
 from pprint import pprint
 from time import time
 
@@ -7,19 +8,21 @@ from jsonpath import jsonpath
 import requests
 from requests_toolbelt import MultipartEncoder
 
-from carsir_api.utils.basepath import BasePath
+from carsir_api.utils.basepath import ConfigPath
 
-
+logging.basicConfig(format='%(asctime)s - %(levelname)s: %(message)s',
+                    level=logging.INFO)
 class BaseApi:
-    env = yaml.load(open(BasePath+"../config/env.yaml","rb"))
+    yaml.warnings({'YAMLLoadWarning': False})
+    env = yaml.load(open(ConfigPath+r"/env.yaml","rb"))
+
     curret_url = env["environment"][env["default"]]
     def send_api(self, req: dict):
         # if req["headers"]["Content-Type"] == "application/x-www-form-urlencoded":
         #     pass
 
         req["url"] = req["url"].replace("carsir_host", self.curret_url)
-        logging.basicConfig(format='%(asctime)s - %(levelname)s: %(message)s',
-                            level=logging.INFO)
+
         logging.info("请求参数：{}".format(str(req)))
         r = requests.request(**req)
         logging.info("响应结果：{}".format(r.json()))
