@@ -1,0 +1,16 @@
+pipeline {
+   agent any
+
+   stages {
+      stage('begin') {
+         steps {
+            echo 'Hello Pipeline'
+         }
+      }
+   }
+   post {
+       always {
+           echo "say goodbye"
+       }
+   }
+}
