@@ -60,9 +60,9 @@ print(re.status)
 
 import math
 
-#返回大于等于参数x的最小整数
+# 返回大于等于参数x的最小整数
 print(math.ceil(10.001))
-#返回小于等于参数x的最大整数
+# 返回小于等于参数x的最大整数
 print(math.floor(10.001))
-#求平方根
+# 求平方根
 print(math.sqrt(4))
