@@ -3,6 +3,9 @@ import requests
 from carsir_test.easy_shou.amount_number import dispose_num_up,dispose_num_down
 
 class TestReservePrice(object):
+    """
+     测试轻松配保留价上限
+    """
     url = "https://pre.carsir.xin/olympic/api-olympic-admin/priceCalculationController/priceCalculation"
     token = "13aa4b886e304e8393db3b15bfa3c129"
     orderType = "QSP"
