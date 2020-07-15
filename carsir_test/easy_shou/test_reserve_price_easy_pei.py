@@ -10,26 +10,26 @@ class TestReservePrice(object):
     token = "13aa4b886e304e8393db3b15bfa3c129"
     orderType = "QSP"
     rate = 0.9
-    year_0_3_price_3_5 = 1.058
-    year_0_3_price_5_8 = 1.053
-    year_0_3_price_8_13 = 1.048
-    year_0_3_price_13_21 = 1.043
-    year_0_3_price_21_34 = 1.038
-    year_0_3_price_34_50 = 1.038
+    year_0_3_price_3_5 = 1.048
+    year_0_3_price_5_8 = 1.045
+    year_0_3_price_8_13 = 1.041
+    year_0_3_price_13_21 = 1.036
+    year_0_3_price_21_34 = 1.031
+    year_0_3_price_34_50 = 1.03
 
-    year_3_6_price_3_5 = 1.063
-    year_3_6_price_5_8 = 1.058
-    year_3_6_price_8_13 = 1.048
-    year_3_6_price_13_21 = 1.043
-    year_3_6_price_21_34 = 1.038
-    year_3_6_price_34_50 = 1.038
+    year_3_6_price_3_5 = 1.05
+    year_3_6_price_5_8 = 1.047
+    year_3_6_price_8_13 = 1.043
+    year_3_6_price_13_21 = 1.038
+    year_3_6_price_21_34 = 1.033
+    year_3_6_price_34_50 = 1.03
 
-    year_6_10_price_3_5 = 1.063
-    year_6_10_price_5_8 = 1.063
-    year_6_10_price_8_13 = 1.053
-    year_6_10_price_13_21 = 1.048
-    year_6_10_price_21_34 = 1.038
-    year_6_10_price_34_50 = 1.038
+    year_6_10_price_3_5 = 1.052
+    year_6_10_price_5_8 = 1.049
+    year_6_10_price_8_13 = 1.045
+    year_6_10_price_13_21 = 1.040
+    year_6_10_price_21_34 = 1.033
+    year_6_10_price_34_50 = 1.03
 
     @pytest.mark.parametrize(["purchasePrice", "actualAmount", "cardYear", "reservePriceLower", "reservePriceHeight"], [
         ("30000", "10000", "2020-01-01", "{}".format(dispose_num_up(30000*rate)), "{}".format(dispose_num_down(30000*year_0_3_price_3_5))),
