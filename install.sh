@@ -6,3 +6,4 @@ pip install Faker
 pip install PyYAML
 pip install Appium-Python-Client
 pip install allure-pytest
+pip install selenium

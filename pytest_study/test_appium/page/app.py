@@ -14,6 +14,7 @@ class App(BasePage):
             cps["appPackage"] = _package
             cps["appActivity"] = _activity
             cps["autoGrantPermissions"] = True
+            cps["automationName"] = "UiAutomator1"
             self._driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', cps)
             self._driver.implicitly_wait(10)
         else:
