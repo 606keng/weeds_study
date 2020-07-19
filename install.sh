@@ -7,3 +7,6 @@ pip install PyYAML
 pip install Appium-Python-Client
 pip install allure-pytest
 pip install selenium
+pip install pytest-rerunfailures
+pip install pytest-assume
+pip install pytest-ordering

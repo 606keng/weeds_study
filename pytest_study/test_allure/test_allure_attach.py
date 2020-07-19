@@ -37,11 +37,13 @@ import allure
 def test_attach_text():
     allure.attach("这是纯文本信息", attachment_type=allure.attachment_type.TEXT)
 
-#在allure中显示html
+
+# 在allure中显示html
 def test_attach_html():
     allure.attach("<body>这是一段html</body>", name="html测试", attachment_type=allure.attachment_type.HTML)
 
-#在allure中显示图片
+
+# 在allure中显示图片
 def test_attach_image():
     allure.attach.file("/Users/doulihang/work/project/weeds_study/pytest_study/resouces/image.jpg",
                        name="帅帅的图片",

@@ -18,5 +18,7 @@ print(yaml.dump(b, allow_unicode=True))
 with open("test.yaml", "w", encoding="utf-8", ) as f:
     f.write(yaml.dump(b, allow_unicode=True))
 
-# 将yaml文件转换为列表，Loader=yaml.FullLoader默认全部载入yaml，不加入该语句，代码会报waring
+# 将yaml文件转换为列表，Loader=yaml.FullLoader默认全部载入yaml，不加入该语句，代码会报waring，也可直接使用yaml.sage_load方法
 print(yaml.load(open("test.yaml"), Loader=yaml.FullLoader))
+print(yaml.safe_load(open("test.yaml")))
+

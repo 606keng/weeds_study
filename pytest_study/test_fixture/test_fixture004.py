@@ -7,7 +7,9 @@
 备注：使用pytestmark=pytest.mark.usefixtures("open_everyone")，让该模块中所有的用例的前置函数都为open_everyone
 """
 import pytest
-pytestmark=pytest.mark.usefixtures("open_everyone")
+
+pytestmark = pytest.mark.usefixtures("open_everyone")
+
 
 class TestFixture001:
     def test_001(self):
