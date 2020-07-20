@@ -10,3 +10,5 @@ pip install selenium
 pip install pytest-rerunfailures
 pip install pytest-assume
 pip install pytest-ordering
+pip install pytest-dependency
+pip install pytest-xdist
