@@ -12,3 +12,4 @@ pip install pytest-assume
 pip install pytest-ordering
 pip install pytest-dependency
 pip install pytest-xdist
+pip install pytest-sugar
