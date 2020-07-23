@@ -12,10 +12,10 @@ class TestTag:
     @classmethod
     def setup_class(cls):
         cls.tag = Tag()
-    @pytest.mark.parametrize("name_old, name_new",[
-        ("wangwu","haha"),
-        ("zhangsan","dou")
-    ])
+    # @pytest.mark.parametrize("name_old, name_new",[
+    #     ("wangwu","haha"),
+    #     ("zhangsan","dou")
+    # ])
     def test_all(self):
         """
         1.添加名称为豆豆的tag
