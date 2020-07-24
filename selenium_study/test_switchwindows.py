@@ -5,6 +5,7 @@ from selenium import webdriver
 
 class TestSwitchWindows:
     """
+    窗口切换练习
     打开百度
     点击登录
     弹框中点击立即注册，输入用户名账号

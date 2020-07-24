@@ -5,6 +5,7 @@ from selenium import webdriver
 
 class TestForm:
     """
+    form表单练习
     练习表单操作，进入testhome登录页面，输入用户名密码，勾选记住密码，点击登录
     """
     def setup(self):

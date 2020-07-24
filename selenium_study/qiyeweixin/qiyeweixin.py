@@ -1,7 +1,5 @@
 from selenium import webdriver
 
-from selenium_study.base import Base
-
 
 class TestQiYe:
     def setup(self):

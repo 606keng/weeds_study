@@ -7,6 +7,11 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 
 class TestWait:
+    """
+    强制等待
+    隐式等待
+    显式等待
+    """
     def setup(self):
         # 启动webdriver
         self.driver = webdriver.Chrome()

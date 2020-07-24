@@ -6,6 +6,9 @@ from selenium.webdriver.common.keys import Keys
 
 
 class TestActionChains:
+    """
+    鼠标事件练习
+    """
     def setup(self):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()

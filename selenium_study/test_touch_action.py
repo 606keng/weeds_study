@@ -5,6 +5,9 @@ from selenium.webdriver import TouchActions
 
 
 class TestTouchAction:
+    """
+    下拉滚动条练习
+    """
     def setup(self):
         option = webdriver.ChromeOptions()
         option.add_experimental_option("w3c", False)

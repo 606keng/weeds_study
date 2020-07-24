@@ -4,6 +4,7 @@ from selenium_study.base import Base
 class TestFrame(Base):
     def test_frame(self):
         """
+        frame练习
         进入指定网站
         打印frame下的指定元素文本信息
         再打印出frame外的指定元素文本信息
