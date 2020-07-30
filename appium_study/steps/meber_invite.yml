@@ -1,0 +1,7 @@
+click_addmenual:
+    - by: id
+      locator: 'com.tencent.wework:id/cfu'
+      action: click
+veriy_toast:
+    - by: xpath
+      locator: "//*[@class='android.widget.Toast']"

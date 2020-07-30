@@ -7,7 +7,7 @@ from appium_study.page.main import Main
 
 class App(BasePage):
     def start(self):
-        #启动app
+        # 启动app
         _package = "com.tencent.wework"
         _activity = ".launch.WwMainActivity"
 
@@ -27,21 +27,24 @@ class App(BasePage):
         # 运行脚本时，不重启app
         # cps['dontStopAppOnReset'] = 'true'
         # 定义支持中文
-        cps["unicodeKeyBoard"] = 'true'
+        cps["unicodeKeyBoard"] = True
         # 定义支持中文
-        cps['resetKeyBoard'] = 'true'
-        print(cps)
+        cps['resetKeyBoard'] = True
+
+        cps["automationName"] = "uiautomator1"
+
         self._driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', cps)
         self._driver.implicitly_wait(5)
         return self
 
     def stop(self):
-        #停止app、
+        # 停止app、
         pass
 
     def restart(self):
-        #重启app
+        # 重启app
         pass
+
     def main(self):
         #
         return Main(self._driver)

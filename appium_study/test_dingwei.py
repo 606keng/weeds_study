@@ -30,6 +30,7 @@ class TestDingWei:
         cps["unicodeKeyBoard"] = 'true'
         #定义支持中文
         cps['resetKeyBoard'] = 'true'
+        cps["automationName"] = "UiAutomator1"
         self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', cps)
         self.driver.implicitly_wait(10)
     def teardown(self):
