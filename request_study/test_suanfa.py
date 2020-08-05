@@ -15,3 +15,9 @@ class ApiRequest:
         #把加密后的响应值发送给第三方服务，让第三方去做解密，然后返回解密后的信息
         elif data["encoding"] == "private":
             return requests.post("url",data=res.content)
+
+def test_sunfa():
+    a =ApiRequest()
+    data = json.dumps(open("demo.txt"),"r")
+    print(data)
+    a.send(data)

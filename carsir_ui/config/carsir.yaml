@@ -1,0 +1,34 @@
+"appPackage": "com.consumer.carsir"
+"appActivity": ".activity.StartPageActivity"
+"platformName": "android"
+"deviceName": "79UNW19701000783"
+"autoGrantPermissions": True
+"noReset": "true"
+"unicodeKeyBoard": True
+"resetKeyBoard": True
+"automationName": "uiautomator1"
+#        # 启动app
+#        _package = "com.tencent.wework"
+#        _activity = ".launch.WwMainActivity"
+#
+#        cps = {}
+#        # 测试的平台，Android或iOS
+#        cps["platformName"] = "android"
+#        # 链接的设备
+#        cps["deviceName"] = "doutest"
+#        # 应用的包名
+#        cps["appPackage"] = _package
+#        # 启动的页面名称
+#        cps["appActivity"] = _activity
+#
+#        cps["autoGrantPermissions"] = True
+#        # 设置为true，就不会清空应用的缓存数据
+#        cps["noReset"] = "true"
+#        # 运行脚本时，不重启app
+#        # cps['dontStopAppOnReset'] = 'true'
+#        # 定义支持中文
+#        cps["unicodeKeyBoard"] = True
+#        # 定义支持中文
+#        cps['resetKeyBoard'] = True
+#
+#        cps["automationName"] = "uiautomator1"

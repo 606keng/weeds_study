@@ -1,0 +1,21 @@
+input_phone:
+    # 输入手机号
+    - by: id
+      locator: 'com.consumer.carsir:id/edt'
+      action: send
+      value: "{number}"
+    # 点击获取验证码
+    - by: id
+      locator: 'com.consumer.carsir:id/btn'
+      action: click
+
+#input_verification_code:
+#    # 输入手机号
+#    - by: id
+#      locator: 'com.consumer.carsir:id/verificationCode'
+#      action: send
+#      value: "{number}"
+#    # 点击获取验证码
+#    - by: id
+#      locator: 'com.consumer.carsir:id/btn'
+#      action: click
