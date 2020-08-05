@@ -6,8 +6,8 @@ class TestReservePrice(object):
     """
     测试轻松售保留价上限
     """
-    url = "https://test.carsir.xin/olympic/api-olympic-admin/priceCalculationController/priceCalculation"
-    token = "08ef556d3bb941c38fbfc1bbbacf6d6d"
+    url = "https://pre.carsir.xin/olympic/api-olympic-admin/priceCalculationController/priceCalculation"
+    token = "f35ba147dbac4eef91294d9ee6f135f1"
     orderType = "QSS"
     rate = 1
     year_0_3_price_3_5 = 1.07

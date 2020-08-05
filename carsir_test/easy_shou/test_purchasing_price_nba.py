@@ -5,8 +5,8 @@ from carsir_test.easy_shou.amount_number import dispose_num_up
 
 
 class TestPurchasingPrice(object):
-    url = "https://test.carsir.xin/olympic/api-olympic-admin/workorder/check/test/getCarPrice1"
-    token = "73c9584439d444c1a0ac4ce12d236c8b"
+    url = "https://pre.carsir.xin/olympic/api-olympic-admin/workorder/check/test/getCarPrice1"
+    token = "79f63d50fdc54dba9fb4b24a657726fa"
     orderType = "QSP"
 
     ##########年限对应上限公式##############
