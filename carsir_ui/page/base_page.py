@@ -147,5 +147,5 @@ class BasePage:
         :param file:
         :return:
         """
-        with open(file) as f:
+        with open(file,encoding="utf-8") as f:
             return yaml.safe_load(f)

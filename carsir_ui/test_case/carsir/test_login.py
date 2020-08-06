@@ -11,6 +11,5 @@ from carsir_ui.page.app import App
 class TestLogin:
     def setup(self):
         self.login = App().start_carsir().login()
-
     def test_login(self):
-        self.login.input_phone_number("1879106614")
+        self.login.input_phone_number("18791076614")
