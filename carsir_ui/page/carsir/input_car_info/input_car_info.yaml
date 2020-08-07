@@ -1,0 +1,26 @@
+select_city:
+    # 点击选择城市
+    - by: id
+      locator: 'com.consumer.carsir:id/city'
+      action: click
+  #点击日照
+    - by: text
+      locator: '日照'
+      action: click
+select_car:
+  #点击选择车辆
+    - by: id
+      locator: 'com.consumer.carsir:id/brand'
+      action: click
+  #点击奥迪
+    - by: text
+      locator: '奥迪'
+      action: click
+  #点击奥迪S6(进口)
+    - by: text
+      locator: '奥迪S6(进口)'
+      action: click
+  #点击2013款 4.0 TFSI
+    - by: text
+      locator: '2013款 4.0 TFSI'
+      action: click

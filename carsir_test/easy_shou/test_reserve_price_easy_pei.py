@@ -1,3 +1,5 @@
+from decimal import Decimal
+
 import pytest
 import requests
 from carsir_test.easy_shou.amount_number import dispose_num_up,dispose_num_down
@@ -10,26 +12,26 @@ class TestReservePrice(object):
     token = "f35ba147dbac4eef91294d9ee6f135f1"
     orderType = "QSP"
     rate = 1
-    year_0_3_price_3_5 = 1.048
-    year_0_3_price_5_8 = 1.045
-    year_0_3_price_8_13 = 1.041
-    year_0_3_price_13_21 = 1.036
-    year_0_3_price_21_34 = 1.031
-    year_0_3_price_34_50 = 1.03
+    year_0_3_price_3_5 = Decimal("1.12")
+    year_0_3_price_5_8 = Decimal("1.11")
+    year_0_3_price_8_13 = Decimal("1.1")
+    year_0_3_price_13_21 = Decimal("1.095")
+    year_0_3_price_21_34 = Decimal("1.09")
+    year_0_3_price_34_50 = Decimal("1.09")
 
-    year_3_6_price_3_5 = 1.05
-    year_3_6_price_5_8 = 1.047
-    year_3_6_price_8_13 = 1.043
-    year_3_6_price_13_21 = 1.038
-    year_3_6_price_21_34 = 1.033
-    year_3_6_price_34_50 = 1.03
+    year_3_6_price_3_5 = Decimal("1.13")
+    year_3_6_price_5_8 = Decimal("1.12")
+    year_3_6_price_8_13 = Decimal("1.11")
+    year_3_6_price_13_21 = Decimal("1.1")
+    year_3_6_price_21_34 = Decimal("1.095")
+    year_3_6_price_34_50 = Decimal("1.09")
 
-    year_6_10_price_3_5 = 1.052
-    year_6_10_price_5_8 = 1.049
-    year_6_10_price_8_13 = 1.045
-    year_6_10_price_13_21 = 1.040
-    year_6_10_price_21_34 = 1.033
-    year_6_10_price_34_50 = 1.03
+    year_6_10_price_3_5 = Decimal("1.14")
+    year_6_10_price_5_8 = Decimal("1.13")
+    year_6_10_price_8_13 = Decimal("1.12")
+    year_6_10_price_13_21 = Decimal("1.11")
+    year_6_10_price_21_34 = Decimal("1.10")
+    year_6_10_price_34_50 = Decimal("1.095")
 
     @pytest.mark.parametrize(["purchasePrice", "actualAmount", "cardYear", "reservePriceLower", "reservePriceHeight"], [
         ("30000", "10000", "2020-01-01", "{}".format(dispose_num_up(30000*rate)), "{}".format(dispose_num_down(30000*year_0_3_price_3_5))),

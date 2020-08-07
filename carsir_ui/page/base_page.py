@@ -1,11 +1,11 @@
 import logging
+import os
 from typing import List
 import yaml
 
 from appium.webdriver import WebElement
 from appium.webdriver.common.mobileby import MobileBy
 from appium.webdriver.webdriver import WebDriver
-
 
 def exception_handle(fun):
     """
@@ -87,9 +87,9 @@ class BasePage:
         #                                                 'instance(0));').click()
         # locate = f'new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains({value}).instance(0));'
         return self._driver.find_element_by_android_uiautomator('new UiScrollable(new UiSelector().'
-                                                        'scrollable(true).instance(0)).'
-                                                        f'scrollIntoView(new UiSelector().textContains("{value}").'
-                                                        'instance(0));')
+                                                                'scrollable(true).instance(0)).'
+                                                                f'scrollIntoView(new UiSelector().textContains("{value}").'
+                                                                'instance(0));')
 
     @exception_handle
     def finds(self, locator, value):
@@ -169,12 +169,13 @@ class BasePage:
                     element.text
                 elif action == "attribute":
                     element.get_attribute(step["value"])
-
-    def read_yaml(self, file):
+    def back(self):
+        self._driver.back()
+    def read_yaml(self, path, file):
         """
         读取yaml文件
         :param file:
         :return:
         """
-        with open(file, encoding="utf-8") as f:
+        with open(path + "/" + file, encoding="utf-8") as f:
             return yaml.safe_load(f)

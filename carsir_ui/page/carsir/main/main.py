@@ -5,15 +5,15 @@
 @file: main.py
 @time: 2020/08/06 
 """
+import os
+
 from carsir_ui.page.app import App
 from carsir_ui.page.carsir.input_car_info.input_car_info import InputCarInfo
-
-from carsir_ui.utils.basepath import PagePath
 
 
 class Main(App):
     def easy_shou_button(self):
-        self.data = self.read_yaml(PagePath + r"\carsir\main\main.yaml")
+        self.data = self.read_yaml(os.path.dirname(__file__), r"main.yaml")
         self.steps(self.data["easy_shou_btn"])
         return InputCarInfo(self._driver)
 
@@ -34,6 +34,10 @@ class Main(App):
 
     def logout(self):
         from carsir_ui.page.carsir.login.login import Login
-        self.data = self.read_yaml(PagePath + r"\carsir\main\main.yaml")
+        self.data = self.read_yaml(os.path.dirname(__file__), r"main.yaml")
         self.steps(self.data["logout"])
         return Login(self._driver)
+
+
+if __name__ == '__main__':
+    Main()
