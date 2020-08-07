@@ -13,3 +13,4 @@ class TestLogin:
         self.login = App().start_carsir().login()
     def test_login(self):
         self.login.input_phone_number("18791076614")
+        self.login.input_verification_code("111111")

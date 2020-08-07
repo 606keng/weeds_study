@@ -2,7 +2,7 @@
 #-*- coding:utf-8 -*-
 """
 @author:DOULIHANG
-@file: test.py
+@file: lianxi.py
 @time: 2020/06/18 
 """
 from carsir_test.easy_sell.test.demo.login import login

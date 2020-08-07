@@ -2,7 +2,7 @@
 #-*- coding:utf-8 -*-
 """
 @author:DOULIHANG
-@file: test.py
+@file: lianxi.py
 @time: 2020/07/13 
 """
 jingdong = 4060.85

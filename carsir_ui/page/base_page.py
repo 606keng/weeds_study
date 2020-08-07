@@ -74,11 +74,29 @@ class BasePage:
             locator, value)
 
     @exception_handle
+    def scroll_find(self, value):
+        """
+        滚动查找元素
+        :param value:
+        :return:
+        """
+        logging.info(f"scroll_find:{value}")
+        # self.driver.find_element_by_android_uiautomator('new UiScrollable(new UiSelector().'
+        #                                                 'scrollable(true).instance(0)).'
+        #                                                 'scrollIntoView(new UiSelector().text("朋克民族").'
+        #                                                 'instance(0));').click()
+        # locate = f'new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains({value}).instance(0));'
+        return self._driver.find_element_by_android_uiautomator('new UiScrollable(new UiSelector().'
+                                                        'scrollable(true).instance(0)).'
+                                                        f'scrollIntoView(new UiSelector().textContains("{value}").'
+                                                        'instance(0));')
+
+    @exception_handle
     def finds(self, locator, value):
         logging.info(locator)
         logging.info(value)
         # 如果locator为元组，执行self._driver.find_elements(*locator)，否则执行self._driver.find_elements(locator,value)
-        return self._driver.find_elements(*locator) if isinstance(locator, tuple) else self._driver.find_element(
+        return self._driver.find_elements(*locator) if isinstance(locator, tuple) else self._driver.find_elements(
             locator, value)
 
     # def find(self, locator, value):
@@ -120,12 +138,23 @@ class BasePage:
         element: WebElement
         for step in steps:
             logging.info(step)
-            if "by" in step.keys():
-                by = step["by"]
-                if by == "id":
-                    element = self.find(MobileBy.ID, step["locator"])
-                if by == "xpath":
-                    element = self.find(MobileBy.XPATH, step["locator"])
+            if "ele_index" in step.keys():
+                if "by" in step.keys():
+                    by = step["by"]
+                    if by == "id":
+                        element = self.finds(MobileBy.ID, step["locator"])[step["ele_index"]]
+                    if by == "xpath":
+                        element = self.finds(MobileBy.XPATH, step["locator"])[step["ele_index"]]
+            elif "ele_index" not in step.keys():
+                if "by" in step.keys():
+                    by = step["by"]
+                    if by == "id":
+                        element = self.find(MobileBy.ID, step["locator"])
+                    if by == "xpath":
+                        element = self.find(MobileBy.XPATH, step["locator"])
+                    # 如果定位方式为text时，使用滚动查找,支持模糊查询
+                    if by == "text":
+                        element = self.scroll_find(step["locator"])
 
             if "action" in step.keys():
                 action = step["action"]
@@ -147,5 +176,5 @@ class BasePage:
         :param file:
         :return:
         """
-        with open(file,encoding="utf-8") as f:
+        with open(file, encoding="utf-8") as f:
             return yaml.safe_load(f)

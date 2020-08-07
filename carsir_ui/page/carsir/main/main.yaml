@@ -1,0 +1,25 @@
+easy_shou_btn:
+    # 点击轻松售按钮
+    - by: id
+      locator: 'com.consumer.carsir:id/tv_easy_show'
+      action: click
+
+logout:
+    # 点击我的
+    - by: id
+      locator: 'com.consumer.carsir:id/tab_pic'
+      action: click
+      ele_index: 1
+    #点击设置
+    - by: text
+      locator: '设置'
+      action: click
+  #点击退出登录
+    - by: id
+      locator: 'com.consumer.carsir:id/rld'
+      action: click
+
+  #点击确认退出登录
+    - by: id
+      locator: 'com.consumer.carsir:id/sure'
+      action: click
