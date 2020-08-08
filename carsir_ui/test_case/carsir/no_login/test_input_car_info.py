@@ -10,10 +10,23 @@ import pytest
 from carsir_ui.page.app import App
 
 
-class TestMain:
+class TestInputCarInfo:
+    @pytest.fixture()
+    def enter_input_car_info(self, start):
+        yield start.easy_shou_button()
+        start.back()
 
-    def test_click_easy_shou(self,start):
-        self.page = start.easy_shou_button()
-        self.page.select_city()
-        self.page.select_brand_series()
-        self.page.back()
+    def test_no_city_submit(self, enter_input_car_info):
+        self.page = enter_input_car_info
+        self.page.submit()
+        pytest.assume(self.page.get_toast(),"请选择业务办理城市")
+
+    @pytest.mark.parametrize(("city"), [("日照")])
+    def test_select_city(self, enter_input_car_info, city):
+        self.page = enter_input_car_info
+        self.page.select_city(city=city)
+
+    @pytest.mark.parametrize(("city"), [("日照")])
+    def test_select_city1(self, enter_input_car_info, city):
+        self.page = enter_input_car_info
+        self.page.select_city(city=city)

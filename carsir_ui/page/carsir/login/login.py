@@ -23,3 +23,6 @@ class Login(App):
         self._params["code"] = code
         self.steps(self.data["input_verification_code"])
         return Main(self._driver)
+
+    def goto_main(self):
+        return Main(self._driver)

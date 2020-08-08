@@ -7,6 +7,7 @@ from appium.webdriver import WebElement
 from appium.webdriver.common.mobileby import MobileBy
 from appium.webdriver.webdriver import WebDriver
 
+
 def exception_handle(fun):
     """
     对查找元素的函数进行装饰
@@ -154,7 +155,13 @@ class BasePage:
                         element = self.find(MobileBy.XPATH, step["locator"])
                     # 如果定位方式为text时，使用滚动查找,支持模糊查询
                     if by == "text":
-                        element = self.scroll_find(step["locator"])
+                        content: str = step["locator"]
+                        if "{" in content:
+                            for key in self._params.keys():
+                                content = content.replace("{%s}" % key, self._params[key])
+                            element = self.scroll_find(content)
+                        else:
+                            element = self.scroll_find(content)
 
             if "action" in step.keys():
                 action = step["action"]
@@ -169,8 +176,15 @@ class BasePage:
                     element.text
                 elif action == "attribute":
                     element.get_attribute(step["value"])
+
     def back(self):
         self._driver.back()
+
+    def get_toast(self):
+        element = self.find(locator="xpath", value="//*[@class='android.widget.Toast']")
+        return element.get_attribute("text")
+
+
     def read_yaml(self, path, file):
         """
         读取yaml文件

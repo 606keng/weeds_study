@@ -5,22 +5,26 @@ select_city:
       action: click
   #点击日照
     - by: text
-      locator: '日照'
+      locator: '{city}'
       action: click
 select_car:
   #点击选择车辆
     - by: id
       locator: 'com.consumer.carsir:id/brand'
       action: click
-  #点击奥迪
+  #选择品牌
     - by: text
-      locator: '奥迪'
+      locator: '{brand}'
       action: click
-  #点击奥迪S6(进口)
+  #选择车系
     - by: text
-      locator: '奥迪S6(进口)'
+      locator: '{series}'
       action: click
-  #点击2013款 4.0 TFSI
+  #选择车型
     - by: text
-      locator: '2013款 4.0 TFSI'
+      locator: '{model}'
       action: click
+submit:
+  - by: id
+    locator: "com.consumer.carsir:id/submit"
+    action: click
