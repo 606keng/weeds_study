@@ -12,6 +12,7 @@ class App(BasePage):
         self._driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', cps)
         self._driver.implicitly_wait(5)
         return self
+
     def goto_main(self):
         from carsir_ui.page.carsir.main.main import Main
         return Main(self._driver)
@@ -27,3 +28,11 @@ class App(BasePage):
     def login(self):
         from carsir_ui.page.carsir.login.login import Login
         return Login(self._driver)
+
+    def carsir_back(self):
+        data = [{
+            "by": "id",
+            "locator": "com.consumer.carsir:id/back",
+            "action": "click"
+        }]
+        self.steps(data)

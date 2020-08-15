@@ -14,12 +14,12 @@ class TestInputCarInfo:
     @pytest.fixture()
     def enter_input_car_info(self, start):
         yield start.easy_shou_button()
-        start.back()
+        start.carsir_back()
 
     def test_no_city_submit(self, enter_input_car_info):
         self.page = enter_input_car_info
         self.page.submit()
-        pytest.assume(self.page.get_toast(),"请选择业务办理城市")
+        pytest.assume(self.page.get_toast(), "请选择业务办理城市")
 
     @pytest.mark.parametrize(("city"), [("日照")])
     def test_select_city(self, enter_input_car_info, city):

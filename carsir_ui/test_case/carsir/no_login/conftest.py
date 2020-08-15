@@ -9,6 +9,7 @@
         conftest.py与运行用例在同一个包下，并且该包中有__init__.py文件
         使用的时候不需要导入conftest.py，会自动寻找。
 """
+from time import sleep
 from typing import List
 
 import pytest

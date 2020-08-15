@@ -36,11 +36,13 @@ def exception_handle(fun):
             # 对黑名单中的弹窗进行处理
             for e in instance._black_list:
                 # 查找黑名单中的元素
-                elements = instance._driver.find_elements(*e)
+                print(e)
+                elements = instance.finds(*e)
                 # 如果黑名单中的元素数量大于0
                 if len(elements) > 0:
                     # 点击所有查找到的黑名单元素
                     for element in elements:
+                        print(element)
                         element.click()
                     # 隐式等待10秒
                     instance._driver.implicitly_wait(10)
@@ -53,8 +55,7 @@ def exception_handle(fun):
 class BasePage:
     logging.basicConfig(level=logging.INFO)
     _black_list = [
-        (MobileBy.XPATH, "//*[@text='确定']"),
-        (MobileBy.XPATH, "//*[@text='允许']")
+        (MobileBy.ID, "com.consumer.carsir:id/tvDownLoadCancle")
     ]
     # 初始化定位错误的次数
     _error_num = 0
@@ -68,8 +69,6 @@ class BasePage:
 
     @exception_handle
     def find(self, locator, value):
-        logging.info(locator)
-        logging.info(value)
         # 如果locator为元组，执行self._driver.find_element(*locator)，否则执行self._driver.find_element(locator,value)
         return self._driver.find_element(*locator) if isinstance(locator, tuple) else self._driver.find_element(
             locator, value)
@@ -94,8 +93,6 @@ class BasePage:
 
     @exception_handle
     def finds(self, locator, value):
-        logging.info(locator)
-        logging.info(value)
         # 如果locator为元组，执行self._driver.find_elements(*locator)，否则执行self._driver.find_elements(locator,value)
         return self._driver.find_elements(*locator) if isinstance(locator, tuple) else self._driver.find_elements(
             locator, value)
