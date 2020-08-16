@@ -1,0 +1,15 @@
+"appPackage": "com.tencent.mm"
+"appActivity": "com.tencent.mm.ui.LauncherUI"
+"platformName": "android"
+"deviceName": "79UNW19701000783"
+"noReset": "true"
+"unicodeKeyBoard": True
+"resetKeyBoard": True
+#定义Chromedriver的路径
+"chromedriverExecutable": "/Users/doulihang/work/project/weeds_study/xiaochengxu/chromedriver 5"
+#打开Chromedriver的日志功能
+"showChromedriverLog": True
+# 将小程序的进程写入到chromeoptions中,该参数所有小程序都一样
+"chromeOptions": {"androidProcess":"com.tencent.mm:appbrand0"}
+# 设置adbport为5038，使用adb_proxy.py修复chromedriver的bug
+"adbPort": 5038
