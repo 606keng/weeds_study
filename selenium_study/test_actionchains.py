@@ -24,7 +24,7 @@ class ActionChains(Base):
 
     def case_drag_drop(self):
         source = (By.ID, "dragger")
-        target = (By.XPATH, '/html/body/div[2]')
+        target = (By.XPATH, '/test.html/body/div[2]')
         self.drag_drop(target=target, source=source)
 
     def case_key(self):
@@ -33,7 +33,7 @@ class ActionChains(Base):
         再输入dou，然后在按一下键盘删除键
         :return:
         """
-        ele = (By.XPATH,'/html/body/label[1]/input')
+        ele = (By.XPATH,'/test.html/body/label[1]/input')
         value1 = "doulihang"
         type1 = Keys.SPACE
         value2 = "dou"
@@ -87,7 +87,7 @@ class TestActionChains():
         """
         # self.driver.get("http://sahitest.com/demo/dragDropMooTools.htm")
         # element_drag = self.driver.find_element_by_id("dragger")
-        # element_drop = self.driver.find_element_by_xpath("/html/body/div[2]")
+        # element_drop = self.driver.find_element_by_xpath("/test.html/body/div[2]")
         # action = ActionChains(self.driver)
         # drag_and_drop需要传入source, target，source为要拖拽的元素，target为要拖拽到哪个元素
         # action.drag_and_drop(element_drag, element_drop)
@@ -112,7 +112,7 @@ class TestActionChains():
         self.action.case_key()
         sleep(3)
         # self.driver.get("http://sahitest.com/demo/label.htm")
-        # element_keys = self.driver.find_element_by_xpath("/html/body/label[1]/input")
+        # element_keys = self.driver.find_element_by_xpath("/test.html/body/label[1]/input")
         # element_keys.click()
         # action = ActionChains(self.driver)
         # # 输入username,然后等待1秒

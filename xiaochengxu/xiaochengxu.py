@@ -9,6 +9,7 @@
 from appium import webdriver
 from time import sleep
 
+from selenium.webdriver.common.by import By
 
 desired_caps = {
             'platformName': 'Android',
@@ -51,4 +52,6 @@ print(driver.contexts)
 driver.switch_to.context('WEBVIEW_com.tencent.mm:appbrand0')
 print("切换成功")
 sleep(5)
-driver.find_element_by_css_selector(".footer2").click()
+# driver.find_element_by_css_selector(".footer2").click()
+print(driver.page_source)
+driver.find_element(By.XPATH, "/html/body/wx-view/wx-view[1]/wx-view[2]/wx-view/wx-view[1]/wx-view[2]/wx-view[1]").click()

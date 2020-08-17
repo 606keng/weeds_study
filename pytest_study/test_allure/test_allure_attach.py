@@ -11,7 +11,7 @@ attachment_type:
     TSV = ("text/tab-separated-values", "tsv")
     URI_LIST = ("text/uri-list", "uri")
 
-    HTML = ("text/html", "html")
+    HTML = ("text/test.html", "test.html")
     XML = ("application/xml", "xml")
     JSON = ("application/json", "json")
     YAML = ("application/yaml", "yaml")
