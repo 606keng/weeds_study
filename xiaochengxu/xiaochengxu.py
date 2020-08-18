@@ -25,11 +25,11 @@ desired_caps = {
             'chromeOptions': {
                 'androidProcess': 'com.tencent.mm:appbrand0'
                 },
-            "chromedriverExecutable": "/Users/doulihang/work/project/weeds_study/xiaochengxu/chromedriver 5"
+            "chromedriverExecutable": r"D:\work\auto\weeds_study\xiaochengxu\chromedriver_windows.exe"
             }
 
 
-driver = webdriver.Remote('http://0.0.0.0:4723/wd/hub', desired_caps)
+driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
 sleep(5)
 driver.find_element_by_android_uiautomator('text("微信")').click() #点击微信Tab
 
