@@ -136,4 +136,4 @@ def main_threading():
 
 
 if __name__ == '__main__':
-    main_threading()
+    main_thread()

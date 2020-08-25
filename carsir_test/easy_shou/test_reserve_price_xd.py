@@ -9,30 +9,30 @@ class TestReservePrice(object):
     """
     测试轻松售保留价上限
     """
-    url = "https://pre.carsir.xin/olympic/api-olympic-admin/priceCalculationController/priceCalculation"
-    token = "3576dbc8299e4045abc8e36b3c2562f1"
-    orderType = "QSS"
+    url = "https://dev.carsir.xin/olympic/api-olympic-admin/priceCalculationController/priceCalculation"
+    token = "1b4893d16fd24f958d0bfdf146730b85"
+    orderType = "XD"
     rate = 1
-    year_0_3_price_3_5 = Decimal("1.12")
-    year_0_3_price_5_8 = Decimal("1.11")
-    year_0_3_price_8_13 = Decimal("1.1")
-    year_0_3_price_13_21 = Decimal("1.095")
-    year_0_3_price_21_34 = Decimal("1.09")
-    year_0_3_price_34_50 = Decimal("1.09")
+    year_0_3_price_3_5 = Decimal("1.15")
+    year_0_3_price_5_8 = Decimal("1.15")
+    year_0_3_price_8_13 = Decimal("1.15")
+    year_0_3_price_13_21 = Decimal("1.15")
+    year_0_3_price_21_34 = Decimal("1.15")
+    year_0_3_price_34_50 = Decimal("1.15")
 
-    year_3_6_price_3_5 = Decimal("1.13")
-    year_3_6_price_5_8 = Decimal("1.12")
-    year_3_6_price_8_13 = Decimal("1.11")
-    year_3_6_price_13_21 = Decimal("1.1")
-    year_3_6_price_21_34 = Decimal("1.095")
-    year_3_6_price_34_50 = Decimal("1.09")
+    year_3_6_price_3_5 = Decimal("1.15")
+    year_3_6_price_5_8 = Decimal("1.15")
+    year_3_6_price_8_13 = Decimal("1.15")
+    year_3_6_price_13_21 = Decimal("1.15")
+    year_3_6_price_21_34 = Decimal("1.15")
+    year_3_6_price_34_50 = Decimal("1.15")
 
-    year_6_10_price_3_5 = Decimal("1.14")
-    year_6_10_price_5_8 = Decimal("1.13")
-    year_6_10_price_8_13 = Decimal("1.12")
-    year_6_10_price_13_21 = Decimal("1.11")
-    year_6_10_price_21_34 = Decimal("1.10")
-    year_6_10_price_34_50 = Decimal("1.095")
+    year_6_10_price_3_5 = Decimal("1.15")
+    year_6_10_price_5_8 = Decimal("1.15")
+    year_6_10_price_8_13 = Decimal("1.15")
+    year_6_10_price_13_21 = Decimal("1.15")
+    year_6_10_price_21_34 = Decimal("1.15")
+    year_6_10_price_34_50 = Decimal("1.15")
 
     @pytest.mark.parametrize(["purchasePrice", "actualAmount", "cardYear", "reservePriceLower", "reservePriceHeight"], [
         ("30000", "10000", "2020-01-01", "{}".format(dispose_num_up(30000 * rate)),
@@ -156,7 +156,6 @@ class TestReservePrice(object):
          "{}".format(dispose_num_down(499900 * year_6_10_price_34_50))),
         ("500000", "10000", "2011-01-01", "{}".format(dispose_num_up(500000 * rate)),
          "{}".format(dispose_num_down(500000 * year_6_10_price_34_50))),
-
     ])
     def test_more_six_price(self, purchasePrice, actualAmount, cardYear, reservePriceLower, reservePriceHeight,
                             orderType=orderType):
