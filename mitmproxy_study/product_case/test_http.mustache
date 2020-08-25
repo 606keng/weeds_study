@@ -1,0 +1,22 @@
+import json
+from pprint import pprint
+
+import requests
+import yaml
+
+
+class TestHttp:
+    def setup(self):
+        pass
+
+    def test_request(self):
+        r=requests.request(
+        {{ !取method的值}}
+            {{method}},
+            url={{url}},
+            {{ !取列表data中的值，并以,号分割}}
+            data={{#data}}{{.}},{{/data}}
+            cookies={{#cookies}}{{.}},{{/cookies}}
+            headers={{#headers}}{{.}},{{/headers}}
+        )
+        assert r.status_code == 200

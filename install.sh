@@ -15,3 +15,5 @@ pip install pytest-xdist
 pip install pytest-sugar
 pip install jsonpath
 pip install mitmproxy
+pip install deepdiff
+pip install pystache
