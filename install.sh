@@ -17,3 +17,5 @@ pip install jsonpath
 pip install mitmproxy
 pip install deepdiff
 pip install pystache
+pip install uiautomator2
+pip install -U weditor
