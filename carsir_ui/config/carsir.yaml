@@ -6,7 +6,7 @@
 "noReset": "true"
 "unicodeKeyBoard": True
 "resetKeyBoard": True
-"automationName": "uiautomator2"
+"automationName": "uiautomator1"
 #        # 启动app
 #        _package = "com.tencent.wework"
 #        _activity = ".launch.WwMainActivity"

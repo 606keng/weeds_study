@@ -9,30 +9,30 @@ class TestReservePrice(object):
     """
      测试轻松配保留价上限
     """
-    url = "https://pre.carsir.xin/olympic/api-olympic-admin/priceCalculationController/priceCalculation"
-    token = "f35ba147dbac4eef91294d9ee6f135f1"
+    url = "https://test.carsir.xin/olympic/api-olympic-admin/priceCalculationController/priceCalculation"
+    Authorization = "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxNzA4ODg4ODg4OCIsInJvbGUiOiJST0xFX0NVU1RPTUVSIiwidG9rZW5faWQiOiI1NTAxZjBkZC1kMjNhLTRhMGUtYWNkOC02YWMxOTBkYTA3ZTYiLCJpc3MiOiJBQ0NFU1MiLCJleHAiOjE2MDQ1NDEzMzksImlhdCI6MTYwMzkzNjUzOX0.2T_05R1xtZ-tDEMN4rpeol2qGLKnZbY8sfGiV1ixDeUF4l4cuDgN5IVlLa2ARFPlpQld0OwKH3Mk73aXnN6GMw"
     orderType = "QSP"
     rate = 1
-    year_0_3_price_3_5 = Decimal("1.12")
-    year_0_3_price_5_8 = Decimal("1.11")
-    year_0_3_price_8_13 = Decimal("1.1")
-    year_0_3_price_13_21 = Decimal("1.095")
-    year_0_3_price_21_34 = Decimal("1.09")
-    year_0_3_price_34_50 = Decimal("1.09")
+    year_0_3_price_3_5 = Decimal("1.13")
+    year_0_3_price_5_8 = Decimal("1.125")
+    year_0_3_price_8_13 = Decimal("1.12")
+    year_0_3_price_13_21 = Decimal("1.115")
+    year_0_3_price_21_34 = Decimal("1.11")
+    year_0_3_price_34_50 = Decimal("1.11")
 
-    year_3_6_price_3_5 = Decimal("1.13")
-    year_3_6_price_5_8 = Decimal("1.12")
-    year_3_6_price_8_13 = Decimal("1.11")
-    year_3_6_price_13_21 = Decimal("1.1")
-    year_3_6_price_21_34 = Decimal("1.095")
-    year_3_6_price_34_50 = Decimal("1.09")
+    year_3_6_price_3_5 = Decimal("1.135")
+    year_3_6_price_5_8 = Decimal("1.13")
+    year_3_6_price_8_13 = Decimal("1.12")
+    year_3_6_price_13_21 = Decimal("1.115")
+    year_3_6_price_21_34 = Decimal("1.11")
+    year_3_6_price_34_50 = Decimal("1.11")
 
-    year_6_10_price_3_5 = Decimal("1.14")
-    year_6_10_price_5_8 = Decimal("1.13")
-    year_6_10_price_8_13 = Decimal("1.12")
-    year_6_10_price_13_21 = Decimal("1.11")
-    year_6_10_price_21_34 = Decimal("1.10")
-    year_6_10_price_34_50 = Decimal("1.095")
+    year_6_10_price_3_5 = Decimal("1.135")
+    year_6_10_price_5_8 = Decimal("1.135")
+    year_6_10_price_8_13 = Decimal("1.125")
+    year_6_10_price_13_21 = Decimal("1.12")
+    year_6_10_price_21_34 = Decimal("1.11")
+    year_6_10_price_34_50 = Decimal("1.11")
 
     @pytest.mark.parametrize(["purchasePrice", "actualAmount", "cardYear", "reservePriceLower", "reservePriceHeight"], [
         ("30000", "10000", "2020-01-01", "{}".format(dispose_num_up(30000 * rate)),
@@ -71,7 +71,7 @@ class TestReservePrice(object):
         :param reservePriceHeight:
         :return:
         """
-        headers = {"token": self.token,
+        headers = {"Authorization": self.Authorization,
                    "agentId": "037e6d16010f11ea907c00163e129bed",
                    "grp": "carsir_app",
                    "Content-Type": "application/json; charset=utf-8"}
@@ -119,7 +119,7 @@ class TestReservePrice(object):
         :param reservePriceHeight:
         :return:
         """
-        headers = {"token": self.token,
+        headers = {"Authorization": self.Authorization,
                    "agentId": "037e6d16010f11ea907c00163e129bed",
                    "grp": "carsir_app",
                    "Content-Type": "application/json; charset=utf-8"}
@@ -160,7 +160,7 @@ class TestReservePrice(object):
     ])
     def test_more_six_price(self, purchasePrice, actualAmount, cardYear, reservePriceLower, reservePriceHeight,
                             orderType=orderType):
-        headers = {"token": self.token,
+        headers = {"Authorization": self.Authorization,
                    "agentId": "037e6d16010f11ea907c00163e129bed",
                    "grp": "carsir_app",
                    "Content-Type": "application/json; charset=utf-8"}
@@ -172,11 +172,11 @@ class TestReservePrice(object):
 
     @pytest.mark.parametrize(["purchasePrice", "actualAmount", "cardYear", "message"], [
         ("30000", "10000", "2009-01-01", "车辆年限不符合标准"),
-        ("29999", "10000", "2010-01-01", "车辆不符合标准"),
+        ("19999", "10000", "2010-01-01", "车辆不符合标准"),
         ("500100", "10000", "2010-01-01", "车辆不符合标准"),
     ])
     def test_error_price(self, purchasePrice, actualAmount, cardYear, message, orderType=orderType):
-        headers = {"token": self.token,
+        headers = {"Authorization": self.Authorization,
                    "agentId": "037e6d16010f11ea907c00163e129bed",
                    "grp": "carsir_app",
                    "Content-Type": "application/json; charset=utf-8"}

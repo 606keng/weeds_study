@@ -40,3 +40,6 @@ class AddExamineOne(BaseApi):
             }
         }
         return self.send_api_upload(data)
+
+if __name__ == '__main__':
+    AddExamineOne().add_examine_one()

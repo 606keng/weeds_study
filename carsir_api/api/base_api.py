@@ -32,6 +32,7 @@ class BaseApi:
         req["url"] = req["url"].replace("carsir_host", self.curret_url)
         req["data"] = MultipartEncoder(req["data"])
         req["headers"]["Content-Type"] = req["data"].content_type
+        print(req["headers"]["Content-Type"])
         return requests.request(**req).json()
 
     @classmethod

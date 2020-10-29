@@ -1,6 +1,6 @@
 a = "asdfghjk"
 print(len(a))
 
-a = {":authority": 123, "test": "aaa"}
-del a[":authority"]
-print(a)
+data = '{"serviceAreaId":"371100"}'
+a= eval(data)
+print(type(a))

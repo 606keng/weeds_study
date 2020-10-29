@@ -26,7 +26,7 @@ def start():
     """
     login = App().start_carsir().login()
     # 定义是否为debug模式，如果是，则无需做登录/登出操作
-    debug = False
+    debug = True
     if debug:
         # 首先登录app，如果无法定位到登录元素，证明已经登录成功，直接跳转到主页
         try:
@@ -50,3 +50,4 @@ def pytest_collection_modifyitems(
     for item in items:
         item.name = item.name.encode("utf-8").decode("unicode-escape")
         item._nodeid = item._nodeid.encode("utf-8").decode("unicode-escape")
+

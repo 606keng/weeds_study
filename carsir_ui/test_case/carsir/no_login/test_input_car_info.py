@@ -26,7 +26,3 @@ class TestInputCarInfo:
         self.page = enter_input_car_info
         self.page.select_city(city=city)
 
-    @pytest.mark.parametrize(("city"), [("日照")])
-    def test_select_city1(self, enter_input_car_info, city):
-        self.page = enter_input_car_info
-        self.page.select_city(city=city)
