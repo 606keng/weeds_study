@@ -6,7 +6,7 @@ from carsir_test.easy_shou.amount_number import dispose_num_up
 
 class TestPurchasingPrice(object):
     url = "https://pre.carsir.xin/olympic/api-olympic-admin/workorder/check/test/getCarPrice1"
-    Authorization = "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxNzA4ODg4ODg4OCIsInJvbGUiOiJST0xFX0NVU1RPTUVSIiwidG9rZW5faWQiOiI1NTAxZjBkZC1kMjNhLTRhMGUtYWNkOC02YWMxOTBkYTA3ZTYiLCJpc3MiOiJBQ0NFU1MiLCJleHAiOjE2MDQ1NDEzMzksImlhdCI6MTYwMzkzNjUzOX0.2T_05R1xtZ-tDEMN4rpeol2qGLKnZbY8sfGiV1ixDeUF4l4cuDgN5IVlLa2ARFPlpQld0OwKH3Mk73aXnN6GMw"
+    Authorization = "Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlIjoiUk9MRV9BRE1JTiIsInRva2VuX2lkIjoiY2JkNWU0OWItNDU5OC00MzM1LWI4ZjUtZTllZGI4MGY3YTI0Iiwic3ViIjoiMTU5MDAwMDExMTEiLCJpYXQiOjE2MDQwNDIzNDQsImV4cCI6MTYwNDY0NzE0NCwiaXNzIjoiQUNDRVNTIn0.K9Y_c_oj991X9GXw2gXYt37nk1e2puX6HfVypyvTYwpPE5lRuROr_Nf8uEFpO6yPSo6vNAqFdGg5UVY5yPc4eQ"
     orderType = "QSP"
 
     ##########年限对应上限公式##############
@@ -98,7 +98,7 @@ class TestPurchasingPrice(object):
         """
         headers = {"Authorization": self.Authorization,
                    "Content-Type": "application/json; charset=utf-8",
-                   "grp": "nba_pc"
+                   "grp": "carsir_nba"
                    # "version": "20191115",
                    }
         request_json = {"car300": purchasePrice, "year": cardYear,
@@ -128,7 +128,7 @@ class TestPurchasingPrice(object):
         """
         headers = {"Authorization": self.Authorization,
                    "Content-Type": "application/json; charset=utf-8",
-                   "grp": "nba_pc",
+                   "grp": "carsir_nba",
                    "version": "20191115",
                    "userId": "",
                    "grade": "A"
@@ -150,7 +150,7 @@ class TestPurchasingPrice(object):
         """
         headers = {"Authorization": self.Authorization,
                    "Content-Type": "application/json; charset=utf-8",
-                   "grp": "nba_pc",
+                   "grp": "carsir_nba",
                    "version": "20191115",
                    "userId": "",
                    "grade": "B"
@@ -183,7 +183,7 @@ class TestPurchasingPrice(object):
         """
         headers = {"Authorization": self.Authorization,
                    "Content-Type": "application/json; charset=utf-8",
-                   "grp": "nba_pc",
+                   "grp": "carsir_nba",
                    "version": "20191115",
                    "userId": "",
                    "grade": "S"
@@ -215,7 +215,7 @@ class TestPurchasingPrice(object):
         """
         headers = {"Authorization": self.Authorization,
                    "Content-Type": "application/json; charset=utf-8",
-                   "grp": "nba_pc",
+                   "grp": "carsir_nba",
                    "version": "20191115",
                    "userId": "",
                    "grade": "A"
@@ -246,7 +246,7 @@ class TestPurchasingPrice(object):
         """
         headers = {"Authorization": self.Authorization,
                    "Content-Type": "application/json; charset=utf-8",
-                   "grp": "nba_pc",
+                   "grp": "carsir_nba",
                    "version": "20191115",
                    "userId": "",
                    "grade": "B"
@@ -279,7 +279,7 @@ class TestPurchasingPrice(object):
         """
         headers = {"Authorization": self.Authorization,
                    "Content-Type": "application/json; charset=utf-8",
-                   "grp": "nba_pc",
+                   "grp": "carsir_nba",
                    "version": "20191115",
                    "userId": "",
                    "grade": "S"
@@ -311,7 +311,7 @@ class TestPurchasingPrice(object):
         """
         headers = {"Authorization": self.Authorization,
                    "Content-Type": "application/json; charset=utf-8",
-                   "grp": "nba_pc",
+                   "grp": "carsir_nba",
                    "version": "20191115",
                    "userId": "",
                    "grade": "A"
@@ -343,7 +343,7 @@ class TestPurchasingPrice(object):
         """
         headers = {"Authorization": self.Authorization,
                    "Content-Type": "application/json; charset=utf-8",
-                   "grp": "nba_pc",
+                   "grp": "carsir_nba",
                    "version": "20191115",
                    "userId": "",
                    "grade": "B"
@@ -366,7 +366,7 @@ class TestPurchasingPrice(object):
         """
         headers = {"Authorization": self.Authorization,
                    "Content-Type": "application/json; charset=utf-8",
-                   "grp": "nba_pc",
+                   "grp": "carsir_nba",
                    "version": "20191115",
                    "userId": "",
                    "grade": "S"
@@ -388,7 +388,7 @@ class TestPurchasingPrice(object):
         """
         headers = {"Authorization": self.Authorization,
                    "Content-Type": "application/json; charset=utf-8",
-                   "grp": "nba_pc",
+                   "grp": "carsir_nba",
                    "version": "20191115",
                    "userId": "",
                    "grade": "S"
@@ -410,7 +410,7 @@ class TestPurchasingPrice(object):
         """
         headers = {"Authorization": self.Authorization,
                    "Content-Type": "application/json; charset=utf-8",
-                   "grp": "nba_pc",
+                   "grp": "carsir_nba",
                    "version": "20191115",
                    "userId": "",
                    "grade": "A"
@@ -432,7 +432,7 @@ class TestPurchasingPrice(object):
         """
         headers = {"Authorization": self.Authorization,
                    "Content-Type": "application/json; charset=utf-8",
-                   "grp": "nba_pc",
+                   "grp": "carsir_nba",
                    "version": "20191115",
                    "userId": "",
                    "grade": "B"

@@ -9,8 +9,8 @@ class TestReservePrice(object):
     """
     测试轻松售保留价上限
     """
-    url = "https://test.carsir.xin/olympic/api-olympic-admin/priceCalculationController/priceCalculation"
-    Authorization = "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxNzA4ODg4ODg4OCIsInJvbGUiOiJST0xFX0NVU1RPTUVSIiwidG9rZW5faWQiOiI1NTAxZjBkZC1kMjNhLTRhMGUtYWNkOC02YWMxOTBkYTA3ZTYiLCJpc3MiOiJBQ0NFU1MiLCJleHAiOjE2MDQ1NDEzMzksImlhdCI6MTYwMzkzNjUzOX0.2T_05R1xtZ-tDEMN4rpeol2qGLKnZbY8sfGiV1ixDeUF4l4cuDgN5IVlLa2ARFPlpQld0OwKH3Mk73aXnN6GMw"
+    url = "https://pre.carsir.xin/olympic/api-olympic-admin/priceCalculationController/priceCalculation"
+    Authorization = "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxNjAzMzMzMzMzMyIsInJvbGUiOiJST0xFX0NVU1RPTUVSIiwidG9rZW5faWQiOiIyZjlmMzYzMi0zZWM0LTQzNTktYWQwOC01ODU5MDBhMjVjMzAiLCJpc3MiOiJBQ0NFU1MiLCJleHAiOjE2MDQ2NDY3ODUsImlhdCI6MTYwNDA0MTk4NX0.ouHwitc3hl2UH2B9w24lzUSqWYU0fkr3q9aWZMckd07HuuBzbaA36kTvNqBp7o-XFTFBvCJV1A2o9VvOgGEV7g"
     orderType = "QSS"
     rate = 1
     year_0_3_price_3_5 = Decimal("1.212")
