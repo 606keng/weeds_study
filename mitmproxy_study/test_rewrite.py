@@ -9,7 +9,7 @@ def response(flow):
     :return:
     """
     # pprint(flow.response.content)
-    if "/olympic/api-olympic-admin/redeemorder/getRedeemOrderInfo" in flow.request.pretty_url:
+    if "/olympic/api-olympic-admin/carGradePrice/getCarGradePriceByVin" in flow.request.pretty_url:
         print(flow.request.content)
         # data = json.loads(flow.request.content)
         #
@@ -18,9 +18,10 @@ def response(flow):
         # serviceAreaId
         try:
             data = json.loads(flow.response.text)
-            pprint(data)
-            data["data"]['lateFee'] = None
+
+            data["data"][1]['gradePrice'] = 1.49
             flow.response.text = json.dumps(data)
+            pprint(data)
         except:
             pass
 
