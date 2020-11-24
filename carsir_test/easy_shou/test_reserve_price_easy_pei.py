@@ -10,29 +10,29 @@ class TestReservePrice(object):
      测试轻松配保留价上限
     """
     url = "https://pre.carsir.xin/olympic/api-olympic-admin/priceCalculationController/priceCalculation"
-    Authorization = "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxNjAzMzMzMzMzMyIsInJvbGUiOiJST0xFX0NVU1RPTUVSIiwidG9rZW5faWQiOiIyZjlmMzYzMi0zZWM0LTQzNTktYWQwOC01ODU5MDBhMjVjMzAiLCJpc3MiOiJBQ0NFU1MiLCJleHAiOjE2MDQ2NDY3ODUsImlhdCI6MTYwNDA0MTk4NX0.ouHwitc3hl2UH2B9w24lzUSqWYU0fkr3q9aWZMckd07HuuBzbaA36kTvNqBp7o-XFTFBvCJV1A2o9VvOgGEV7g"
+    Authorization = "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxNjAzMzMzMzMzMyIsInJvbGUiOiJST0xFX0NVU1RPTUVSIiwidG9rZW5faWQiOiIyZmFkOTU2OS1kZThmLTRkZjAtOTZkYS04ZWVhNjVhZWYzOWMiLCJpc3MiOiJBQ0NFU1MiLCJleHAiOjE2MDY3MjkzODYsImlhdCI6MTYwNjEyNDU4Nn0.cJuJPfLz5uCClQHbnVRDxEKZ4pk95WhC0ECsrfXtlPHwd_85MlXAKB9WJi1VOLL5R_59mD6VjTseHnRvrTMW1Q"
     orderType = "QSP"
     rate = 1
-    year_0_3_price_3_5 = Decimal("1.13")
-    year_0_3_price_5_8 = Decimal("1.125")
-    year_0_3_price_8_13 = Decimal("1.12")
-    year_0_3_price_13_21 = Decimal("1.115")
-    year_0_3_price_21_34 = Decimal("1.11")
-    year_0_3_price_34_50 = Decimal("1.11")
+    year_0_3_price_3_5 = Decimal("1.16")
+    year_0_3_price_5_8 = Decimal("1.155")
+    year_0_3_price_8_13 = Decimal("1.15")
+    year_0_3_price_13_21 = Decimal("1.145")
+    year_0_3_price_21_34 = Decimal("1.14")
+    year_0_3_price_34_50 = Decimal("1.14")
 
-    year_3_6_price_3_5 = Decimal("1.135")
-    year_3_6_price_5_8 = Decimal("1.13")
-    year_3_6_price_8_13 = Decimal("1.12")
-    year_3_6_price_13_21 = Decimal("1.115")
-    year_3_6_price_21_34 = Decimal("1.11")
-    year_3_6_price_34_50 = Decimal("1.11")
+    year_3_6_price_3_5 = Decimal("1.165")
+    year_3_6_price_5_8 = Decimal("1.16")
+    year_3_6_price_8_13 = Decimal("1.15")
+    year_3_6_price_13_21 = Decimal("1.145")
+    year_3_6_price_21_34 = Decimal("1.14")
+    year_3_6_price_34_50 = Decimal("1.14")
 
-    year_6_10_price_3_5 = Decimal("1.135")
-    year_6_10_price_5_8 = Decimal("1.135")
-    year_6_10_price_8_13 = Decimal("1.125")
-    year_6_10_price_13_21 = Decimal("1.12")
-    year_6_10_price_21_34 = Decimal("1.11")
-    year_6_10_price_34_50 = Decimal("1.11")
+    year_6_10_price_3_5 = Decimal("1.165")
+    year_6_10_price_5_8 = Decimal("1.165")
+    year_6_10_price_8_13 = Decimal("1.155")
+    year_6_10_price_13_21 = Decimal("1.15")
+    year_6_10_price_21_34 = Decimal("1.14")
+    year_6_10_price_34_50 = Decimal("1.14")
 
     @pytest.mark.parametrize(["purchasePrice", "actualAmount", "cardYear", "reservePriceLower", "reservePriceHeight"], [
         ("30000", "10000", "2020-01-01", "{}".format(dispose_num_up(30000 * rate)),
@@ -167,6 +167,7 @@ class TestReservePrice(object):
         request_json = {"purchasePrice": purchasePrice, "actualAmount": actualAmount, "cardYear": cardYear,
                         "orderType": orderType}
         r = requests.post(headers=headers, url=self.url, json=request_json, verify=False).json()
+        print(r)
         assert str(int(r["data"]["reserverPriceUp"])) == reservePriceHeight
         assert str(int(r["data"]["reservePriceLower"])) == reservePriceLower
 
