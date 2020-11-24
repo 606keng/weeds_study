@@ -1,0 +1,15 @@
+get_list:
+  # 指数基金列表
+  - by: xpath
+    locator: '//*[@id="tblite_zs"]/tbody/tr/td[2]/a'
+    action: click
+    ele_index: 0
+last_month:
+  - by: xpath
+    locator: '//div[1]/dl[1]/dd[2]/span[2]'
+    action: text
+
+last_month_raking:
+  - by: xpath
+    locator: '//*[@id="increaseAmount_stage"]/table/tbody/tr[7]/td[2]/h3'
+    action: text
