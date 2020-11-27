@@ -5,3 +5,4 @@
 @file: __init__.py.py
 @time: 2020/11/24 
 """
+print(int(1e9))
