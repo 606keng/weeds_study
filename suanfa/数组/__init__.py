@@ -5,3 +5,7 @@
 @file: __init__.py.py
 @time: 2020/11/24 
 """
+from collections import defaultdict
+
+a = defaultdict(int)
+print(a)
