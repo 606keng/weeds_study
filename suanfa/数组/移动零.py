@@ -46,6 +46,7 @@ class Solution:
             最后将为0的元素添加到列表后面
         """
         slow_index = 0
+
         for fast_index in range(len(nums)):
             if nums[fast_index] != 0:
                 nums[slow_index] = nums[fast_index]

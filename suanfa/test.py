@@ -6,6 +6,12 @@
 # print(a)
 # a.sort(reverse=True)
 # print(a)
-a = [0,0,0]
-if sum(a):
-    print(123)
+# a = [0,0,0]
+# if sum(a):
+#     print(123)
+
+from curses.ascii import isalnum
+
+a="asdfsdf123  ,.,.,.,.3123"
+a = list(filter(isalnum,a))
+print(a)
