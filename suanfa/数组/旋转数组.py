@@ -1,5 +1,5 @@
 #!usr/bin/env python
-#-*- coding:utf-8 -*-
+# -*- coding:utf-8 -*-
 """
 @author:DOULIHANG
 @file: 旋转数组.py
@@ -37,6 +37,7 @@ from typing import List
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 """
 
+
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -47,5 +48,5 @@ class Solution:
         nums_copy = nums[:]
         n = len(nums)
         for i in range(n):
-            nums[(i+k)%n] = nums_copy[i]
+            nums[(i + k) % n] = nums_copy[i]
         return nums
