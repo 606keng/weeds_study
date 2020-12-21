@@ -45,7 +45,7 @@ def test_attach_html():
 
 # 在allure中显示图片
 def test_attach_image():
-    allure.attach.file("/Users/doulihang/work/project/weeds_study/pytest_study/resouces/image.jpg",
+    allure.attach.file("/Users/doulihang/work/project/weeds_study/pytest_study/resouces/image.png",
                        name="帅帅的图片",
                        attachment_type=allure.attachment_type.JPG
                        )
