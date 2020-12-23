@@ -3,8 +3,5 @@
 """
 @author:DOULIHANG
 @file: __init__.py.py
-@time: 2020/11/24 
+@time: 2020/12/14 
 """
-s = "agf"
-t = "gfa"
-print(list(s).sort())
