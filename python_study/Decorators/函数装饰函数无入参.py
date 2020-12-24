@@ -24,6 +24,7 @@ def decorator(fun):
     print("进入封闭函数")
     return wraap
 
+# @decorator相当于work = decorator(work)即work = wraap
 @decorator
 def work(name, age):
     # print(kwargs)
@@ -31,5 +32,5 @@ def work(name, age):
     # age = kwargs["age"]
     print(f"{name}的年龄是{age}")
 
-
+# work(name="doulihang", age="28")相当于decorator(work)(name="doulihang", age="28")
 work(name="doulihang", age="28")

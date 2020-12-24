@@ -1,5 +1,6 @@
-def decorateFunction(fun, *a, **k):
+def decorateFunction(fun, ):
     print("调用封闭函数")
+
     class wrapClass():
         def __init__(self, *a, **k):
             print("准备调用被装饰的类")
@@ -22,9 +23,11 @@ def decorateFunction(fun, *a, **k):
                         # 用于设置属性的值，属性如果不存在，则添加新的属性
                         # 将方法fn添加到实例变量中，并命名为m
                         setattr(self, m, fn)
+
     return wrapClass
 
 
+# 相当于wrappedClass=decorateFunction(wrappedClass),即wrappedClass = wrapClass
 @decorateFunction
 class wrappedClass:
     def __init__(self, *a, **k):
@@ -49,6 +52,7 @@ class wrappedClass:
         print("我的实例名字为:", self.name)
 
 
+# 对装饰器中的嵌套类进行实例化，相当于c1 = wrapClass("doulihang", age=28),此时self.wrappedClass = wrappedClass("doulihang", age=28)
 c1 = wrappedClass("doulihang", age=28)
 # c1.fun1("gaoyujing",age=25)
-c1.fun2("gaokele",age=3)
+c1.fun2("gaokele", age=3)

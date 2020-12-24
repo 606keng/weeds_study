@@ -38,7 +38,7 @@ def decorator(type1):
         return wraap
     return func
 
-
+# 相当于work=decorator(type1)(work)，即work=func(work),即work=wraap
 @decorator(type1=False)
 def work(name, age):
     print(f"{name}的年龄是{age}")
