@@ -13,12 +13,13 @@ class decorateClass:
         self.type = type
         print(f"车辆为{self.type}")
 
-    def __call__(self,wrapedClass):
+    def __call__(self, wrapedClass):
         print("进入__call__函数")
         self.wrapedClassObj = wrapedClass
-        def wraped(*args, **kwargs):
 
+        def wraped(*args, **kwargs):
             return self.wrapedClassObj(*args, **kwargs)
+
         return wraped
 
 
