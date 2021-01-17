@@ -5,10 +5,12 @@ pluginList: []
 saveScreen: true
 #报告的标题
 reportTitle: ""
+#报告的存储目录
 resultDir: "20200420211151"
 waitLoading: 500
 waitLaunch: 6000
 showCancel: true
+#最大运行时间
 maxTime: 10800
 #深度，每次进入一个新的activity，就算一个深度
 maxDepth: 10
@@ -18,22 +20,26 @@ capability:
   fullReset: "false"
   appium: "http://127.0.0.1:4723/wd/hub"
   #指定包名和activity名
-  appPackage: "com.consumer.carsir"
-  appActivity: ".activity.MainActivity"
+  appPackage: "com.xueqiu.android"
+  appActivity: ".view.WelcomeActivityAlias"
 testcase:
   name: "TesterHome AppCrawler"
   steps:
   #指定要操作的元素
-  - xpath: "//*[@resource-id='com.consumer.carsir:id/tab_car_acquisition_car_tv']"
+  - xpath: "//*[@text='行情']"
   #指定要操作的动作
+    action: click
+    #点击我的
+  - xpath: "我的"
     action: click
 selectedList:
   #定义操作的范围
-  - xpath: "//*[contains(@resource-id, 'rl_carsir_home_root')]//*[@clickable='true']"
+  - xpath: "//*[contains(@resource-id, 'stock_index_quote_view_layout')]//*[@clickable='true']"
+  - xpath: "//*[contains(@resource-id, 'content_recycler')]//*[@clickable='true']"
 
 firstList:
   #定义优先操作的范围
-  - xpath: "//*[contains(@resource-id, 'tv_match_quota')]//*[@clickable='true']"
+  - xpath: "//*[contains(@resource-id, 'content_recycler')]//*[@clickable='true']"
 lastList:
 - given: []
   when: null
