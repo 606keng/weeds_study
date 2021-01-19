@@ -13,8 +13,8 @@ def decorator(fun):
     """
     def wraap(*args, **kwargs):
         """
-        :param args:被装饰函数的入参
-        :param kwargs: 被装饰函数的入参
+        :param args:被装饰函数的入参，元组
+        :param kwargs: 被装饰函数的入参，字典
         :return:
         """
         print("进入装饰函数的嵌套函数")

@@ -23,8 +23,8 @@ def decorator(type1):
         print("进入嵌套函数func")
         def wraap(*args, **kwargs):
             """
-            :param args:被装饰函数的入参
-            :param kwargs: 被装饰函数的入参
+            :param args:被装饰函数的入参，元组
+            :param kwargs: 被装饰函数的入参，字典
             :return:
             """
             print("进入嵌套函数wraap")
