@@ -37,3 +37,25 @@ class Car:
 fute = Car("福特", "1.3吨", "15万")
 # fute.driver(200)
 # fute.driver(100)
+
+
+class Person:
+    def __init__(self,cls):
+        print("初始化装饰器")
+        self.cls = cls
+
+    def __call__(self, *args, **kwargs):
+        print("调用装饰器的call方法")
+        return self.cls(*args,**kwargs)
+@Person
+class Student:
+    def __init__(self,name):
+        self.name = name
+        print(name)
+
+    def age(self,age):
+        print(age)
+
+if __name__ == '__main__':
+    xiaoming = Student("xiaoming")
+    xiaoming.age(29)

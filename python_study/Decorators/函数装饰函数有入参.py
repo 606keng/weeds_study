@@ -14,6 +14,7 @@ def decorator(type1):
     :return: 返回装饰函数func
     """
     print("进入封闭函数")
+
     def func(fun):
         """
 
@@ -21,6 +22,7 @@ def decorator(type1):
         :return: 返回封闭函数wraap
         """
         print("进入嵌套函数func")
+
         def wraap(*args, **kwargs):
             """
             :param args:被装饰函数的入参，元组
@@ -35,12 +37,16 @@ def decorator(type1):
                 print("结束调用被装饰函数")
             else:
                 print(f"type1 is {type1}")
+
         return wraap
+
     return func
+
 
 # 相当于work=decorator(type1)(work)，即work=func(work),即work=wraap
 @decorator(type1=False)
 def work(name, age):
     print(f"{name}的年龄是{age}")
+
 
 work(name="doulihang", age="28")

@@ -38,8 +38,32 @@ class Car:
         self.distance += distance
         print(f"{self.name}已经累计行驶了{self.distance}公里")
 
+if __name__ == '__main__':
 
-# 相当于fute = decorateClass("汽车").__call__(Car)("福特", "1.3吨", "15万")
-fute = Car("福特", "1.3吨", "15万")
-fute.driver(200)
-fute.driver(100)
+    # 相当于fute = decorateClass("汽车").__call__(Car)("福特", "1.3吨", "15万")
+    fute = Car("福特", "1.3吨", "15万")
+    fute.driver(200)
+    fute.driver(100)
+
+class Person:
+    def __init__(self,name):
+        print(name)
+
+    def __call__(self, cls):
+        print("进入call函数")
+        self.clsobj = cls
+        def wraap(*args,**kwargs):
+            print("进入装饰函数")
+            return self.clsobj(*args,**kwargs)
+        return wraap
+@Person("doulihang")
+class Student:
+    def __init__(self,age):
+        print(age)
+    def run(self):
+        print("跑起来")
+
+
+if __name__ == '__main__':
+    xiaohong = Student(28)
+    xiaohong.run()
