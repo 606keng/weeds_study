@@ -5,6 +5,9 @@ from carsir_test.easy_shou.amount_number import dispose_num_up
 
 
 class TestPurchasingPrice(object):
+    """
+    测试NBA收购价上限
+    """
     url = "https://pre.carsir.xin/olympic/api-olympic-admin/workorder/check/test/getCarPrice1"
     Authorization = "Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlIjoiUk9MRV9BRE1JTiIsInRva2VuX2lkIjoiY2JkNWU0OWItNDU5OC00MzM1LWI4ZjUtZTllZGI4MGY3YTI0Iiwic3ViIjoiMTU5MDAwMDExMTEiLCJpYXQiOjE2MDQwNDIzNDQsImV4cCI6MTYwNDY0NzE0NCwiaXNzIjoiQUNDRVNTIn0.K9Y_c_oj991X9GXw2gXYt37nk1e2puX6HfVypyvTYwpPE5lRuROr_Nf8uEFpO6yPSo6vNAqFdGg5UVY5yPc4eQ"
     orderType = "QSP"

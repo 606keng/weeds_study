@@ -5,6 +5,6 @@
 @file: __init__.py.py
 @time: 2020/11/24 
 """
-s = "agf"
-t = "gfa"
-print(list(s).sort())
+a="-123"
+
+print(a[::-1])
