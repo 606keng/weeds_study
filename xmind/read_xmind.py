@@ -160,37 +160,51 @@ class XmindToXsl(XlwtSeting):
             modnum = self.xmind_num(test_module)
             if modnum != 0:
                 for j in range(modnum):
-                    test_suit = test_module["topics"][j]
-                    suit_num = self.xmind_num(test_suit)
-                    if suit_num != 0:
-                        for k in range(suit_num):
-                            test_case = test_suit["topics"][k]
-                            z += 1
-                            c1 = self.xmind_num(test_case)  # 执行步骤有几个
-                            if c1 != 0:
-                                for n in range(c1):
-                                    x += 1
-                                    test_step = test_case["topics"][n]
-                                    test_except = test_step["topics"][0]
-                                    self.heights(self.worksheet, x, size=2)
-                                    step = f"{n + 1}." + self.xmind_title(test_step)  # 执行步骤
-                                    exce = f"{n + 1}." + self.xmind_title(test_except)  # 预期结果
-                                    self.worksheet.write(x, 3, step, style)  # 写入执行步骤
-                                    self.worksheet.write(x, 4, exce, style)  # 写入预期结果
-                                    self.worksheet.write(x, 5, result, style)  # 写入实际结果
-                                    self.worksheet.write(x, 6, performer, style)  # 写入执行人
-                                mod = self.xmind_title(test_module)  # 测试需求名称
-                                case = self.xmind_title(test_case)  # 测试用例名称
-                                self.worksheet.write_merge(x - c1 + 1, x, 0, 0, test_module['title'], style)  # 写入测试案例路径
-                                self.worksheet.write_merge(x - c1 + 1, x, 1, 1, mod, style)  # 写入测试需求名称
-                                self.worksheet.write_merge(x - c1 + 1, x, 2, 2, case, style)  # 写入测试用例名称
-                                self.worksheet.write_merge(x - c1 + 1, x, 7, 7, editionname, style)  # 写入版本名称
+                    test_little_modnum = test_module["topics"][j]
+                    little_modnum = self.xmind_num(test_little_modnum)
+                    if little_modnum != 0:
+                        for z in range(little_modnum):
+                            test_suit = test_little_modnum['topics'][z]
+                            suit_num = self.xmind_num(test_suit)
+                            if suit_num != 0:
+                                for k in range(suit_num):
+                                    test_case = test_suit["topics"][k]
+                                    z += 1
+                                    c1 = self.xmind_num(test_case)  # 执行步骤有几个
+                                    if c1 != 0:
+                                        for n in range(c1):
+                                            x += 1
+                                            test_step = test_case["topics"][n]
+                                            test_except = test_step["topics"][0]
+                                            self.heights(self.worksheet, x, size=2)
+                                            step = f"{n + 1}." + self.xmind_title(test_step)  # 执行步骤
+                                            exce = f"{n + 1}." + self.xmind_title(test_except)  # 预期结果
+                                            self.worksheet.write(x, 4, step, style)  # 写入执行步骤
+                                            self.worksheet.write(x, 5, exce, style)  # 写入预期结果
+                                        # mod = self.xmind_title(test_module)  # 测试需求名称
+                                        print(test_case)
+                                        case_description = self.xmind_title(test_case)  # 测试用例描述
+                                        print(case_description)
+                                        case_path = f"{test_module['title']}/{test_little_modnum['title']}/{test_suit['title']}"
+                                        self.worksheet.write_merge(x - c1 + 1, x, 0, 0, case_path, style)  # 写入测试案例路径
+                                        # self.worksheet.write_merge(x - c1 + 1, x, 1, 1, mod, style)  # 写入测试需求名称
+                                        self.worksheet.write_merge(x - c1 + 1, x, 1, 1, case_description,
+                                                                   style)  # 写入测试用例名称
+                                        self.worksheet.write_merge(x - c1 + 1, x, 2, 2, case_description,
+                                                                   style)  # 写入测试用例描述
+                                        self.worksheet.write_merge(x - c1 + 1, x, 3, 3, '',
+                                                                   style)  # 写入空的前置条件
+                                        self.worksheet.write_merge(x - c1 + 1, x, 6, 6, '',
+                                                                   style)  # 写入空的前置条件
+                                        # self.worksheet.write_merge(x - c1 + 1, x, 7, 7, editionname, style)  # 写入版本名称
+                                    else:
+                                        print("测试用例没有操作步骤及预期结果")
                             else:
-                                print("测试用例没有操作步骤及预期结果")
+                                print("没有测试套件")
                     else:
-                        print("没有测试用例")
+                        print("没有测试小模块")
             else:
-                print("没有测试套件")
+                print("没有测试案例路径")
 
         self.save(self.xm["title"])  # 保存
 
